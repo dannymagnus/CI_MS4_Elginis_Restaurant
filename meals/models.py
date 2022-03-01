@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils.text import slugify
 
 # Create your models here.
 class Meals(models.Model):
@@ -9,6 +10,14 @@ class Meals(models.Model):
     vegan = models.BooleanField(default=False)
     alergens = models.CharField(max_length=100)
     image = models.ImageField(upload_to='meals/')
+    slug = models.SlugField(blank=True, null=True)
     
+    #Overide save function to create a slug on save - courtesy of Mahmoud Ahmed
+    def save(self, *args, **kwargs):
+        if not self.slug and self.name:
+            self.slug = slugify(self.name)
+        super(Meals, self).save(*args, **kwargs)
+
+    #Show object by name in admin panel
     def __str__(self):
         return self.name
