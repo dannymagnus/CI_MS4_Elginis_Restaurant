@@ -9,3 +9,6 @@ class Meals(models.Model):
     vegan = models.BooleanField(default=False)
     alergens = models.CharField(max_length=100)
     image = models.ImageField(upload_to='meals/')
+    
+    def __str__(self):
+        return self.name
