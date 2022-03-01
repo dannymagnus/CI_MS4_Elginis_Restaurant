@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.text import slugify
 
 # Create your models here.
-class Meals(models.Model):
+class Meal(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField(max_length=500)
     price = models.DecimalField(max_digits=3, decimal_places=1)
