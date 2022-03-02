@@ -1,6 +1,14 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% load static %}
+
 <h1>Meal List</h1>
 {% for meal in meal_list %}
 
-<h2>{{meal.name}}</h2>
+<!--passes the slug to the url so to go to the view-->
+<h2><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h2>
 
 {% endfor %}
+
+{% endblock %}

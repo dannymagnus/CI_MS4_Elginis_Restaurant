@@ -16,4 +16,6 @@ def meal_list(request):
 
 #takes the request and slug parameter from urls.py
 def meal_information(request,slug):
-    pass
+    meal_information = Meal.objects.get(slug=slug)
+    context = {'meal_information':meal_information}
+    return render(request, 'Meals/meal_information.html', context)
