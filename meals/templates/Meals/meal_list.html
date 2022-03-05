@@ -7,28 +7,60 @@
 <section>
     <div>
         <h1>Starters, Breads and Nibbles</h1>
+        {% for meal in meal_list %}
+            {% if meal.category == 'starter' %}
+                <!--passes the slug to the url so to go to the view-->
+                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+            {% endif %}
+        {% endfor %}
     </div>
     <div>
         <h1>Pizza</h1>
+        {% for meal in meal_list %}
+            {% if meal.category == 'pizza' %}
+                <!--passes the slug to the url so to go to the view-->
+                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+            {% endif %}
+        {% endfor %}
     </div>
     <div>
         <h1>Pasta</h1>
+        {% for meal in meal_list %}
+            {% if meal.category == 'pasta' %}
+                <!--passes the slug to the url so to go to the view-->
+                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+            {% endif %}
+        {% endfor %}
     </div>
     <div>
         <h1>Speciality Mains</h1>
+        {% for meal in meal_list %}
+            {% if meal.category == 'speciality' %}
+                <!--passes the slug to the url so to go to the view-->
+                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+            {% endif %}
+        {% endfor %}
     </div>
     <div>
         <h1>Salads</h1>
+        {% for meal in meal_list %}
+            {% if meal.category == 'salad' %}
+                <!--passes the slug to the url so to go to the view-->
+                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+            {% endif %}
+        {% endfor %}
     </div>
     <div>
         <h1>Deserts</h1>
+        {% for meal in meal_list %}
+            {% if meal.category == 'salad' %}
+                <!--passes the slug to the url so to go to the view-->
+                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+            {% endif %}
+        {% endfor %}
     </div>
+
 </section>
-{% for meal in meal_list %}
 
-<!--passes the slug to the url so to go to the view-->
-<h2><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h2>
-
-{% endfor %}
 
 {% endblock %}

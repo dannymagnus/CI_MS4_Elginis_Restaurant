@@ -5,6 +5,8 @@ from django.utils.text import slugify
 class Meal(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField(max_length=500)
+    #Acceptable categories = [starter, pasta, pizza, speciality, salad, dessert]
+    category = models.CharField(max_length=50)
     price = models.DecimalField(max_digits=3, decimal_places=1)
     vegetarian = models.BooleanField(default=False)
     vegan = models.BooleanField(default=False)
