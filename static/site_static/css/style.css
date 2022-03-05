@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&display=swap');
+
 .navbar-brand.active {
     color:red;
+}
+
+body {
+    background-color:#FBF4E1;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+/*Menu page*/
+
+/*overide to put image and text adjacent*/
+.menu h3 {
+    display: inline-block;
+}
+
+.menu .col-sm {
+    margin-top: 10px;
+}
+
+.menu-category-background-generic{
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../img/pizza-menu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 120px ;
+}
+
+.pizza-menu h2 {
+    font-weight:700;
+    font-size: 300%;
+}
+
+@media (min-width: 992px) {
+    .pizza-menu{
+        min-height: 250px
+    }
+}
+
+/*Overide img fluid*/
+
+.img-fluid.menu-item-image {
+    max-width: 33%;
+    display: inline-block;
 }

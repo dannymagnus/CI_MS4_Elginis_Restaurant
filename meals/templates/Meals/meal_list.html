@@ -4,27 +4,42 @@
 {% load static %}
 
 <h1>Meal List</h1>
-<section>
-    <div>
-        <h1>Starters, Breads and Nibbles</h1>
-        {% for meal in meal_list %}
-            {% if meal.category == 'starter' %}
-                <!--passes the slug to the url so to go to the view-->
-                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
-            {% endif %}
-        {% endfor %}
+<section class = "menu">
+    <div class="container-fluid d-flex align-items-center menu-category-background-generic">
+        <div class = "container">
+            <h2>Starters, bread and Nibbles</h2>
+        </div>
+        <div class="container justify-content-center">
+            {% for meal in meal_list %}
+                {% if meal.category == 'starter' %}
+                    <!--passes the slug to the url so to go to the view-->
+                    <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
     <div>
-        <h1>Pizza</h1>
-        {% for meal in meal_list %}
-            {% if meal.category == 'pizza' %}
-                <!--passes the slug to the url so to go to the view-->
-                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
-            {% endif %}
-        {% endfor %}
+        <div class = "container-fluid d-flex align-items-center menu-category-background-generic pizza">
+            <div class = "container">
+                <h2>Pizza</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                {% for meal in meal_list %}
+                    {% if meal.category == 'pizza' %}
+                        <div class="col-sm">
+                            <img src="{{meal.image.url}}" class="img-fluid menu-item-image">
+                            <!--passes the slug to the url so to go to the view-->
+                            <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+                        </div>   
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
     <div>
-        <h1>Pasta</h1>
+        <h2>Pasta</h2>
         {% for meal in meal_list %}
             {% if meal.category == 'pasta' %}
                 <!--passes the slug to the url so to go to the view-->
@@ -33,7 +48,7 @@
         {% endfor %}
     </div>
     <div>
-        <h1>Speciality Mains</h1>
+        <h2>Speciality Mains</h2>
         {% for meal in meal_list %}
             {% if meal.category == 'speciality' %}
                 <!--passes the slug to the url so to go to the view-->
@@ -42,7 +57,7 @@
         {% endfor %}
     </div>
     <div>
-        <h1>Salads</h1>
+        <h2>Salads</h2>
         {% for meal in meal_list %}
             {% if meal.category == 'salad' %}
                 <!--passes the slug to the url so to go to the view-->
@@ -51,7 +66,7 @@
         {% endfor %}
     </div>
     <div>
-        <h1>Deserts</h1>
+        <h2>Deserts</h2>
         {% for meal in meal_list %}
             {% if meal.category == 'salad' %}
                 <!--passes the slug to the url so to go to the view-->
@@ -63,4 +78,4 @@
 </section>
 
 
-{% endblock %}
+{% endblock body %}
