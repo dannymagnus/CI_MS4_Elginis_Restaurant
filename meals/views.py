@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # Create your views here.
 #import the model so that all items can be retreived for the list
@@ -19,3 +19,7 @@ def meal_information(request,slug):
     meal_information = Meal.objects.get(slug=slug)
     context = {'meal_information':meal_information}
     return render(request, 'Meals/meal_information.html', context)
+
+
+def facebook(request):
+    return redirect('http://www.facebook.com')
