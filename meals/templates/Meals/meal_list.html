@@ -37,9 +37,17 @@
                                 <div class="row">
                                     <div class="col">
                                         <p>
-                                            {{meal.vegan}} {{meal.vegetarian}}
+                                            {% if meal.vegan %} 
+                                                Ve
+                                            {% endif %}
+                                            {% if meal.vegetarian %}
+                                                V
+                                            {% endif %}
                                         </p>
                                     </div>
+                                    <div class="col">
+                                        Allergens
+                                    </div> 
                                 </div>
                                 {% endif %}
                             </div>
