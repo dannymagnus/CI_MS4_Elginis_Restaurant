@@ -1,12 +1,23 @@
 from django.db import models
 from django.utils.text import slugify
 
+CATEGORY_CHOICES = (
+('starter', 'starter'), 
+('pizza', 'pizza'), 
+('speciality', 'speciality'), 
+('pasta','pasta'), 
+('salad','salad'), 
+('dessert','dessert'),
+('drink', 'drink'),
+)
+
 # Create your models here.
 class Meal(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField(max_length=500)
     #Acceptable categories = [starter, pasta, pizza, speciality, salad, dessert]
-    category = models.CharField(max_length=50)
+    category = models.CharField(max_length=50, choices=CATEGORY_CHOICES, default = 'starter')
+    calories = models.IntegerField(default=500)
     price = models.DecimalField(max_digits=3, decimal_places=1)
     vegetarian = models.BooleanField(default=False)
     vegan = models.BooleanField(default=False)

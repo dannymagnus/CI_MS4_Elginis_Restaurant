@@ -1,4 +1,45 @@
-<H1>Meal Information</H1>
+{% extends "base.html"%}
+{% block body %}
+{% load static %}
 
-<h2>{{meal_information}}</h2>
-<img src="{{meal_information.image.url}}" alt="{{meal_information.name}}">
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <H1 style="text-align:center;">{{meal_information.name}}</H1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <img src="{{meal_information.image.url}}" alt="{{meal_information.name}}">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>
+                {{meal_information.price}}
+            </p>
+        </div>
+        <div class="col">
+            <p>
+                {{meal_information.calories}} cals
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>{{meal_information.description}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+
+        </div>
+    </div>
+</div>
+
+{% endblock body %}

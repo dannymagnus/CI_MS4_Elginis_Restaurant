@@ -4,77 +4,51 @@
 {% load static %}
 
 <h1>Meal List</h1>
-<section class = "menu">
-    <div class="container-fluid d-flex align-items-center menu-category-background-generic">
-        <div class = "container">
-            <h2>Starters, bread and Nibbles</h2>
-        </div>
-        <div class="container justify-content-center">
+<section class="menu">
+
+    <div class="container">
+        <div class="row">
             {% for meal in meal_list %}
-                {% if meal.category == 'starter' %}
-                    <!--passes the slug to the url so to go to the view-->
-                    <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+                {% if meal.category == 'pizza' %}
+                    <div class="col-sm">
+                        <div class="row">
+                            <div class="col-4" style="background-color:aqua;">
+                                <img src="{{meal.image.url}}" class="img-fluid menu-item-image">
+                            </div>
+                            <div class="col-8" style="background-color: pink;">
+                                <div class="row" style="background-color:grey;">
+                                    <div class="col">
+                                        <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+                                    </div>
+                                </div>
+                                <div class="row" style="background-color:gold;">
+                                    <div class="col">
+                                        <p>
+                                            £{{meal.price}}
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p>
+                                            {{meal.calories}} cals
+                                        </p>
+                                    </div>
+                                </div>
+                                {% if meal.vegetarian or meal.vegan %}
+                                <div class="row">
+                                    <div class="col">
+                                        <p>
+                                            {{meal.vegan}} {{meal.vegetarian}}
+                                        </p>
+                                    </div>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
                 {% endif %}
             {% endfor %}
         </div>
     </div>
-    <div>
-        <div class = "container-fluid d-flex align-items-center menu-category-background-generic pizza">
-            <div class = "container">
-                <h2>Pizza</h2>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                {% for meal in meal_list %}
-                    {% if meal.category == 'pizza' %}
-                        <div class="col-sm">
-                            <img src="{{meal.image.url}}" class="img-fluid menu-item-image">
-                            <!--passes the slug to the url so to go to the view-->
-                            <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
-                        </div>   
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    <div>
-        <h2>Pasta</h2>
-        {% for meal in meal_list %}
-            {% if meal.category == 'pasta' %}
-                <!--passes the slug to the url so to go to the view-->
-                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
-            {% endif %}
-        {% endfor %}
-    </div>
-    <div>
-        <h2>Speciality Mains</h2>
-        {% for meal in meal_list %}
-            {% if meal.category == 'speciality' %}
-                <!--passes the slug to the url so to go to the view-->
-                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
-            {% endif %}
-        {% endfor %}
-    </div>
-    <div>
-        <h2>Salads</h2>
-        {% for meal in meal_list %}
-            {% if meal.category == 'salad' %}
-                <!--passes the slug to the url so to go to the view-->
-                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
-            {% endif %}
-        {% endfor %}
-    </div>
-    <div>
-        <h2>Deserts</h2>
-        {% for meal in meal_list %}
-            {% if meal.category == 'salad' %}
-                <!--passes the slug to the url so to go to the view-->
-                <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
-            {% endif %}
-        {% endfor %}
-    </div>
-
 </section>
 
 

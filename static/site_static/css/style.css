@@ -43,6 +43,6 @@ body {
 /*Overide img fluid*/
 
 .img-fluid.menu-item-image {
-    max-width: 33%;
-    display: inline-block;
+    height: 100%;
+    object-fit: cover;
 }
