@@ -22,11 +22,35 @@ body {
 
 .menu-category-background-generic{
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../img/pizza-menu.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 120px ;
+}
+
+.Starters{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/starters-menu.jpg')
+}
+
+.Pizza{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/pizza-menu.jpg')
+}
+
+.Pasta{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/pasta-menu.jpg')
+}
+
+.Specialities{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/specialities-menu.jpg')
+}
+
+.Salads{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/salads-menu.jpg')
+}
+
+.Desserts{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/desserts-menu.jpg')
 }
 
 .pizza-menu h2 {
@@ -34,8 +58,12 @@ body {
     font-size: 300%;
 }
 
+.transparent{
+    opacity: 0;
+}
+
 @media (min-width: 992px) {
-    .pizza-menu{
+    .menu-category-background-generic{
         min-height: 250px
     }
 }
@@ -45,4 +73,8 @@ body {
 .img-fluid.menu-item-image {
     height: 100%;
     object-fit: cover;
+}
+
+.img-fluid.allergen-item-image {
+    width: 20%;
 }

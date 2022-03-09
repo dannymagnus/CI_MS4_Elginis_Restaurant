@@ -1,5 +1,7 @@
 from django.db import models
 from django.utils.text import slugify
+from django.forms import CheckboxSelectMultiple
+from django.contrib import admin
 
 CATEGORY_CHOICES = (
 ('starter', 'starter'), 
@@ -11,19 +13,32 @@ CATEGORY_CHOICES = (
 ('drink', 'drink'),
 )
 
+
+class MyModelAdmin(admin.ModelAdmin):
+    formfield_overrides = {
+        models.ManyToManyField: {'widget': CheckboxSelectMultiple},
+    }
+
+class Allergen(models.Model):
+    name = models.CharField(max_length= 50)
+    image = models.ImageField(upload_to='allergens/')
+    
+    def __str__(self):
+        return self.name
+
 # Create your models here.
 class Meal(models.Model):
     name = models.CharField(max_length=50)
     description = models.TextField(max_length=500)
     #Acceptable categories = [starter, pasta, pizza, speciality, salad, dessert, drink]
-    category = models.ForeignKey('Category', on_delete=models.CASCADE, null=True, blank=True)
+    category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True, blank=True, related_name='category', related_query_name='category')
     lunch = models.BooleanField(default=False)
     dinner = models.BooleanField(default=False)
     calories = models.IntegerField(default=500)
     price = models.DecimalField(max_digits=3, decimal_places=1)
     vegetarian = models.BooleanField(default=False)
     vegan = models.BooleanField(default=False)
-    alergens = models.CharField(max_length=100, blank=True, null=True)
+    allergens = models.ManyToManyField(Allergen)
     image = models.ImageField(upload_to='meals/')
     slug = models.SlugField(blank=True, null=True)
     
