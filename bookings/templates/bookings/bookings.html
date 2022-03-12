@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body %}
+
+    <form action ="" method = "POST">
+    {% csrf_token %}
+        {{ form }}
+        <button class="btn btn-primary" type="submit">Request Booking</button>
+    </form>
+
+{% endblock body %}
