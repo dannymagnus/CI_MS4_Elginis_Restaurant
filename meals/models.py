@@ -3,16 +3,6 @@ from django.utils.text import slugify
 from django.forms import CheckboxSelectMultiple
 from django.contrib import admin
 
-CATEGORY_CHOICES = (
-('starter', 'starter'), 
-('pizza', 'pizza'), 
-('speciality', 'speciality'), 
-('pasta','pasta'), 
-('salad','salad'), 
-('dessert','dessert'),
-('drink', 'drink'),
-)
-
 
 class MyModelAdmin(admin.ModelAdmin):
     formfield_overrides = {

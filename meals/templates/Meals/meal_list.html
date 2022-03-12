@@ -13,11 +13,11 @@
                 {% if meal.category.name == category.name %}
                     <div class="col-sm">
                         <div class="row">
-                            <div class="col-4" style="background-color:aqua;">
+                            <div class="col-4">
                                 <img src="{{meal.image.url}}" class="img-fluid menu-item-image">
                             </div>
                             <div class="col-8" style="background-color: pink;">
-                                <div class="row" style="background-color:grey;">
+                                <div class="row">
                                     <div class="col">
                                         <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
                                     </div>
