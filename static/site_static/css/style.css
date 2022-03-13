@@ -9,6 +9,13 @@ body {
     font-family: 'Averia Serif Libre', cursive;
 }
 
+.margin-top-10vh{
+    margin-top:10vh;
+}
+
+.text-align-center{
+    text-align:center;
+}
 /*Menu page*/
 
 /*overide to put image and text adjacent*/
@@ -21,12 +28,16 @@ body {
 }
 
 .menu-category-background-generic{
-    color: white;
+    color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 120px ;
+}
+
+.menu-category-background-generic h1{
+    color: white;
 }
 
 .Starters{
@@ -77,4 +88,25 @@ body {
 
 .img-fluid.allergen-item-image {
     max-width: 20%;
+}
+
+
+/*-----About page----------------------------------------------------------------*/
+
+/*Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
+
+#about-banner{
+    min-height: 50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/about-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#about-banner h1{
+    color: white;
+}
+
+#about-banner p{
+    color: white;
 }

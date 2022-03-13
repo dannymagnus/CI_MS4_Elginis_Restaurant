@@ -3,14 +3,25 @@
 
 {% block body %}
 
-<section id="about">
+<section class = "banner">
+    <!--Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  -->
+    <div id = "about-banner" class="d-flex flex-column container-fluid justify-content-center align-items-center" style = "min-height: 50vh">
+        <h1>About Us...</h1>
+        <p>
+            lorem ipsum dolor sit amet
+        </p>
+    </div>
+</section>
+
+<section class = "margin-top-10vh">
     <div class="container">
         {% for about in about %}
         <div class="row">
             <div class="col-sm">
-                <img src="{{ about.image.url }}" alt="restaurant image" class="img-fluid">
+                <img src="{{ about.image.url }}" alt="restaurant image" class="img-fluid" style="margin-top:2%;">
             </div>
-            <div class="col-sm">
+            <div class="col-md">
                 <div class="row">
                     <div class="col">
                         <h2> {{ about.title }}</h2>
@@ -27,19 +38,18 @@
         </div>
         {% endfor %}
     </div>
-
 </section>
 
-<section id = "chefs">
+<section id = "chefs" class = "margin-top-10vh">
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2>
+                <h2 class = "text-align-center">
                     Our Chefs
                 </h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row margin-top-10vh">
             {% for chef in chefs %}
             <div class="col-sm">
                 <div class="row">
