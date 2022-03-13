@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+
+<section id="about">
+    <div class="container">
+        {% for about in about %}
+        <div class="row">
+            <div class="col-sm">
+                <img src="{{ about.image.url }}" alt="restaurant image" class="img-fluid">
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col">
+                        <h2> {{ about.title }}</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            {{ about.body }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</section>
+
+<section id = "chefs">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>
+                    Our Chefs
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            {% for chef in chefs %}
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col">
+                        <img src="{{ chef.image.url }}" alt="{{ chef.name }}" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3>{{ chef.name }}</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            {{ chef.description }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<h1>{{ reasons }}</h1>
+
+{% endblock %}
