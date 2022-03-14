@@ -6,9 +6,9 @@
 <section class = "banner">
     <!--Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   -->
-    <div id = "about-banner" class="d-flex flex-column container-fluid justify-content-center align-items-center" style = "min-height: 50vh">
+    <div id = "about-banner" class="d-flex flex-column container-fluid justify-content-center align-items-center white-text" style = "min-height: 50vh">
         <h1>About Us...</h1>
-        <p>
+        <p class = "white-text">
             lorem ipsum dolor sit amet
         </p>
     </div>
@@ -40,6 +40,47 @@
     </div>
 </section>
 
+<section class = "margin-top-10vh">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="row">
+                    <div class="col">
+                        <h2>Why Choose Us</h2>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            {% for reason in reasons %}
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.counter }}" aria-expanded="true" aria-controls="collapseOne">
+                                        {{ reason.title }}
+                                    </button>
+                                </h2>
+                                <div id="collapse{{ forloop.counter }}" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        {{ reason.body }}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm reasons-image">
+                <!--Photo by Malidate Van from Pexels-->
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 <section id = "chefs" class = "margin-top-10vh">
     <div class="container">
         <div class="row">
@@ -63,7 +104,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="col margin-bottom-10vh">
                         <p>
                             {{ chef.description }}
                         </p>
@@ -74,6 +115,6 @@
         </div>
     </div>
 </section>
-<h1>{{ reasons }}</h1>
+
 
 {% endblock %}

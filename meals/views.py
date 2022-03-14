@@ -19,6 +19,30 @@ def meal_list(request):
     return render(request, 'Meals/meal_list.html', context)
 
 
+def lunch_menu(request):
+    meal_list = Meal.objects.all()
+    categories = Category.objects.all()
+    allergens = Allergen.objects.all()
+    
+    context = {'meal_list':meal_list,
+               'categories':categories,
+               'allergens':allergens
+               }
+    
+    return render(request, 'Meals/lunch_menu.html', context)
+
+def dinner_menu(request):
+    meal_list = Meal.objects.all()
+    categories = Category.objects.all()
+    allergens = Allergen.objects.all()
+    
+    context = {'meal_list':meal_list,
+               'categories':categories,
+               'allergens':allergens
+               }
+    
+    return render(request, 'Meals/dinner_menu.html', context)
+
 
 #takes the request and slug parameter from urls.py
 def meal_information(request,slug):

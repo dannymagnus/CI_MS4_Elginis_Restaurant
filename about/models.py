@@ -17,7 +17,6 @@ class About(models.Model):
 class Reason(models.Model):
     title = models.CharField(max_length=50)
     body = models.TextField(max_length=500)
-    image = models.ImageField(upload_to='about/')
 
     class Meta:
         verbose_name = 'Reason'

@@ -2,6 +2,20 @@
 {% block body %}
 {% load static %}
 
+<section class = "banner">
+    <!--Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  -->
+    <div id = "meal-list-banner" class="d-flex flex-column container-fluid justify-content-center align-items-center white-text" style = "min-height: 50vh">
+        <h1>Full Menu</h1>
+        <p class = "white-text">
+            lorem ipsum dolor sit amet
+        </p>
+    </div>
+
+    <div class="container horizontal-scroll d-flex overflow-auto">
+        <a href="#">Starters</a><a href="#">Pizza</a><a href="#">Pasta</a><a href="#">Specialities</a><a href="#">Salads</a><a href="#">Desserts</a><a href="#">Drinks</a>
+    </div>
+</section>
 
 {% for category in categories %}
     <div class = "container-fluid d-flex align-items-center justify-content-center menu-category-background-generic {{category.name}}">
@@ -11,18 +25,18 @@
         <div class="row">
             {% for meal in meal_list %}
                 {% if meal.category.name == category.name %}
-                    <div class="col-sm">
+                    <div class="col-sm menu-item">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-4 padding-0">
                                 <img src="{{meal.image.url}}" class="img-fluid menu-item-image">
                             </div>
-                            <div class="col-8" style="background-color: pink;">
+                            <div class="col-8">
                                 <div class="row">
                                     <div class="col">
-                                        <h3><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h3>
+                                        <h6><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h6>
                                     </div>
                                 </div>
-                                <div class="row" style="background-color:gold;">
+                                <div class="row">
                                     <div class="col">
                                         <p>
                                             £{{meal.price}}
@@ -44,7 +58,7 @@
                                                 V
                                             {% endif %}
                                             {% if not meal.vegan and not meal.vegetarian %}
-                                                Contains Meat
+                                                Has Meat
                                             {% endif %}
                                         </p>
                                     </div>

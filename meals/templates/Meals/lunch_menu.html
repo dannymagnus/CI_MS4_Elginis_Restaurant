@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block body %}
+{% load static %}
+
+<h1>Lunch Menu</h1>
+
+{% for category in categories %}
+    <div class = "container-fluid d-flex align-items-center justify-content-center menu-category-background-generic {{category.name}}">
+        <h1 >{{category.name}}</h1>
+    </div>
+    <div class="container">        
+        <div class="row">
+            {% for meal in meal_list %}
+                {% if meal.lunch %}
+                    {% if meal.category.name == category.name %}
+                        <div class="col-sm menu-item">
+                            <div class="row">
+                                <div class="col-4 padding-0">
+                                    <img src="{{meal.image.url}}" class="img-fluid menu-item-image">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h6><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h6>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <p>
+                                                £{{meal.price}}
+                                            </p>
+                                        </div>
+                                        <div class="col">
+                                            <p>
+                                                {{meal.calories}} cals
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row meal-summary">
+                                        <div class="col">
+                                            <p = class = "{% if not meal.vegan and not meal.vegetarian %} transparent {% endif %}">
+                                                {% if meal.vegan %} 
+                                                    Ve
+                                                {% endif %}
+                                                {% if meal.vegetarian %}
+                                                    V
+                                                {% endif %}
+                                                {% if not meal.vegan and not meal.vegetarian %}
+                                                    Has Meat
+                                                {% endif %}
+                                            </p>
+                                        </div>
+                                        <div class="col">
+                                            {% for allergen in meal.allergens.all %}
+                                                <img src="{{allergen.image.url}}" class="img-fluid allergen-item-image">
+                                            {% endfor %}
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+
+
+{% endblock body %}
