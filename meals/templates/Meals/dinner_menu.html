@@ -48,24 +48,24 @@
                                     <a href="{% url 'meals:meal_information' meal.slug %}"><img src="{{meal.image.url}}" class="img-fluid menu-item-image"></a>
                                 </div>
                                 <div class="col-8">
-                                    <div class="row height-33">
+                                    <div class="row height-20">
                                         <div class="col">
                                             <h6>{{meal.name}}</h6>
                                         </div>
                                     </div>
-                                    <div class="row height-33">
+                                    <div class="row height-60">
+                                        <div class="col">
+                                            <p class = "description-overflow-scroll">
+                                                {{meal.description}}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row meal-summary height-20">
                                         <div class="col">
                                             <p>
                                                 £{{meal.price}}
                                             </p>
                                         </div>
-                                        <div class="col">
-                                            <p>
-                                                {{meal.calories}} cals
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row meal-summary height-33">
                                         <div class="col">
                                             <div class = "{% if not meal.vegan and not meal.vegetarian %} transparent {% endif %}">
                                                 {% if meal.vegan %} 
@@ -81,13 +81,8 @@
                                                 {% if not meal.vegan and not meal.vegetarian %}
                                                     Has Meat
                                                 {% endif %}
-                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="col">
-                                            {% for allergen in meal.allergens.all %}
-                                                <img src="{{allergen.image.url}}" class="img-fluid allergen-item-image">
-                                            {% endfor %}
-                                        </div> 
                                     </div>
                                 </div>
                             </div>
