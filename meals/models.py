@@ -11,7 +11,7 @@ class MyModelAdmin(admin.ModelAdmin):
 
 class Allergen(models.Model):
     name = models.CharField(max_length= 50)
-    image = models.ImageField(upload_to='allergens/')
+    image = models.ImageField(upload_to='allergens/', blank=True)
     
     def __str__(self):
         return self.name
@@ -28,8 +28,8 @@ class Meal(models.Model):
     price = models.DecimalField(max_digits=3, decimal_places=1)
     vegetarian = models.BooleanField(default=False)
     vegan = models.BooleanField(default=False)
-    allergens = models.ManyToManyField(Allergen)
-    image = models.ImageField(upload_to='meals/')
+    allergens = models.ManyToManyField(Allergen, blank=True, related_name='allergens')
+    image = models.ImageField(upload_to='meals/', blank=True)
     slug = models.SlugField(blank=True, null=True)
     
     #Overide save function to create a slug on save - courtesy of Mahmoud Ahmed

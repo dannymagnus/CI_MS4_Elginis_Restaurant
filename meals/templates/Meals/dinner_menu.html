@@ -2,29 +2,58 @@
 {% block body %}
 {% load static %}
 
-<h1>Dinner Menu</h1>
+<section class = "banner">
+    <!--Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  -->
+    <div id = "full-menu-header" class="container">
+        <div class="row margin-top-5vh">
+            <div class="col-sm col-md4"></div>
+            <div class="col-sm col-md4 d-flex align-items-center justify-content-center border-right-2 border-left-2">
+                <h1 class = "text-align-center border-left-2px">Dinner Menu</h1>
+            </div>
+            <div class="col-sm col-md4"></div>
+        
+        </div>
+    </div>
+
+    <div class="relative">
+        <div class="container horizontal-scroll d-flex overflow-auto">
+            {% for category in categories %}
+            <a href="#{{ category.name}}">{{category.name}}</a>
+            <div class="container">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
 
 {% for category in categories %}
-    <div class = "container-fluid d-flex align-items-center justify-content-center menu-category-background-generic {{category.name}}">
+    <div>
+        <hr class="full-width-2px">
+    </div>
+    <div id = "{{category.name}}" class = "container-fluid d-flex align-items-center justify-content-center menu-category-background-generic {{category.name}}">
         <h1 >{{category.name}}</h1>
+    </div>
+    <div>
+        <hr class="full-width-2px">
     </div>
     <div class="container">        
         <div class="row">
             {% for meal in meal_list %}
                 {% if meal.dinner %}
                     {% if meal.category.name == category.name %}
-                        <div class="col-sm menu-item">
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 menu-item">
                             <div class="row">
                                 <div class="col-4 padding-0">
-                                    <img src="{{meal.image.url}}" class="img-fluid menu-item-image">
+                                    <a href="{% url 'meals:meal_information' meal.slug %}"><img src="{{meal.image.url}}" class="img-fluid menu-item-image"></a>
                                 </div>
                                 <div class="col-8">
-                                    <div class="row">
+                                    <div class="row height-33">
                                         <div class="col">
-                                            <h6><a href="{% url 'meals:meal_information' meal.slug %}">{{meal.name}}</a></h6>
+                                            <h6>{{meal.name}}</h6>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row height-33">
                                         <div class="col">
                                             <p>
                                                 £{{meal.price}}
@@ -36,19 +65,23 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="row meal-summary">
+                                    <div class="row meal-summary height-33">
                                         <div class="col">
-                                            <p = class = "{% if not meal.vegan and not meal.vegetarian %} transparent {% endif %}">
+                                            <div class = "{% if not meal.vegan and not meal.vegetarian %} transparent {% endif %}">
                                                 {% if meal.vegan %} 
-                                                    Ve
+                                                    <div class="dark-circle-background white-text">
+                                                        Ve
+                                                    </div>
                                                 {% endif %}
                                                 {% if meal.vegetarian %}
-                                                    V
+                                                    <div class="dark-circle-background white-text">
+                                                        V 
+                                                    </div>
                                                 {% endif %}
                                                 {% if not meal.vegan and not meal.vegetarian %}
                                                     Has Meat
                                                 {% endif %}
-                                            </p>
+                                                </div>
                                         </div>
                                         <div class="col">
                                             {% for allergen in meal.allergens.all %}
