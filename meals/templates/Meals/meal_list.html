@@ -15,14 +15,15 @@
         
         </div>
     </div>
-
-    <div class="relative">
-        <div class="container horizontal-scroll d-flex overflow-auto">
-            {% for category in categories %}
-            <a href="#{{ category.name}}">{{category.name}}</a>
-            <div class="container">
+    <div class = "sticky-top">
+        <div class="relative">
+            <div class="container horizontal-scroll d-flex overflow-auto">
+                {% for category in categories %}
+                <a href="#{{ category.name}}">{{category.name}}</a>
+                <div class="container">
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 </section>
