@@ -33,7 +33,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['elginis-restaurant.herokuapp.com', 'localhost', '127.0.0.1', '*',  'dannymagnus-cims4elginis-m28hzmmf7mj.ws-eu38.gitpod.io']
+ALLOWED_HOSTS = ['elginis-restaurant.herokuapp.com', 'localhost', '127.0.0.1', '*']
 
 
 # Application definition
