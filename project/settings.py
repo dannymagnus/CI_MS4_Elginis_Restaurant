@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'cloudinary',
     'meals',
     'bookings',
-    'bootstrap_datepicker_plus',
     'about',
 ]
 
