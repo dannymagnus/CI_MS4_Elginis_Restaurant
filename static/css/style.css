@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap');
+
+@font-face {
+    font-family: 'Maria Rose';
+    src: url('../fonts/MariaRoseRegularRegular.woff2') format('woff2'),
+        url('../fonts/MariaRoseRegularRegular.woff') format('woff'),
+        url('../fonts/MariaRoseRegularRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 .navbar-brand.active {
     color:red;
@@ -6,7 +16,24 @@
 
 body {
     background-color:#FBF4E1;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heading-font{
+    font-family: 'Maria Rose';
+    font-size: 200%;
+}
+
+.font-size-96{
+    font-size:96px;
+}
+
+.font-size-72{
+    font-size:72px;
+}
+
+.margin-left-3vw{
+    margin-left:3vw;
 }
 
 .white-text{
@@ -268,3 +295,17 @@ body {
 
 /*------Contact Us --------------------------------------------------------*/
 
+/*------Booking Page-------------------------------------------------------*/
+
+.booking-background {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/about-banner.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.translucent-body{
+    background-color: rgba(251, 244, 225, 0.5);
+    border-radius: 10px;
+}
