@@ -52,8 +52,7 @@ class Category(models.Model):
 class Drink(models.Model):
     name = models.CharField(max_length=50)
     category = models.ForeignKey('DrinkCategory', on_delete=models.SET_NULL, null=True, blank=True, related_name='category', related_query_name='category')
-    price = models.DecimalField(decimal_places=3, max_digits=3)
-    description = models.CharField(max_length= 100)
+    description = models.CharField(max_length= 100, blank = True)
     
     def __str__(self):
         return self.name
