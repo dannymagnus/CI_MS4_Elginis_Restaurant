@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+
+<section>
+    <div class = "booking-background d-flex align-items-center p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm col-lg-8 col-xl-8 col-xxl-8 d-flex align-items-center justify-content-center pb-5">
+                    <h1 class = "heading-font font-size-96 white-text mb-5">Get in touch!</h1>
+                </div>
+                <div class="col-sm col-lg-4 col-xl-4 col-xxl-4 translucent-body mb-5">
+                    {% if contacted %}
+                        <div class="alert alert-success">
+                            Thank you for your message, we'll be in touch soon!
+                        </div>
+                    {% else %}
+                        <form method = "POST" class = "p-1">
+                            {% csrf_token %}
+                            {{ contact_form | crispy }}
+                            <br>
+                            <button class="btn btn-primary" type="submit">Send message</button>
+                        </form>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}

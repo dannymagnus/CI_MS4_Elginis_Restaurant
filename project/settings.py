@@ -55,8 +55,9 @@ INSTALLED_APPS = [
     'meals',
     'bookings',
     'about',
+    'contact',
     'crispy_forms',
-    'crispy_bootstrap5'
+    'crispy_bootstrap5',
 ]
 
 SITE_ID = 1

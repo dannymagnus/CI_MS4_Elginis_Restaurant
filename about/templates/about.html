@@ -117,17 +117,42 @@
     <div class="container">
         <h1 class = "heading-font font-size-96">Comments</h1>
     </div>
-    {% for comment in comments %}
-    <div class="row">
-        <div class="col">
-            {{ comment.name }}
-            {{ comment.body }}
+    <div class="container max-height-400 overflow-auto">
+        <div class="row">
+            <div class="col">
+                <hr>
+            </div>
         </div>
+        {% for comment in comments %}
+            <div class="row">
+                <div class="col-sm">
+                    <p>
+                    <strong> Posted by: {{ comment.name }}</strong>
+                    </p>
+                </div>   
+                <div class="col-sm">
+                    <p>
+                    Posted on: {{ comment.created_on }}
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Comment</p>
+                    <p>{{ comment.body }}</p>
+                </div>
+            </div>
+        {% endfor %}
     </div>
-    {% endfor %}
     <div class="container">
         <div class="row">
             <div class="col-6">
+                {% if commented %}
+                    <div class="alert alert-success">
+                        Your comment is awaiting approval.
+                    </div>
+
+                {% else %}
                 {% if user.is_authenticated %}
 
                     <h3>Leave a comment:</h3>
@@ -137,7 +162,7 @@
                         {% csrf_token %}
                         <button type="submit" class = "btn btn-signup btn-lg">Submit</button>
                     </form>
-
+                {% endif %}
                 {% endif %}
             </div>
         </div>

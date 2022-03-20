@@ -14,6 +14,7 @@ def about(request):
     comments = Comment.objects.filter(approved=True).order_by("-created_on")
     
     comment_form = CommentForm()
+    commented = False
     
     if request.method == 'POST':
         comment_form = CommentForm(data=request.POST)
@@ -22,6 +23,9 @@ def about(request):
             comment_form.instance.name = request.user.username
             comment = comment_form.save(commit=False)
             comment.save()
+            commented = True
+        else:
+            comment_form = CommentForm()
 
     
     context = {
@@ -30,6 +34,7 @@ def about(request):
         'reasons': reasons,
         'comment_form':comment_form,
         'comments': comments,
+        'commented':commented,
         }
     return render(request, 'about.html', context)
 
