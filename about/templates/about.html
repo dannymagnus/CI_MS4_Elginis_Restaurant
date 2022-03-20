@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load crispy_forms_tags %}
 
 {% block content %}
 
@@ -111,6 +112,38 @@
             {% endfor %}
         </div>
     </div>
+</section>
+<section class = margin-bottom-10vh>
+    <div class="container">
+        <h1 class = "heading-font font-size-96">Comments</h1>
+    </div>
+    {% for comment in comments %}
+    <div class="row">
+        <div class="col">
+            {{ comment.name }}
+            {{ comment.body }}
+        </div>
+    </div>
+    {% endfor %}
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                {% if user.is_authenticated %}
+
+                    <h3>Leave a comment:</h3>
+                    <p>Posting as: {{ user.username }}</p>
+                    <form method = "POST" style = "margin-top: 1.3em;">
+                        {{comment_form | crispy }}
+                        {% csrf_token %}
+                        <button type="submit" class = "btn btn-signup btn-lg">Submit</button>
+                    </form>
+
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+
 </section>
 
 

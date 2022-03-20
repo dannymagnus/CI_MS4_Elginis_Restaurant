@@ -266,7 +266,7 @@ body {
 
 #about-banner{
     min-height: 50vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/about-banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url('../img/about-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
