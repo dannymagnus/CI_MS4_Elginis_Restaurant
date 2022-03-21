@@ -1,26 +1,27 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
+{% load crispy_forms_tags %}
 
 <section>
-    <div class = "booking-background d-flex align-items-center">
+    <div class = "booking-background d-flex align-items-center p-5">
         <div class="container">
             <div class="row">
-                <div class="col col-lg-8 col-xl-8 col-xxl-8"></div>
-                <div class="col col-lg-4 col-xl-4 col-xxl-4 translucent-body">
+                <div class="col-sm col-lg-8 col-xl-8 col-xxl-8 d-flex align-items-center justify-content-center pb-5">
+                    <h1 class = "heading-font font-size-96 white-text mb-5">Come dine with us!</h1>
+                </div>
+                <div class="col-sm col-lg-4 col-xl-4 col-xxl-4 translucent-body mb-5">
                     {% if booked %}
-                    <div class="alert alert-success">
-                        Your comment is awaiting approval.
-                    </div>
-
-                    {% else %}
-                    <form action ="" method = "POST">
-                    {% csrf_token %}
-                        {{ form }}
-                    <br>
-                        <button class="btn btn-primary" type="submit">Request Booking</button>
-                    </form>
+                        <div class="alert alert-success">
+                            Your booking request has been received.
+                        </div>
                     {% endif %}
+                        <form method = "POST" class = "p-1">
+                            {% csrf_token %}
+                            {{ form | crispy }}
+                            <br>
+                            <button class="btn btn-primary" type="submit">Request Booking</button>
+                        </form>
                 </div>
             </div>
         </div>

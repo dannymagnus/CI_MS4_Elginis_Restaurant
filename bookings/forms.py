@@ -38,8 +38,8 @@ class BookingForm(forms.ModelForm):
             }),
             'time':TimeInput(attrs = {
                 'class': "form-control timepicker",
-                'min': "09:00",
-                'max': "17:00",
+                'min': "12:00",
+                'max': "21:00",
                 'style': 'max-width: 300px;',
                 'step:':'600'
             })
