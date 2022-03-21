@@ -12,7 +12,43 @@
             <div class="col-sm col-md4"></div>        
         </div>
     </div>
+    <div>
+        <hr class="full-width-2px">
+    </div>
+    {% for category in categories %}
 
+        <div id = "{{category.name}}" class = "container d-flex align-items-center {{category.name}} margin-top-10vh border-bottom-4 pb-2">
+            <h1 class = "heading-font font-size-48">{{category.name}}</h1>
+        </div>
+        <div class="container">        
+            <div class="row">
+                {% for drink in drinks %}
+                        {% if drink.category.name == category.name %}
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 menu-item">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h6>{{drink.name}}</h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <p>
+                                                    {{drink.description}}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+    <div class = "margin-bottom-10vh">
+    </div>
 
 
 {% endblock %}

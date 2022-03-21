@@ -283,6 +283,10 @@ body {
     max-width: 20%;
 }
 
+.border-bottom-4{
+    border-bottom: 4px solid rgb(189, 150, 131);
+}
+
 
 /*-----About page----------------------------------------------------------------*/
 

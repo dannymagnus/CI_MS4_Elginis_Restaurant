@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 #import the model so that all items can be retreived for the list
-from .models import Meal, Category, Allergen
+from .models import Meal, Category, Allergen, Drink, DrinkCategory
 
 #view for all meal items
 def meal_list(request):
@@ -43,13 +43,11 @@ def dinner_menu(request):
     return render(request, 'Meals/dinner_menu.html', context)
 
 def drinks_menu(request):
-    meal_list = Meal.objects.all()
-    categories = Category.objects.all()
-    allergens = Allergen.objects.all()
+    drinks = Drink.objects.all()
+    categories = DrinkCategory.objects.all()
     
-    context = {'meal_list':meal_list,
+    context = {'drinks':drinks,
                'categories':categories,
-               'allergens':allergens
                }
     
     return render(request, 'Meals/drinks_menu.html', context)
