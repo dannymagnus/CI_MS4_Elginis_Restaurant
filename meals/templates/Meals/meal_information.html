@@ -2,42 +2,52 @@
 {% block content %}
 {% load static %}
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <H1 style="text-align:center;">{{meal_information.name}}</H1>
+<section class = "margin-top-10vh">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="{{ meal_information.image.url }}" alt="restaurant image" class="img-fluid">
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col">
+                        <h2> {{meal_information.name}} </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            {{meal_information.description}}
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5>Known Allergens</h5>
+                        <p>
+                            {% for allergen in meal_information.allergens.all %}{{ allergen.name }}
+                            <img src = "{{allergen.image.url}}"" alt = "{{allergen.name}}" class = "img-fluid"><br/>
+                            {% endfor %}
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5>Price</h5>
+                        <p>
+                            £{{meal_information.price}}
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h5>Calories</h5>
+                        <p>
+                            {{meal_information.calories}}
+                        </p>
+                    </div>
+                </div>                
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12 col-md-6">
-            <img src="{{meal_information.image.url}}" alt="{{meal_information.name}}" style="width:100; object-fit:fill;">
-        </div>
-        <div class="col">
-            <p>
-                {{meal_information.price}}
-            </p>
-        </div>
-        <div class="col">
-            <p>
-                {{meal_information.calories}} cals
-            </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <p>{{meal_information.description}}</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-
-        </div>
-    </div>
-</div>
+</section>
 
 {% endblock %}
