@@ -36,6 +36,10 @@ body {
     font-size:60px;
 }
 
+.font-size-48{
+    font-size:48px;
+}
+
 .margin-left-3vw{
     margin-left:3vw;
 }
@@ -70,6 +74,10 @@ body {
 
 .padding-0{
     padding:0;
+}
+
+.position-relative{
+    position:relative;
 }
 
 .text-align-center{
@@ -288,16 +296,6 @@ body {
     background-position: center;
 }
 
-.reasons-image{
-    /*Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
-    /* background-image: url('../img/reasons.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    min-height: 500px; */
-
-}
-
 /* Remove background color from accordion */
 
 .accordion-button,.accordion-body,.accordion-button:not(.collapsed){
@@ -311,6 +309,10 @@ body {
 
 .max-height-400{
     max-height:400px;
+}
+
+.black-background{
+    background-color: black;
 }
 
 
@@ -340,4 +342,33 @@ body {
     object-fit: cover;
     object-position: center center;
     height: 100%;
+}
+
+
+/*-------Home page------------------------------------*/
+.home-position-absolute{
+    position: absolute;
+    bottom:1.5em;
+    left:1.5em;
+}
+
+.ld-sorted{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.lunch-sorted{
+    height: 320px;
+    width:320px;
+    background-image: url(../img/lunch-sorted.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dinner-sorted{
+    height: 320px;
+    width: 320px;
+    background-image: url(../img/dinner-sorted.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -15,7 +15,7 @@
         <div class="carousel-inner" style = "height: 100%;">
             <div class="carousel-item active" style = "height: 100%;">
                 <img src="../../../media/about/atmosphere.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h1 class = "white-text heading-font font-size-72">Elgini's</h1>
                     <p class = "white-text heading-font">A taste of Italy</p>
                 </div>
@@ -23,7 +23,7 @@
             {% for item in carousel %}
             <div class="carousel-item" style = "height: 100%;">
                 <img src="{{ item.image.url }}" class="d-block w-100" alt="{{ item.title }}">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h1 class = "white-text heading-font font-size-72">{{ item.title }}</h1>
                     <p class = "white-text heading-font">{{ item.body }}</p>
                 </div>
@@ -42,6 +42,45 @@
 </div>
 <div class="container-fluid">
     <hr>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md d-flex align-items-center d-none d-md-block">
+            <div class="row pt-5 pb-5 ld-sorted" style = "width:100%;">
+                <div class="col-12 heading-font font-size-48">
+                    <h1>Lunch and Dinner Sorted</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class = "position-relative mb-5">
+                <img src="../../../static/img/lunch-sorted.jpg" class = "img-fluid">
+                <button class="btn btn-primary home-position-absolute">Lunch Menu</button>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class = "position-relative mb-5">
+                <img src="../../../static/img/dinner-sorted.jpg" class = "img-fluid">
+                <button class="btn btn-primary home-position-absolute">Dinner Menu</button>
+            </div>
+        </div>
+    </div>
+    <div class="row margin-bottom-10vh">        
+        <div class="col-md">
+            <div class = "position-relative mb-5">
+                <!--Photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mae Mu</a> on <a href="https://unsplash.com/s/photos/drinks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
+                <img src="../../../static/img/just-drinks.jpg" class = "img-fluid">                
+                <button class="btn btn-primary home-position-absolute">Drinks Menu</button>
+            </div>
+        </div>
+        <div class="col-md d-flex align-items-center d-none d-md-block">
+            <div class="row pt-5 pb-5 ld-sorted" style = "width:100%;">
+                <div class="col-12 heading-font font-size-48">
+                    <h1>Just for drinks</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 
