@@ -282,11 +282,12 @@ body {
 
 .reasons-image{
     /*Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
-    background-image: url('../img/reasons.jpg');
+    /* background-image: url('../img/reasons.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    min-height: 500px;
+    min-height: 500px; */
+    
 }
 
 /* Remove background color from accordion */
