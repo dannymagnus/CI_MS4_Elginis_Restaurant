@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     #connects the main urls with the app urls
-    path('', include('meals.urls' , namespace = 'meals')),
+    path('', include('home.urls' , namespace = 'home')),
     path('meals/', include('meals.urls' , namespace = 'meals')),
     path('make_booking/', include('bookings.urls' , namespace = 'bookings')),
     path('contact_us/', include('contact.urls' , namespace = 'contact')),

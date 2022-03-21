@@ -2,8 +2,8 @@ from django.urls import path
 from . import views
 
 #Provide an app name to fix namespace error
-app_name = 'contact'
+app_name = 'home'
 
 urlpatterns = [
-    path('', views.contact_us, name='contact_us'),
+    path('', views.home, name='home'),
 ]
