@@ -357,18 +357,10 @@ body {
     border-bottom: 2px solid black;
 }
 
-.lunch-sorted{
-    height: 320px;
-    width:320px;
-    background-image: url(../img/lunch-sorted.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.height-100pc{
+    height: 100%;
 }
 
-.dinner-sorted{
-    height: 320px;
-    width: 320px;
-    background-image: url(../img/dinner-sorted.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.width-100pc{
+    width: 100%;
 }

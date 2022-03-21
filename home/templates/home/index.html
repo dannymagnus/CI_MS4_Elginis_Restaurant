@@ -45,23 +45,23 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md d-flex align-items-center d-none d-md-block">
-            <div class="row pt-5 pb-5 ld-sorted" style = "width:100%;">
-                <div class="col-12 heading-font font-size-48">
-                    <h1>Lunch and Dinner Sorted</h1>
+        <div class="col-md d-none d-md-block">
+            <div class = 'd-flex align-items-center height-100pc'>
+                <div class = "pt-3 pb-3 ld-sorted">
+                    <h1 class="col-12 heading-font font-size-48">Lunch and Dinner Sorted</h1>
                 </div>
             </div>
         </div>
         <div class="col-md">
             <div class = "position-relative mb-5">
                 <img src="../../../static/img/lunch-sorted.jpg" class = "img-fluid">
-                <button class="btn btn-primary home-position-absolute">Lunch Menu</button>
+                <a href = "{% url 'meals:lunch_menu' %}"><button class="btn btn-primary home-position-absolute">Lunch Menu</button></a>
             </div>
         </div>
         <div class="col-md">
             <div class = "position-relative mb-5">
                 <img src="../../../static/img/dinner-sorted.jpg" class = "img-fluid">
-                <button class="btn btn-primary home-position-absolute">Dinner Menu</button>
+                <a href = "{% url 'meals:dinner_menu' %}"><button class="btn btn-primary home-position-absolute">Dinner Menu</button></a>
             </div>
         </div>
     </div>
@@ -70,13 +70,13 @@
             <div class = "position-relative mb-5">
                 <!--Photo by <a href="https://unsplash.com/@picoftasty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mae Mu</a> on <a href="https://unsplash.com/s/photos/drinks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>-->
                 <img src="../../../static/img/just-drinks.jpg" class = "img-fluid">                
-                <button class="btn btn-primary home-position-absolute">Drinks Menu</button>
+                <a href = "{% url 'meals:drinks_menu' %}"><button class="btn btn-primary home-position-absolute">Drinks Menu</button></a>
             </div>
         </div>
-        <div class="col-md d-flex align-items-center d-none d-md-block">
-            <div class="row pt-5 pb-5 ld-sorted" style = "width:100%;">
-                <div class="col-12 heading-font font-size-48">
-                    <h1>Just for drinks</h1>
+        <div class="col-md d-none d-md-block">
+            <div class = 'd-flex align-items-center height-100pc'>
+                <div class = "pt-3 pb-3 ld-sorted width-100pc">
+                    <h1 class="col-12 heading-font font-size-48">Just for drinks</h1>
                 </div>
             </div>
         </div>

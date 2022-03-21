@@ -26,73 +26,74 @@
         </div>
     </div>
 </section>
-
-{% for category in categories %}
-    <div>
-        <hr class="full-width-2px">
-    </div>
-    <div id = "{{category.name}}" class = "container-fluid d-flex align-items-center justify-content-center menu-category-background-generic {{category.name}}">
-        <h1 >{{category.name}}</h1>
-    </div>
-    <div>
-        <hr class="full-width-2px">
-    </div>
-    <div class="container">        
-        <div class="row">
-            {% for meal in meal_list %}
-                {% if meal.dinner %}
-                    {% if meal.category.name == category.name %}
-                        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 menu-item">
-                            <div class="row">
-                                <div class="col-4 padding-0">
-                                    <a href="{% url 'meals:meal_information' meal.slug %}"><img src="{{meal.image.url}}" class="img-fluid menu-item-image"></a>
-                                </div>
-                                <div class="col-8">
-                                    <div class="row height-20">
-                                        <div class="col">
-                                            <h6>{{meal.name}}</h6>
-                                        </div>
+<section class = "margin-bottom-10vh">
+    {% for category in categories %}
+        <div>
+            <hr class="full-width-2px">
+        </div>
+        <div id = "{{category.name}}" class = "container-fluid d-flex align-items-center justify-content-center menu-category-background-generic {{category.name}}">
+            <h1 >{{category.name}}</h1>
+        </div>
+        <div>
+            <hr class="full-width-2px">
+        </div>
+        <div class="container">        
+            <div class="row">
+                {% for meal in meal_list %}
+                    {% if meal.dinner %}
+                        {% if meal.category.name == category.name %}
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 menu-item">
+                                <div class="row">
+                                    <div class="col-4 padding-0">
+                                        <a href="{% url 'meals:meal_information' meal.slug %}"><img src="{{meal.image.url}}" class="img-fluid menu-item-image"></a>
                                     </div>
-                                    <div class="row height-60">
-                                        <div class="col">
-                                            <p class = "description-overflow-scroll">
-                                                {{meal.description}}
-                                            </p>
+                                    <div class="col-8">
+                                        <div class="row height-20">
+                                            <div class="col">
+                                                <h6>{{meal.name}}</h6>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row meal-summary height-20">
-                                        <div class="col">
-                                            <p>
-                                                £{{meal.price}}
-                                            </p>
+                                        <div class="row height-60">
+                                            <div class="col">
+                                                <p class = "description-overflow-scroll">
+                                                    {{meal.description}}
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="col">
-                                            <div class = "{% if not meal.vegan and not meal.vegetarian %} transparent {% endif %}">
-                                                {% if meal.vegan %} 
-                                                    <div class="dark-circle-background white-text">
-                                                        Ve
-                                                    </div>
-                                                {% endif %}
-                                                {% if meal.vegetarian %}
-                                                    <div class="dark-circle-background white-text">
-                                                        V 
-                                                    </div>
-                                                {% endif %}
-                                                {% if not meal.vegan and not meal.vegetarian %}
-                                                    Has Meat
-                                                {% endif %}
+                                        <div class="row meal-summary height-20">
+                                            <div class="col">
+                                                <p>
+                                                    £{{meal.price}}
+                                                </p>
+                                            </div>
+                                            <div class="col">
+                                                <div class = "{% if not meal.vegan and not meal.vegetarian %} transparent {% endif %}">
+                                                    {% if meal.vegan %} 
+                                                        <div class="dark-circle-background white-text">
+                                                            Ve
+                                                        </div>
+                                                    {% endif %}
+                                                    {% if meal.vegetarian %}
+                                                        <div class="dark-circle-background white-text">
+                                                            V 
+                                                        </div>
+                                                    {% endif %}
+                                                    {% if not meal.vegan and not meal.vegetarian %}
+                                                        Has Meat
+                                                    {% endif %}
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        {% endif %}
                     {% endif %}
-                {% endif %}
-            {% endfor %}
+                {% endfor %}
+            </div>
         </div>
-    </div>
-{% endfor %}
+    {% endfor %}
+</section>
 
 
 {% endblock %}
