@@ -96,6 +96,10 @@ body {
 
 /*Menu page*/
 
+.nav-item.dropdown{
+    z-index: 1025;
+}
+
 #meal-list-banner{
     min-height: 50vh;
     background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/meal-list-banner.jpg');
