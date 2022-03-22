@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import About, Chef, Reason, Comment
 from .forms import CommentForm
 from django.views import generic
@@ -38,3 +38,8 @@ def about(request):
         }
     return render(request, 'about.html', context)
 
+
+def delete_item(request, comment_id):
+    comment = get_object_or_404(Comment, id=comment_id)
+    comment.delete()
+    return redirect('/about/')

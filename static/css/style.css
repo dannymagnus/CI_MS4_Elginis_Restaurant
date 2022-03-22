@@ -372,3 +372,21 @@ body {
 .width-100pc{
     width: 100%;
 }
+
+.stick-ontop {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0;
+    align-self: flex-start;
+    height: auto;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.sticky + .content {
+    padding-top: 60px;
+  }

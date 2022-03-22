@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 
 # Create your views here.
 #import the model so that all items can be retreived for the list
@@ -55,7 +55,7 @@ def drinks_menu(request):
 
 #takes the request and slug parameter from urls.py
 def meal_information(request,slug):
-    meal_information = Meal.objects.get(slug=slug)
+    meal_information = get_object_or_404(Meal,slug=slug)
     context = {'meal_information':meal_information}
     return render(request, 'Meals/meal_information.html', context)
 

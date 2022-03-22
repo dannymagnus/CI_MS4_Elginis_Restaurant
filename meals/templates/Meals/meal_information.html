@@ -2,10 +2,10 @@
 {% block content %}
 {% load static %}
 
-<section class = "margin-top-10vh">
+<section class = "margin-top-10vh  margin-bottom-10vh">
     <div class="container">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm d-flex justify-content-center margin-bottom-5vh">
                 <img src="{{ meal_information.image.url }}" alt="restaurant image" class="img-fluid">
             </div>
             <div class="col-sm">
@@ -27,6 +27,8 @@
                         <p>
                             {% for allergen in meal_information.allergens.all %}{{ allergen.name }}
                             <img src = "{{allergen.image.url}}"" alt = "{{allergen.name}}" class = "img-fluid"><br/>
+                            {% empty %}
+                            None
                             {% endfor %}
                         </p>
                     </div>

@@ -11,22 +11,23 @@
             <div class="col-sm col-md4 d-flex align-items-center justify-content-center border-right-2 border-left-2">
                 <h1 class = "text-align-center border-left-2px">Lunch Menu</h1>
             </div>
-            <div class="col-sm col-md4"></div>
-        
+            <div class="col-sm col-md4"></div>            
         </div>
     </div>
-
-    <div class="relative">
-        <div class="container horizontal-scroll d-flex overflow-auto">
-            {% for category in categories %}
-            <a href="#{{ category.name}}">{{category.name}}</a>
-            <div class="container">
+    <div>
+        <div class="relative">
+            <div class="container horizontal-scroll d-flex overflow-auto">
+                {% for category in categories %}
+                <a href="#{{ category.name}}">{{category.name}}</a>
+                <div class="container">
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 </section>
-
+<section class = "content">
+<div class = "margin-bottom-10vh">
 {% for category in categories %}
     <div>
         <hr class="full-width-2px">
@@ -93,6 +94,8 @@
         </div>
     </div>
 {% endfor %}
+</div>
+</section>
 
 
 {% endblock %}

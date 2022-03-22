@@ -10,5 +10,4 @@ urlpatterns = [
     path('dinner_menu', views.dinner_menu, name='dinner_menu'),
     path('drinks_menu', views.drinks_menu, name='drinks_menu'),
     path('<slug>:slug', views.meal_information, name='meal_information'),
-    path('facebook', views.facebook, name='facebook'),
 ]
