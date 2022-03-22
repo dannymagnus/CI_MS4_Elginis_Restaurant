@@ -1,21 +1,33 @@
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import About, Chef, Reason, Comment
-from .forms import CommentForm
 from django.views import generic
 
+# Internal:
+from .models import About, Chef, Reason, Comment
+from .forms import CommentForm
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Create your views here.
 
 def about(request):
+    """
+    A view to show restaurant bio, reasons to dine, chef images and bio, and comments
+    Args:
+        request (object): HTTP request object and or form object.
+    Returns:
+        Render of items page with context
+    """
     about = About.objects.all()
     chefs = Chef.objects.all()
     reasons = Reason.objects.all()
-    
-    comments = Comment.objects.filter(approved=True).order_by("-created_on")
-    
+    comments = Comment.objects.filter(
+        approved=True
+        ).order_by(
+            "-created_on"
+            )
     comment_form = CommentForm()
-    commented = False
-    
+    commented = False  
     if request.method == 'POST':
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
@@ -26,8 +38,6 @@ def about(request):
             commented = True
         else:
             comment_form = CommentForm()
-
-    
     context = {
         'about': about,
         'chefs':chefs,
@@ -36,10 +46,18 @@ def about(request):
         'comments': comments,
         'commented':commented,
         }
-    return render(request, 'about.html', context)
+    return render(request,'about.html',context)
 
 
 def delete_item(request, comment_id):
+    """
+    A view delete comments
+    Args:
+        request (object): HTTP request object.
+        comment_id: the unique numeric identifier of the comment to be deleted
+    Returns:
+        Redirect to about page with comment removed
+    """
     comment = get_object_or_404(Comment, id=comment_id)
     comment.delete()
     return redirect('/about/')
