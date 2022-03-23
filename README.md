@@ -103,7 +103,7 @@ Note: Environment variable values are not exposed in the source code, they are s
 Physical database model
 
 This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database 
-
+<br>![Database model](readme/misc/database_schema.png)
 
 
 <!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
