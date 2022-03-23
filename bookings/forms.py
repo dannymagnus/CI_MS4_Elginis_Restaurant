@@ -1,15 +1,31 @@
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django import forms
-from .models import Booking
 from django.forms import ModelForm, TextInput, EmailInput, TimeInput
 
+# Internal
+from .models import Booking
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 class DateInput(forms.DateInput):
+    """
+    A class for date input picker
+    """
     input_type = 'date'
     
 class TimeInput(forms.TimeInput):
+    """
+    A class for date input picker
+    """
     input_type = 'time'
     
 
 class BookingForm(forms.ModelForm):
+    """
+    A class for booking form
+    """
     class Meta:
         model = Booking
         fields = '__all__'
