@@ -41,6 +41,24 @@
 12. [Acknowledgements](#acknowledgements)
 
 # User Experience
+## Strategy
+### Primary Goal
+The primary goal of the website from the site 
+owners perspective is as follows:
+- To attract customers to the business by showing an attractive and appealing variety of food.
+- To allow a user to navigate the website and see food options easily
+- To allow a user to make a reservation
+
+The primary goal of the website from a site users perspective is as follows:
+- To view the restaurants menu
+- To view details about food dishes, including allergens, description and prices
+- To be able to filter dishes by allergies
+- To make a reservation
+- To contact the restaurant
+- To view opening hours
+- To post a review or comment about their experience
+- To view other customer’s reviews and comments
+
 
 
 
