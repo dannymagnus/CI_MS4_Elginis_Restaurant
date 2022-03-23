@@ -20,15 +20,19 @@
         - [Physical database model](#physical-database-model)
         - [Models](#models)
             * [User Model](#user-model)
-            * [UserProfile Model](#userprofile-model)
-            * [Order Model](#order-model)
-            * [OrderLineItem Model](#orderlineitem-model)
-            * [Favourites Model](#favourites-model)
-            * [Product Model](#product-model)
+            * [Meal Model](#meal-model)
             * [Category Model](#category-model)
-            * [News Model](#news-model)
+            * [Allergen Model](#allergen-model)
+            * [Drink Model](#drink-model)
+            * [DrinkCategory Model](#drinkcategory-model)
             * [Comment Model](#comment-model)
-            * [Review Model](#review-model)
+            * [Booking Model](#booking-model)
+            * [Contact Model](#contact-model)
+            * [Reason Model](#reason-model)
+            * [About Model](#about-model)
+            * [Chef Model](#chef-model)
+            * [Reasons Model](#reasons-model)
+            * [Home Model](#home-model)
     1. [Target Audience](#target-audience)
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
@@ -127,13 +131,6 @@ This model contains all fields stored in the database collections with their dat
 - It contains images so to be easily understood to non english speakers.
 - The model contains the following fields: name, image.
 
-##### Product Model
-- The Product Model represents a product and its details
-- It contains Category as a foreign-key
-- The model contains the following fields: name, category, price, colour, code, description, feature1, feature2, feature3, feature4, has_sizes, rating, pre_sale_price, image_url, image
-- The image field contains the product image
-- The image_url field contains the url to where the image file is physically stored, for example AWS S3 bucket
-
 ##### Drink Model
 - The Drink model contains a the drinks available at the restaurant
 - It has DrinkCategory as a foreign-key.
@@ -178,6 +175,41 @@ This model contains all fields stored in the database collections with their dat
 - The Home model contains the items for the carousel on the home page.
 - The model contains the following fields: Title, body, image.
 
+## Scope
+### User stories:
+
+#### First time user
+1. As a first time user, I want to be able to view the type of food the restaurant provides
+2. As a first time user, I want to see professional and appealing images of the food
+3. As a first time user, I want to be able to navigate the website quickly and easily
+4. As a first time user, I want to be able to view the full menu
+5. As a first time user, I want to be able to view food allergies
+6. As a first time user, I want to be able to view a description and price of the food 
+7. As a first time user, I want to be able to leave a comment or review
+8. As a first time user, I want to be able to see other user’s comments and reviews
+9. As a first time user, I want to be able to edit and delete a comment I have made
+10. As a first time user, I want to be able contact the restaurant
+11. As a first time user, I want to be able to make a reservation
+12. As a first time user, I want to be able to view the restaurants location and opening hours
+13. As a first time user, I want to know about the business and it’s ethos
+14. As a first time user, I want to be able to see any special events and offers
+
+#### Site Owner
+15. As a site owner, I want to attract customers to our restaurant
+16. As a site owner, I show appealing and professional images of our food
+17. As a site owner, I want users to be to view our full menu
+18. As a site owner, I want users to be able to view the food descriptions and prices
+19. As a site owner, I want users to be able to view allergies
+20. As a site owner, I want users to be able to make a reservation
+21. As a site owner, I want users to be able to leave a comment or review
+22. As a site owner, I want users to be able to view other comments and reviews
+23. As a site owner, I want users to be able to edit and delete comments or reviews
+24. As a site owner, I want users to be able to contact the business
+25. As a site owner, I want users to be able to view the location and opening times
+26. As a site owner, I want users to be able to find out about our business ethos
+27. As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation
+28. As a site owner, I want users to be able to navigate the site easily and quickly
+29. As a site owner, I want to be able to promote special offers and events.
 
 
 
