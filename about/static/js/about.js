@@ -1,5 +1,5 @@
 /**
- * [Rotate images in carousel
+ * To rotate images in the  reasons for us carousel
  * Credit:  https://getbootstrap.com/docs/5.0/components/carousel/ ]
  */
  var myCarousel = document.querySelector('#home-carousel');
