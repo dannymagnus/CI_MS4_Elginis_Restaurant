@@ -87,6 +87,18 @@ App details as follows:
 - Contact - this app is for users to be able to submit a message to the site owners and recieve acknowledgment.
 - Booking - this app is for users to be able to submit a booking reqeuest with date validation so cannot be booked in past and also only within restaurant opening hours.
 
+To complement the apps there are
+- project: Project level files - settings.py for project level settings and urls.py to route the website URLS
+- templates: Containing the base.html, allauth(django authentication)
+- templates (app level): each app has it's own templates directory for HTML to consider portability and re-use.
+- urls (app level): each app has it's own url.py file to consider portability and re-use.
+- static: Base css and Javascript files
+- manage.py: This file is used to start the site and perform funcions during development
+- README.md: Readme documentation
+- Procfile: To run the application on Heroku
+- Requirements.txt: Containing the project dependencies
+Note: Environment variable values are not exposed in the source code, they are stored locally in env.py that is not checked in(and listed in .gitignore, and on Heroku in app settings
+
 <!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome USER_NAME,
