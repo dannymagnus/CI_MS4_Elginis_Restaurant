@@ -14,13 +14,32 @@
     color: white;
 }
 
-body {
-    background-color:#FBF4E1;
+:root {
+    background-color: #383831;
     font-family: 'Josefin Sans', sans-serif;
+    --heading-font: 'Maria Rose', sans-serif;
+    --green:#5A753A;
+    --dark-green:#445c27;
+    --burnt-orange:#703D30;
+    --white:#FFFFFF;
+    --off-white:#FBF4E1;
+    --charcoal: #212529;
+    --grey: #4F4F4F;
+}
+
+
+body {
+    background-color:var(--off-white);
+    font-family: 'Josefin Sans', sans-serif;
+    color:var(--grey);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--charcoal);
 }
 
 .heading-font{
-    font-family: 'Maria Rose';
+    font-family: var(--heading-font);
     font-size: 200%;
 }
 
@@ -45,7 +64,7 @@ body {
 }
 
 .white-text{
-    color: white;
+    color: var(--white);
 }
 
 .margin-top-3vh{
@@ -210,7 +229,7 @@ body {
 }
 
 .menu-category-background-generic h1{
-    color: white;
+    color: var(--white);
 }
 
 .Starters{
@@ -288,7 +307,7 @@ body {
 }
 
 .border-bottom-4{
-    border-bottom: 4px solid rgb(189, 150, 131);
+    border-bottom: 4px solid var(--burnt-orange);
 }
 
 
@@ -390,3 +409,13 @@ body {
 .sticky + .content {
     padding-top: 60px;
   }
+
+.btn.btn-primary {
+    background-color: var(--green);
+    border-color: var(--green)
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--dark-green);
+    border-color: var(--dark-green)
+}
