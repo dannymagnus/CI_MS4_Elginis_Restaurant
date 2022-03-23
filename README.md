@@ -33,16 +33,18 @@
             * [Chef Model](#chef-model)
             * [Reasons Model](#reasons-model)
             * [Home Model](#home-model)
-    1. [Target Audience](#target-audience)
-    2. [User Requirements and Expectations](#user-requirements-and-expectations)
-    3. [User Stories](#user-stories)
-3. [Scope](#scope)
-4. [Design](#design)
-    1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
-    3. [Fonts](#fonts)
-    4. [Structure](#structure)
-    5. [Wireframes](#wireframes)
+    <!-- 1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations) -->
+    3. [Scope](#scope)
+        +[User Stories](#user-stories)
+    4. [Skeleton](#design)
+        1. [Wireframes](#wireframes)
+    5. [Surface](#surface)
+        1. [Design Choices](#design-choices)
+        2. [Colour](#colours)
+        3. [Fonts](#fonts)
+
+
 5. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
@@ -210,6 +212,36 @@ This model contains all fields stored in the database collections with their dat
 27. As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation
 28. As a site owner, I want users to be able to navigate the site easily and quickly
 29. As a site owner, I want to be able to promote special offers and events.
+
+
+## Surface
+### Design choices
+
+The overall design of the website was to keep it clean and simple, to allow the imagery of the food to shine through, and to choose colours that didn’t distract or take focus. The website also needs to act as a portfolio to attract users to book and visit the restaurant, so we chose a gallery image layout for the menu, and made sure to include photography of the staff and restaurant interior.
+
+The site is straightforward to navigate, with a high contrasting navigation bar to enable ease of use for the user to find other main pages.
+
+The background is neutral but bright, the images are the focal point of the home page so the user has an immediate view of the food. The rest of the colour scheme is reflecting the rustic Italian interior of the restaurant.
+
+### Colours
+
+The colour palette is fairly neutral and warm. The bold colours that are used in focal points such as buttons and titles, and the neutrals are used for backgrounds and body text.
+
+- #212529 - Title text
+- #4F4F4F - Body text
+- #5A753A - Buttons
+- #703D30 - Lines and subtitles
+- #FBF4E1 - Background
+- #FFFFFF  - Logo and header links
+
+After choosing a colour scheme I tested a number of palette options to make sure the it met accessibility standards.
+
+<br>![Database model](readme/misc/accessible-color.jpg)
+
+
+
+
+
 
 
 
