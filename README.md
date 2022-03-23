@@ -11,6 +11,7 @@
     1. [User Goals](#user-goals)
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
+    1. [Strategy](#strategy)
     1. [Target Audience](#target-audience)
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
@@ -38,6 +39,8 @@
 10. [Deployment](#deployment)
 11. [Credits](#credits)
 12. [Acknowledgements](#acknowledgements)
+
+# User Experience
 
 
 
