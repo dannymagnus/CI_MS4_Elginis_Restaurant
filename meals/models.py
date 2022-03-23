@@ -3,16 +3,11 @@
 # 3rd party:
 from django.db import models
 from django.utils.text import slugify
-from django.forms import CheckboxSelectMultiple
 from django.contrib import admin
 
 # Internal:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-class MyModelAdmin(admin.ModelAdmin):
-    formfield_overrides = {
-        models.ManyToManyField: {'widget': CheckboxSelectMultiple},
-    }
 
 class Allergen(models.Model):
     """

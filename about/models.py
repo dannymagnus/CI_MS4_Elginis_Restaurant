@@ -87,7 +87,7 @@ class Comment(models.Model):
         max_length=80
         )
     email = models.EmailField()
-    body = models.TextField()
+    body = models.TextField(500)
     created_on = models.DateTimeField(
         auto_now_add=True
         )

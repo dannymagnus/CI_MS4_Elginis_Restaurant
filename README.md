@@ -99,6 +99,13 @@ To complement the apps there are
 - Requirements.txt: Containing the project dependencies
 Note: Environment variable values are not exposed in the source code, they are stored locally in env.py that is not checked in(and listed in .gitignore, and on Heroku in app settings
 
+
+Physical database model
+
+This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database 
+
+
+
 <!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome USER_NAME,
