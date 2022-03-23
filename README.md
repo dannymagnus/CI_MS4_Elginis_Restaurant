@@ -12,6 +12,23 @@
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Strategy](#strategy)
+        + [Primary Goal](#primary-goal)
+    2. [Structure](#structure)
+        + [Website pages](#website-pages)
+        + [Code Structure](#code-structure)
+        + [Database](#database)
+        - [Physical database model](#physical-database-model)
+        - [Models](#models)
+            * [User Model](#user-model)
+            * [UserProfile Model](#userprofile-model)
+            * [Order Model](#order-model)
+            * [OrderLineItem Model](#orderlineitem-model)
+            * [Favourites Model](#favourites-model)
+            * [Product Model](#product-model)
+            * [Category Model](#category-model)
+            * [News Model](#news-model)
+            * [Comment Model](#comment-model)
+            * [Review Model](#review-model)
     1. [Target Audience](#target-audience)
     2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
@@ -59,8 +76,16 @@ The primary goal of the website from a site users perspective is as follows:
 - To post a review or comment about their experience
 - To view other customer’s reviews and comments
 
+## Structure
+### Code Structure
+The project is organised into a variety of applications, as is constructed using the Django Framework.
 
-
+App details as follows:
+- Home - this app contains information about the restaurant home page with quick links to the menus on page and table booking via the nav bar.
+- Meals - this app contains the menu structure, users can choose between the lunch drink and dinner menu.  Clicking individual items opens a sub  page where users can see detailed food information including allergens and calories.
+- About - this app contains information relating to the business heritage the opportunity for users to view, add, edit, delete comments with authentication.
+- Contact - this app is for users to be able to submit a message to the site owners and recieve acknowledgment.
+- Booking - this app is for users to be able to submit a booking reqeuest with date validation so cannot be booked in past and also only within restaurant opening hours.
 
 <!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
