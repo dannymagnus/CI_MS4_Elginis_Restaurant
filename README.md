@@ -105,6 +105,81 @@ Physical database model
 This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database 
 <br>![Database model](readme/misc/database_schema.png)
 
+#### Models
+- The following models were created to represent the database model structure for the website
+
+##### User Model
+- The User model contains information about the user. It is part of the Django allauth library
+- The model contains the following fields: username, password, first_name, last_name, email, is_staff, is_active, is_superuser, last_login, date_joined
+
+##### Meal Model
+- The Meal model contains information about meals available within each of the menus
+- It contains Category as a foreign-key.
+- It contains Allergen as a Many-toMany relationship.
+- The model contains the following fields:  Name, Category, Description, Allergen, Lunch, Dinner, Calories, Price, Vegetarian, Vegan, Image, Slug.
+
+##### Category Model
+- The category model contains the available categories for a meal item
+- The model contains the following fields: name
+
+##### Allergen Model
+- The Allergen model contains allergens that may be contained in the meals, this has a many to many relationship with meals model.
+- It contains images so to be easily understood to non english speakers.
+- The model contains the following fields: name, image.
+
+##### Product Model
+- The Product Model represents a product and its details
+- It contains Category as a foreign-key
+- The model contains the following fields: name, category, price, colour, code, description, feature1, feature2, feature3, feature4, has_sizes, rating, pre_sale_price, image_url, image
+- The image field contains the product image
+- The image_url field contains the url to where the image file is physically stored, for example AWS S3 bucket
+
+##### Drink Model
+- The Drink model contains a the drinks available at the restaurant
+- It has DrinkCategory as a foreign-key.
+- The model contains the following fields: name, description, category, image.
+
+##### DrinkCategory Model
+- The News model contains viable categories for the drinks.
+- It acts as a foreign-key for Drinks model
+- The model contains the following fields: name
+
+##### Comment Model
+- The News model contains a comment that renders on the about page.
+- The model contains the following fields: user, comment_text, created_date
+
+##### Booking Model
+- The Booking model contains a collection of data submitted by the user when requesting a reservation.
+- The model contains the following fields: name, email, phone, party_size, date, ,time
+
+##### Contact Model
+- The Contact model contains a collection of data submitted by the user when messaging the site owner.
+- It contains Reasons as a foreign-key.
+- The model contains the following fields: reason, email, phone, postcode, street_address, message.
+
+#### Reason Model
+- The Contact model contains a collection pre configured headers that the user can use to send the message.
+- It acts as a foreign-key for Contact model.
+- The model contains the following fields: reason
+
+#### About Model
+- The About model contains a collection of data and image to show the restaurant heritage..
+- The model contains the following fields: title, body, image.
+
+#### Reasons Model
+- The Reasons model contains a collection reasons as to why the user should use the establishment.
+- The model contains the following fields: reason, body.
+
+#### Chefs Model
+- The Chefs model contains the chef images, names and biography.
+- The model contains the following fields: name, image, bio.
+
+#### Home Model
+- The Home model contains the items for the carousel on the home page.
+- The model contains the following fields: Title, body, image.
+
+
+
 
 <!-- ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
