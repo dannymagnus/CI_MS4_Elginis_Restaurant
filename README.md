@@ -361,7 +361,7 @@ The Javascript of the each page of the site was validated using [JSHint validati
 The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings.
 
 <details><summary>about/admin.py</summary>
-<img src="readme/validation/py-validation/py-validation-about-admin.txt">
+<img src="readme/validation/py-validation/py-validation-about-admin.png">
 </details>
 <details><summary>bookings/admin.py</summary>
 <img src="readme/validation/py-validation/py-validation-bookings-admin.png">
