@@ -6,39 +6,40 @@ from django.db import models
 # Internal:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 class Contact(models.Model):
     """
     A class for the contact model
     """
     reason = models.ForeignKey(
-        'Reason', 
-        on_delete=models.CASCADE, 
+        'Reason',
+        on_delete=models.CASCADE,
         related_name='reasons'
         )
     name = models.CharField(
-        max_length= 50
+        max_length=50
         )
     email = models.EmailField(
         max_length=70
         )
     phone = models.IntegerField()
     postcode = models.CharField(
-        max_length= 10
+        max_length=10
         )
     street_address = models.CharField(
         max_length=100
         )
     message = models.TextField(
-        max_length = 300
+        max_length=300
         )
-        
+
     def __str__(self):
         """
         Returns the contact name as a string
         """
         return self.name
-    
-    
+
+
 class Reason(models.Model):
     """
     A class for the Reasons model
@@ -46,7 +47,7 @@ class Reason(models.Model):
     reason = models.CharField(
         max_length=100
         )
-    
+
     def __str__(self):
         """
         Returns the reason name as a string

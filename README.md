@@ -392,21 +392,22 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/py-validation/py-validation-contact-forms.png">
 </details>
 
+#### About py validation
 
 <details><summary>about/models.py</summary>
-<img src="readme/validation/py-validation/py-validation-models.png">
+<img src="readme/validation/py-validation/py-validation-about-models.png">
 </details>
 <details><summary>bookings/models.py</summary>
-<img src="readme/validation/py-validation/py-validation-models.png">
+<img src="readme/validation/py-validation/py-validation-bookings-models.png">
 </details>
 <details><summary>contact/models.py</summary>
-<img src="readme/validation/py-validation/py-validation-models.png">
+<img src="readme/validation/py-validation/py-validation-contract-models.png">
 </details>
 <details><summary>home/models.py</summary>
-<img src="readme/validation/py-validation/py-validation-models.png">
+<img src="readme/validation/py-validation/py-validation-home-models.png">
 </details>
 <details><summary>meals/models.py</summary>
-<img src="docs/validation/py-validation/py-validation-models.png">
+<img src="docs/validation/py-validation/py-validation-meals-models.png">
 </details>
 
 <details><summary>about/urls.py</summary>

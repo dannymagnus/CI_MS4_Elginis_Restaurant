@@ -6,6 +6,7 @@ from django.db import models
 # Internal:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 class Carousel(models.Model):
     """
     A class for the carousel model
@@ -21,7 +22,7 @@ class Carousel(models.Model):
     image = models.ImageField(
         upload_to='home/'
         )
-    
+
     def __str__(self):
         """
         Returns the carousel title

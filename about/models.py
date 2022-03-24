@@ -7,6 +7,7 @@ from django.contrib.auth.models import User
 # Internal:
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 class About(models.Model):
     """
     A class for the about model
@@ -20,11 +21,11 @@ class About(models.Model):
     image = models.ImageField(
         upload_to='about/'
         )
-    
+
     class Meta:
         verbose_name = 'About'
         verbose_name_plural = 'About'
-        
+
     def __str__(self):
         """
         Returns the about name string
@@ -46,11 +47,11 @@ class Reason(models.Model):
     class Meta:
         verbose_name = 'Reason'
         verbose_name_plural = 'Reasons'
-        
+
     def __str__(self):
         """
         Returns the about name string
-        """        
+        """
         return self.title
 
 
@@ -59,7 +60,7 @@ class Chef(models.Model):
     A class for the chef model
     """
     name = models.CharField(
-        max_length= 30
+        max_length=30
         )
     description = models.TextField(
         max_length=300
@@ -67,11 +68,11 @@ class Chef(models.Model):
     image = models.ImageField(
         upload_to='about/'
         )
-    
+
     class Meta:
         verbose_name = 'Chef'
         verbose_name_plural = 'Chefs'
-        
+
     def __str__(self):
         """
         Returns the chef name string

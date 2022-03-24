@@ -12,19 +12,19 @@ from django.contrib import admin
 class Allergen(models.Model):
     """
     A class for the allergen model
-    """    
+    """
     name = models.CharField(
-        max_length= 50
+        max_length=50
         )
     image = models.ImageField(
         upload_to='allergens/',
         blank=True
         )
-    
+
     def __str__(self):
         return self.name
 
-# Create your models here.
+
 class Meal(models.Model):
     """
     A class for the meal model
@@ -35,13 +35,12 @@ class Meal(models.Model):
     description = models.TextField(
         max_length=500
         )
-    #Acceptable categories = [starter, pasta, pizza, speciality, salad, dessert, drink]
     category = models.ForeignKey(
-        'Category', 
-        on_delete=models.SET_NULL, 
-        null=True, 
-        blank=True, 
-        related_name='category', 
+        'Category',
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name='category',
         related_query_name='category'
         )
     lunch = models.BooleanField(
@@ -54,8 +53,8 @@ class Meal(models.Model):
         default=500
         )
     price = models.DecimalField(
-        max_digits=3, 
-        decimal_places=1
+        max_digits=3,
+        decimal_places=1,
         )
     vegetarian = models.BooleanField(
         default=False
@@ -64,19 +63,20 @@ class Meal(models.Model):
         default=False
         )
     allergens = models.ManyToManyField(
-        Allergen, blank=True, 
+        Allergen, blank=True,
         related_name='allergens'
         )
     image = models.ImageField(
-        upload_to='meals/', 
+        upload_to='meals/',
         blank=True
         )
     slug = models.SlugField(
-        blank=True, 
+        blank=True,
         null=True
         )
-    
-    #Overide save function to create a slug on save - courtesy of Mahmoud Ahmed
+
+    # Overide save function to create a slug on save -
+    # courtesy of Mahmoud Ahmed
     def save(self, *args, **kwargs):
         """
         Function to take slug or create on if none exist
@@ -85,7 +85,7 @@ class Meal(models.Model):
             self.slug = slugify(self.name)
         super(Meal, self).save(*args, **kwargs)
 
-    #Show object by name in admin panel
+    # Show object by name in admin panel
     def __str__(self):
         """
         Returns the category name string
@@ -95,8 +95,8 @@ class Meal(models.Model):
             The category name string
         """
         return self.name
-    
-    
+
+
 class Category(models.Model):
     """
     A class for the category model
@@ -104,7 +104,7 @@ class Category(models.Model):
     name = models.CharField(
         max_length=50
         )
-    
+
     def __str__(self):
         """
         Returns the category name string
@@ -114,7 +114,8 @@ class Category(models.Model):
             The category name string
         """
         return self.name
-    
+
+
 class Drink(models.Model):
     """
     A class for the drink model
@@ -123,18 +124,18 @@ class Drink(models.Model):
         max_length=50
         )
     category = models.ForeignKey(
-        'DrinkCategory', 
-        on_delete=models.SET_NULL, 
-        null=True, 
-        blank=True, 
-        related_name='category', 
+        'DrinkCategory',
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name='category',
         related_query_name='category'
         )
     description = models.CharField(
-        max_length= 100, 
-        blank = True
+        max_length=100,
+        blank=True
         )
-    
+
     def __str__(self):
         """
         Returns the category name string
@@ -144,8 +145,8 @@ class Drink(models.Model):
             The category name string
         """
         return self.name
-    
-    
+
+
 class DrinkCategory(models.Model):
     """
     A class for the drinkcategory model
