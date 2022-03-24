@@ -392,7 +392,7 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/py-validation/py-validation-contact-forms.png">
 </details>
 
-#### About py validation
+#### Models py validation
 
 <details><summary>about/models.py</summary>
 <img src="readme/validation/py-validation/py-validation-about-models.png">
