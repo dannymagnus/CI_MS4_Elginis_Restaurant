@@ -53,11 +53,12 @@
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [JS Validation](#JS-validation)
-    4. [Accessibility](#accessibility)
-    5. [Performance](#performance)
-    6. [Device testing](#performing-tests-on-various-devices)
-    7. [Browser compatibility](#browser-compatibility)
-    8. [Testing user stories](#testing-user-stories)
+    4. [Python Validation](#py-validation)
+    5. [Accessibility](#accessibility)
+    6. [Performance](#performance)
+    7. [Device testing](#performing-tests-on-various-devices)
+    8. [Browser compatibility](#browser-compatibility)
+    9. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
 10. [Deployment](#deployment)
 11. [Credits](#credits)
@@ -304,6 +305,86 @@ python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
 - JSHint (https://jshint.com/) - for javascript validation
 - PEP8 (https://www.python.org/dev/peps/pep-0008/) - for python validation
 - Quick Database diagrams (https://www.quickdatabasediagrams.com)- for the database schema diagram
+
+
+
+
+
+
+
+
+## Deployment
+
+### Heroku
+
+This application has been deployed from Github using Heroku. Here's how:
+
+1. Create an account at heroku.com
+2. Create a new app, add app name and your region
+3. Click on create app
+4. Go to "Settings"
+5. Under Config Vars, add your sensitive data (creds.json for example)
+6. For this project, I set buildpacks to and in that order.
+7. Go to "Deploy" and at "Deployment method", click on "Connect to Github"
+8. Enter your repository name and click on it when it shows below
+9. Choose the branch you want to buid your app from
+10. If desired, click on "Enable Automatic Deploys", which keeps the app up to date with your Github repository
+
+### Forking the GitHub Repository 
+
+By forking this GitHub repository you are making a copy of the original to view or make changes without affecting the original. You can do this by following these steps...
+
+1. Log into your GitHub account and find the [repository](https://github.com/dannymagnus/CI_MS3_MitsurukiFMS).
+2. Click 'Fork' (last button on the top right of the repository page).
+3. You will then have a copy of the repository in your own GitHub account. 
+
+### Making a Local Clone
+
+1. Log into your GitHub account and find the [repository](https://github.com/dannymagnus/CI_MS4_Elginis_Restaurant).
+2. Click on the 'Code' button (next to 'Add file'). 
+3. To clone the repository using HTTPS, under clone with HTTPS, copy the link.
+4. Then open Git Bash.
+5. Change the current working directory to where you want the cloned directory to be made.
+6. In your IDE's terminal type 'git clone' followed by the URL you copied.
+7. Press Enter. 
+8. Your local clone will now be made.
+
+## Credits
+
+*All credit also included in the page files.*
+
+<!-- ### Code
+
+- **WebDev Simplified** - for [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) and [Grid](https://www.youtube.com/watch?v=9zBsdzdE4sM) learning about quiz concepts.
+- **CSS Tricks** - for [Scaleable Divs](https://css-tricks.com/aspect-ratio-boxes/) for scaleable divs
+- **W3C Schools** - for [jquery](https://jquery.com/) FadeIn and FadeOut methods.
+- **Google Fonts** - for [Importing Fonts](https://fonts.google.com/)
+- **Bootstrap** - for [Modals](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap was used for the responsive nav bar, some button styles and modals in the about page for planets.
+- **Font Awesome** - for [Social Media Icons](https://fontawesome.com/)
+- **Favicon** - for [Browser icon](www.favicon.io)
+- **Solar System Scope** - for [iframe](https://www.solarsystemscope.com/)
+- **Font Space** - for [Star-Trek Theme Font](https://www.fontspace.com/category/star-trek)
+- **Transfonter** - for [Font conversion](https://transfonter.org/)
+
+### Media
+
+Media from the following artists was used throughout the site.
+
+- [Adobe Stock Images](www.stock.adobe.com)
+- [NASA](https://solarsystem.nasa.gov/planets/)
+- [Solar System Scope](https://www.solarsystemscope.com/)
+- [envatotutsplus](https://design.tutsplus.com/tutorials/create-a-star-trek-style-communicator-in-photoshop--psd-13545)
+
+
+### Acknowledgements: 
+
+- To my wife Rebecca Richards for her testing, support, feedback, permissions for content and images on this project. 
+- To my mentor Mo Shami for his invaluable guidance and direction.
+- To the Code Institute slack community of students.
+- To the Code Institute Tutors -->
+
+
+
 
 
 
