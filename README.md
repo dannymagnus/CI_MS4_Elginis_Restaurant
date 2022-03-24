@@ -260,55 +260,40 @@ Josefin Sans is the font used across all of the body text, this font is from the
 - [Python3](https://en.wikipedia.org/wiki/Python_(programming_language))
 #### Python Libraries
 
-astroid==2.8.4 - for pylinting
-cloudinary==1.29.0 - for media and static file remote storage and serving
-crispy-bootstrap5==0.6 - for form styling
-dj-database-url==0.5.0 - (Support for DATABASE_URL environment variable)
-dj3-cloudinary-storage==0.0.6 - for media and static file remote storage and serving
-django-allauth==0.49.0 - (Web framework authentication)
-django-crispy-forms==1.14.0 - for form rendering and handling
-flake8==4.0.1 - for linting
-gunicorn==20.1.0 - (Python WSGI Http server)
-Pillow==9.0.1 - (Imaging library)
-postgres==4.0 - (Postgres adapter)
-psycopg2==2.9.3 (Postgres adapter)
-psycopg2-binary==2.9.3 (Postgres adapter)
-psycopg2-pool==1.1 (Postgres adapter)
-python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
+- astroid==2.8.4 - for pylinting
+- cloudinary==1.29.0 - for media and static file remote storage and serving
+- crispy-bootstrap5==0.6 - for form styling
+- dj-database-url==0.5.0 - (Support for DATABASE_URL environment variable)
+- dj3-cloudinary-storage==0.0.6 - for media and static file remote storage and serving
+- django-allauth==0.49.0 - (Web framework authentication)
+- django-crispy-forms==1.14.0 - for form rendering and handling
+- flake8==4.0.1 - for linting
+- gunicorn==20.1.0 - (Python WSGI Http server)
+- Pillow==9.0.1 - (Imaging library)
+- postgres==4.0 - (Postgres adapter)
+- psycopg2==2.9.3 (Postgres adapter)
+- psycopg2-binary==2.9.3 (Postgres adapter)
+- psycopg2-pool==1.1 (Postgres adapter)
+- python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
 
 ### Frameworks & Tools
 - Bootstrap 5.0 (https://getbootstrap.com/docs/5.0) - for general site layout, grid, flex, carousel.
-
 - Postgres (https://www.postgresql.org/) - the site is deployed on Heroku using a Postgress database.
-
 - SQLLite (https://www.sqlite.org/index.html) - this database was used in local development.
-
 - VSCode (https://code.visualstudio.com/) - my IDE of choice for this project.
-
 - Gitpod (https://gitpod.io/) - used occasionally for tutor support.
-
 - Github (https://github.com/) - used as the code repository.
-
 - Google Fonts (https://fonts.google.com/) - used for the main body font and some headings.
-
 - Balsamiq (https://balsamiq.com/) -  used to create the website wireframes.
-
 - Font Awesome (https://fontawesome.com/) - Font awesome was used to provide the relevant fonts/icons for the website social media icon links.
-
 - JQuery (https://jquery.com) - JQuery was used in some javascript files for DOM manipulation
-
 <!-- - TinyPNG (https://tinypng.com/)
     - TinyPNG was used to compress images to improve performance and reduce space -->
 - CSS Validation Service (https://jigsaw.w3.org/css-validator/) - for validation of the css in the project.
-
 - HTML Markup Validation Service (https://validator.w3.org/) - for validation the HTML in the project.
-
 - Firefox dev tools (https://firefox-source-docs.mozilla.org/devtools-user/index.html) - troubleshooting and debugging of the project code.
-
 - Chrome Lighthouse (https://developers.google.com/web/tools/lighthouse) - for performance, accessibility, progressive web apps, SEO analysis of the project code.
-
 - Responsive Design (http://ami.responsivedesign.is/) - for website mockup.
-
 <!-- - GitHub Wiki TOC generator (https://ecotrust-canada.github.io/markdown-toc/)
     - Used for generating a table of contents for this README -->
 <!-- - Gofullpage chrome plugin  (https://chrome.google.com/webstore/detail/gofullpage-full-page-scre)
@@ -318,9 +303,7 @@ python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
 <!-- - Unittest (https://docs.djangoproject.com/en/3.2/topics/testing/overview/)
     - For Python unit testing -->
 - JSHint (https://jshint.com/) - for javascript validation.
-
 - PEP8 (https://www.python.org/dev/peps/pep-0008/) - for python validation.
-
 - Quick Database diagrams (https://www.quickdatabasediagrams.com)- for the database schema diagram.
 
 
