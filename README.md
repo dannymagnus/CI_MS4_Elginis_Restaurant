@@ -238,9 +238,42 @@ After choosing a colour scheme I tested a number of palette options to make sure
 
 <br>![Database model](readme/misc/accessible-color.jpg)
 
+### Typography
+Maria Rose is the font uses for the logo, and is replicated in the main headings of the website. This font is licensed from Creative Market, with a standard license for personal use.
+
+Josefin Sans is the font used across all of the body text, this font is from the Google Fonts Library.
 
 
 
+
+
+
+
+## Technologies Used
+
+### Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JS ES6](https://en.wikipedia.org/wiki/JavaScript)
+- [Django](https://www.djangoproject.com/)
+- [Python3](https://en.wikipedia.org/wiki/Python_(programming_language))
+#### Python Libraries
+
+astroid==2.8.4 - for pylinting
+cloudinary==1.29.0 - for media and static file remote storage and serving
+crispy-bootstrap5==0.6 - for form styling
+dj-database-url==0.5.0 - (Support for DATABASE_URL environment variable)
+dj3-cloudinary-storage==0.0.6 - for media and static file remote storage and serving
+django-allauth==0.49.0 - (Web framework authentication)
+django-crispy-forms==1.14.0 - for form rendering and handling
+flake8==4.0.1 - for linting
+gunicorn==20.1.0 - (Python WSGI Http server)
+Pillow==9.0.1 - (Imaging library)
+postgres==4.0 - (Postgres adapter)
+psycopg2==2.9.3 (Postgres adapter)
+psycopg2-binary==2.9.3 (Postgres adapter)
+psycopg2-pool==1.1 (Postgres adapter)
+python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
 
 
 
