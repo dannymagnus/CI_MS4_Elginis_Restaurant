@@ -3,7 +3,7 @@
 # 3rd party:
 from django.contrib import admin
 
-#Internal
+# Internal
 from .models import Meal, Category, Allergen, Drink, DrinkCategory
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -42,7 +42,7 @@ class MealAdmin(admin.ModelAdmin):
         'dinner',
         'category',
         )
-    
+
 
 @admin.register(Category)
 class MealAdmin(admin.ModelAdmin):
@@ -52,8 +52,8 @@ class MealAdmin(admin.ModelAdmin):
     list_display = (
         'name',
     )
-    
-    
+
+
 @admin.register(Allergen)
 class AllergenAdmin(admin.ModelAdmin):
     """
@@ -62,8 +62,8 @@ class AllergenAdmin(admin.ModelAdmin):
     list_display = (
         'name',
     )
-    
-    
+
+
 @admin.register(Drink)
 class DrinkAdmin(admin.ModelAdmin):
     """
@@ -82,7 +82,7 @@ class DrinkAdmin(admin.ModelAdmin):
         'description',
         'category',
         )
-    
+
 
 @admin.register(DrinkCategory)
 class AllergenAdmin(admin.ModelAdmin):
