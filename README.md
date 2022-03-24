@@ -410,6 +410,8 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="docs/validation/py-validation/py-validation-meals-models.png">
 </details>
 
+#### Urls py validation
+
 <details><summary>about/urls.py</summary>
 <img src="readme/validation/py-validation/py-validation-urls.png">
 </details>
