@@ -362,6 +362,8 @@ The Python of the each page of the site was validated using [Python validation t
 
 <details><summary>Details</summary>
 
+#### Admin py-validation
+
 <details><summary>about/admin.py</summary>
 <img src="readme/validation/py-validation/py-validation-about-admin.png">
 </details>
