@@ -278,22 +278,37 @@ python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
 
 ### Frameworks & Tools
 - Bootstrap 5.0 (https://getbootstrap.com/docs/5.0) - for general site layout, grid, flex, carousel.
-- Postgres (https://www.postgresql.org/) - the site is deployed on Heroku using a Postgress database
-- SQLLite (https://www.sqlite.org/index.html) - this database was used in local development
-- VSCode (https://code.visualstudio.com/) - my IDE of choice for this project
+
+- Postgres (https://www.postgresql.org/) - the site is deployed on Heroku using a Postgress database.
+
+- SQLLite (https://www.sqlite.org/index.html) - this database was used in local development.
+
+- VSCode (https://code.visualstudio.com/) - my IDE of choice for this project.
+
 - Gitpod (https://gitpod.io/) - used occasionally for tutor support.
-- Github (https://github.com/) - used as the code repository
-- Google Fonts (https://fonts.google.com/) - used for the main body font and some headings
-- Balsamiq (https://balsamiq.com/) -  used to create the website wireframes
+
+- Github (https://github.com/) - used as the code repository.
+
+- Google Fonts (https://fonts.google.com/) - used for the main body font and some headings.
+
+- Balsamiq (https://balsamiq.com/) -  used to create the website wireframes.
+
 - Font Awesome (https://fontawesome.com/) - Font awesome was used to provide the relevant fonts/icons for the website social media icon links.
+
 - JQuery (https://jquery.com) - JQuery was used in some javascript files for DOM manipulation
+
 <!-- - TinyPNG (https://tinypng.com/)
     - TinyPNG was used to compress images to improve performance and reduce space -->
 - CSS Validation Service (https://jigsaw.w3.org/css-validator/) - for validation of the css in the project.
-- HTML Markup Validation Service (https://validator.w3.org/) - for validation the HTML in the project  
-- Firefox dev tools (https://firefox-source-docs.mozilla.org/devtools-user/index.html) - troubleshooting and debugging of the project code
-- Chrome Lighthouse (https://developers.google.com/web/tools/lighthouse) - for performance, accessibility, progressive web apps, SEO analysis of the project code
-- Responsive Design (http://ami.responsivedesign.is/) - for website mockup
+
+- HTML Markup Validation Service (https://validator.w3.org/) - for validation the HTML in the project.
+
+- Firefox dev tools (https://firefox-source-docs.mozilla.org/devtools-user/index.html) - troubleshooting and debugging of the project code.
+
+- Chrome Lighthouse (https://developers.google.com/web/tools/lighthouse) - for performance, accessibility, progressive web apps, SEO analysis of the project code.
+
+- Responsive Design (http://ami.responsivedesign.is/) - for website mockup.
+
 <!-- - GitHub Wiki TOC generator (https://ecotrust-canada.github.io/markdown-toc/)
     - Used for generating a table of contents for this README -->
 <!-- - Gofullpage chrome plugin  (https://chrome.google.com/webstore/detail/gofullpage-full-page-scre)
@@ -302,9 +317,11 @@ python3-openid==3.2.0 (Support for the OpenID decentralized identity system)
     - For testing python code snippets -->
 <!-- - Unittest (https://docs.djangoproject.com/en/3.2/topics/testing/overview/)
     - For Python unit testing -->
-- JSHint (https://jshint.com/) - for javascript validation
-- PEP8 (https://www.python.org/dev/peps/pep-0008/) - for python validation
-- Quick Database diagrams (https://www.quickdatabasediagrams.com)- for the database schema diagram
+- JSHint (https://jshint.com/) - for javascript validation.
+
+- PEP8 (https://www.python.org/dev/peps/pep-0008/) - for python validation.
+
+- Quick Database diagrams (https://www.quickdatabasediagrams.com)- for the database schema diagram.
 
 
 
