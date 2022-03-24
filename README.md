@@ -407,7 +407,7 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/py-validation/py-validation-home-models.png">
 </details>
 <details><summary>meals/models.py</summary>
-<img src="docs/validation/py-validation/py-validation-meals-models.png">
+<img src="readme/validation/py-validation/py-validation-meals-models.png">
 </details>
 
 #### Urls py validation
