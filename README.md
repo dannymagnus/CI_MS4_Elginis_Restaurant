@@ -380,21 +380,18 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/py-validation/py-validation-meals-admin.png">
 </details>
 
+#### Forms py validation
+
 <details><summary>about/forms.py</summary>
-<img src="readme/validation/py-validation/py-validation-forms.png">
+<img src="readme/validation/py-validation/py-validation-about-forms.png">
 </details>
 <details><summary>bookings/forms.py</summary>
-<img src="readme/validation/py-validation/py-validation-forms.png">
+<img src="readme/validation/py-validation/py-validation-bookings-forms.png">
 </details>
 <details><summary>contact/forms.py</summary>
-<img src="readme/validation/py-validation/py-validation-forms.png">
+<img src="readme/validation/py-validation/py-validation-contact-forms.png">
 </details>
-<details><summary>home/forms.py</summary>
-<img src="readme/validation/py-validation/py-validation-forms.png">
-</details>
-<details><summary>meals/forms.py</summary>
-<img src="readme/validation/py-validation/py-validation-forms.png">
-</details>
+
 
 <details><summary>about/models.py</summary>
 <img src="readme/validation/py-validation/py-validation-models.png">

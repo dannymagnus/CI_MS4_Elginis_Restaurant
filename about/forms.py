@@ -6,6 +6,7 @@ from django import forms
 from .models import Comment
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
 class CommentForm(forms.ModelForm):
     """
     A class for Comment forms
