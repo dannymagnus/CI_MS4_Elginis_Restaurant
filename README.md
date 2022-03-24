@@ -308,6 +308,175 @@ Josefin Sans is the font used across all of the body text, this font is from the
 
 
 
+## Validation
+
+### HTML Validation
+The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
+
+<details><summary>Home</summary>
+<img src="docs/validation/html-validation/html-validation-index.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/html-validation/html-validation-about.png">
+</details>
+<details><summary>Quiz</summary>
+<img src="docs/validation/html-validation/html-validation-quiz.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/html-validation/html-validation-404.png">
+</details>
+
+### CSS Validation
+The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
+
+The custom CSS file for the site passed with 0 errors.
+
+<details><summary>Custom CSS file</summary>
+<img src="docs/validation/css-validation/css-validation.png">
+</details>
+
+Whole site validation returned 13 errors on third party resources and 6 errors on my custom css where variables have been used to change background and foreground colors dynamically with my js in the quiz.  Given that the implementation works without fault, that the file validation returned no errors, and following constultation with CI tutor, the recommended action was that the css was not changed as to prevent functional failure with the site, as this would likely be issue with the validator, not the code itself.
+
+<details><summary>Whole site</summary>
+<img src="docs/validation/css-validation/css-validation-site.png">
+</details>
+
+### JS Validation
+The Javascript of the each page of the site was validated using [JSHint validation tool](https://jshint.com/).  All pages returned a pass with 0 errors and 0 warnings.
+
+<details><summary>Home</summary>
+<img src="docs/validation/js-validation/js-validation-index.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/js-validation/js-validation-about.png">
+</details>
+<details><summary>Quiz</summary>
+<img src="docs/validation/js-validation/js-validation-quiz.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/js-validation/js-validation-_404.png">
+</details>
+
+### Py Validation
+The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings.
+
+<details><summary>about/admin.py</summary>
+<img src="readme/validation/py-validation/py-validation-about-admin.txt">
+</details>
+<details><summary>bookings/admin.py</summary>
+<img src="readme/validation/py-validation/py-validation-bookings-admin.png">
+</details>
+<details><summary>contact/admin.py</summary>
+<img src="readme/validation/py-validation/py-validation-contact-admin.png">
+</details>
+<details><summary>home/admin.py</summary>
+<img src="readme/validation/py-validation/py-validation-home-admin.png">
+</details>
+<details><summary>meals/admin.py</summary>
+<img src="readme/validation/py-validation/py-validation-meals-admin.png">
+</details>
+
+<details><summary>about/forms.py</summary>
+<img src="readme/validation/py-validation/py-validation-forms.png">
+</details>
+<details><summary>bookings/forms.py</summary>
+<img src="readme/validation/py-validation/py-validation-forms.png">
+</details>
+<details><summary>contact/forms.py</summary>
+<img src="readme/validation/py-validation/py-validation-forms.png">
+</details>
+<details><summary>home/forms.py</summary>
+<img src="readme/validation/py-validation/py-validation-forms.png">
+</details>
+<details><summary>meals/forms.py</summary>
+<img src="readme/validation/py-validation/py-validation-forms.png">
+</details>
+
+<details><summary>about/models.py</summary>
+<img src="readme/validation/py-validation/py-validation-models.png">
+</details>
+<details><summary>bookings/models.py</summary>
+<img src="readme/validation/py-validation/py-validation-models.png">
+</details>
+<details><summary>contact/models.py</summary>
+<img src="readme/validation/py-validation/py-validation-models.png">
+</details>
+<details><summary>home/models.py</summary>
+<img src="readme/validation/py-validation/py-validation-models.png">
+</details>
+<details><summary>meals/models.py</summary>
+<img src="docs/validation/py-validation/py-validation-models.png">
+</details>
+
+<details><summary>about/urls.py</summary>
+<img src="readme/validation/py-validation/py-validation-urls.png">
+</details>
+<details><summary>bookings/urls.py</summary>
+<img src="readme/validation/py-validation/py-validation-urls.png">
+</details>
+<details><summary>contact/urls.py</summary>
+<img src="readme/validation/py-validation/py-validation-urls.png">
+</details>
+<details><summary>home/urls.py</summary>
+<img src="readme/validation/py-validation/py-validation-urls.png">
+</details>
+<details><summary>meals/urls.py</summary>
+<img src="readme/validation/py-validation/py-validation-urls.png">
+</details>
+
+<details><summary>about/views.py</summary>
+<img src="readme/validation/py-validation/py-validation-views.png">
+</details>
+<details><summary>bookings/views.py</summary>
+<img src="readme/validation/py-validation/py-validation-views.png">
+</details>
+<details><summary>contact/views.py</summary>
+<img src="readme/validation/py-validation/py-validation-views.png">
+</details>
+<details><summary>home/views.py</summary>
+<img src="readme/validation/py-validation/py-validation-views.png">
+</details>
+<details><summary>meals/views.py</summary>
+<img src="readme/validation/py-validation/py-validation-views.png">
+</details>
+
+<details><summary>project/urls.py</summary>
+<img src="readme/validation/py-validation/py-validation-urls.png">
+</details>
+
+### Accessibility
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards. All pages returned 0 errors.
+
+<details><summary>Home</summary>
+<img src="docs/validation/wave-validation/wave-validation-index.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/wave-validation/wave-validation-about.png">
+</details>
+<details><summary>Quiz</summary>
+<img src="docs/validation/wave-validation/wave-validation-quiz.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/wave-validation/wave-validation-404.png">
+</details>
+
+### Performance 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page scored over 90 in all categories - performance, accessibility, best practice and SEO with results below:
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-index.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-about.png">
+</details>
+<details><summary>Quiz</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-quiz.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-404.png">
+</details>
+
+
 
 
 

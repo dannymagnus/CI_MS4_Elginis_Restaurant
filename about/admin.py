@@ -1,8 +1,30 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Imports
+# 3rd Party
 from django.contrib import admin
-from .models import About, Reason, Chef, Comment
 
-# Register your models here.
-admin.site.register(Chef)
+# Internal
+from .models import About, Reason, Chef, Comment
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+@admin.register(Comment)
+class ChefAdmin(Chef):
+    """
+    Admin class for chef
+    """
+    list_display = (
+        'name',
+        'bio',
+        'image'
+        )
+    list_filter = (
+        'name',
+        )
+    search_fields = (
+        'name',
+        )
+
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
@@ -13,21 +35,22 @@ class CommentAdmin(admin.ModelAdmin):
         'name',
         'body',
         'created_on',
-        'approved'
+        'approved',
         )
     list_filter = (
         'approved',
-        'created_on'
+        'created_on',
         )
     search_fields = (
         'name',
         'email',
-        'body')
+        'body',
+        )
     actions = ['approve_comments']
 
     def approve_comments(self, request, queryset):
         queryset.update(approved=True)
-        
+
 
 @admin.register(About)
 class AboutAdmin(admin.ModelAdmin):
@@ -35,15 +58,15 @@ class AboutAdmin(admin.ModelAdmin):
     Admin Clas for Comment Model
     """
     list_display = (
-        'title', 
-        'body', 
-        'image'
+        'title',
+        'body',
+        'image',
         )
     search_fields = (
-        'title', 
-        'body'
+        'title',
+        'body',
         )
-    
+
 
 @admin.register(Reason)
 class ReasonAdmin(admin.ModelAdmin):
@@ -51,10 +74,10 @@ class ReasonAdmin(admin.ModelAdmin):
     Admin Class for Reason Model
     """
     list_display = (
-        'title', 
-        'body'
+        'title',
+        'body',
         )
     search_fields = (
-        'title', 
-        'body'
+        'title',
+        'body',
         )
