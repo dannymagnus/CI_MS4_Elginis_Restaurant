@@ -360,6 +360,7 @@ The Javascript of the each page of the site was validated using [JSHint validati
 ### Py Validation
 The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings.
 
+<details><summary>Details</summary>
 <details><summary>about/admin.py</summary>
 <img src="readme/validation/py-validation/py-validation-about-admin.png">
 </details>
@@ -442,6 +443,8 @@ The Python of the each page of the site was validated using [Python validation t
 
 <details><summary>project/urls.py</summary>
 <img src="readme/validation/py-validation/py-validation-urls.png">
+</details>
+
 </details>
 
 ### Accessibility
