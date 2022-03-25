@@ -1,10 +1,16 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Imports
+# 3rd Party
 from django.urls import path
-from . import views
 
-#Provide an app name to fix namespace error
+# Internal
+from . import views
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 app_name = 'about'
 
 urlpatterns = [
     path('', views.about, name='about'),
-    path('delete/<comment_id>', views.delete_item, name = 'delete')
+    path('delete/<comment_id>', views.delete_item, name='delete')
 ]

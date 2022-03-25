@@ -413,19 +413,19 @@ The Python of the each page of the site was validated using [Python validation t
 #### Urls py validation
 
 <details><summary>about/urls.py</summary>
-<img src="readme/validation/py-validation/py-validation-urls.png">
+<img src="readme/validation/py-validation/py-validation-about-urls.png">
 </details>
 <details><summary>bookings/urls.py</summary>
-<img src="readme/validation/py-validation/py-validation-urls.png">
+<img src="readme/validation/py-validation/py-validation-bookings-urls.png">
 </details>
 <details><summary>contact/urls.py</summary>
-<img src="readme/validation/py-validation/py-validation-urls.png">
+<img src="readme/validation/py-validation/py-validation-contact-urls.png">
 </details>
 <details><summary>home/urls.py</summary>
-<img src="readme/validation/py-validation/py-validation-urls.png">
+<img src="readme/validation/py-validation/py-validation-home-urls.png">
 </details>
 <details><summary>meals/urls.py</summary>
-<img src="readme/validation/py-validation/py-validation-urls.png">
+<img src="readme/validation/py-validation/py-validation-meals-urls.png">
 </details>
 
 <details><summary>about/views.py</summary>

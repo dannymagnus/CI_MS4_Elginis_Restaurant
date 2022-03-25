@@ -1,7 +1,12 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Imports
+# 3rd Party
 from django.shortcuts import render
+# Internal
 from .models import Booking
 from .forms import BookingForm
-# Create your views here.
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 def make_booking(request):
     """
