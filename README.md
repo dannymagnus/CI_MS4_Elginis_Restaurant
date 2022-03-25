@@ -314,7 +314,7 @@ Josefin Sans is the font used across all of the body text, this font is from the
 The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
 
 <details><summary>Home</summary>
-<img src="docs/validation/html-validation/html-validation-index.png">
+<img src="docs/validation/html-validation/html-validation-home-index.png">
 </details>
 <details><summary>About</summary>
 <img src="docs/validation/html-validation/html-validation-about.png">
