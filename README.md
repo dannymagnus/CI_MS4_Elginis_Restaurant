@@ -316,8 +316,11 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <details><summary>Home</summary>
 <img src="docs/validation/html-validation/html-validation-home-index.png">
 </details>
+<details><summary>Home</summary>
+<img src="docs/validation/html-validation/html-validation-meals-dinner-menu.png">
+</details>
 <details><summary>About</summary>
-<img src="docs/validation/html-validation/html-validation-about.png">
+<img src="docs/validation/html-validation/html-validation-meals-lunch-menu.png">
 </details>
 <details><summary>Quiz</summary>
 <img src="docs/validation/html-validation/html-validation-quiz.png">
