@@ -12,7 +12,9 @@ from .forms import CommentForm
 
 def about(request):
     """
-    A view to show restaurant bio, reasons to dine, chef images and bio, and comments
+    A view to show restaurant bio,
+    reasons to dine, chef images and bio,
+    and comments
     Args:
         request (object): HTTP request object and or form object.
     Returns:
@@ -25,9 +27,9 @@ def about(request):
         approved=True
         ).order_by(
             "-created_on"
-            )
+        )
     comment_form = CommentForm()
-    commented = False  
+    commented = False
     if request.method == 'POST':
         comment_form = CommentForm(data=request.POST)
         if comment_form.is_valid():
@@ -40,13 +42,13 @@ def about(request):
             comment_form = CommentForm()
     context = {
         'about': about,
-        'chefs':chefs,
+        'chefs': chefs,
         'reasons': reasons,
-        'comment_form':comment_form,
+        'comment_form': comment_form,
         'comments': comments,
-        'commented':commented,
+        'commented': commented,
         }
-    return render(request,'about.html',context)
+    return render(request, 'about.html', context)
 
 
 def delete_item(request, comment_id):

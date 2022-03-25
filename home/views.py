@@ -18,5 +18,5 @@ def home(request):
     """
     carousel = Carousel.objects.all()
     context = {'carousel': carousel}
-    
-    return render(request,'home/index.html', context)
+
+    return render(request, 'home/index.html', context)

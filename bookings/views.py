@@ -24,6 +24,6 @@ def make_booking(request):
             booking_form.save()
             booked = True
     context = {'form': booking_form,
-               'booked': booked,}
-    
-    return render(request,'bookings/bookings.html', context)
+               'booked': booked, }
+
+    return render(request, 'bookings/bookings.html', context)
