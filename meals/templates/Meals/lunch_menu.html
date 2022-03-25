@@ -9,7 +9,7 @@
         <div class="row margin-top-5vh">
             <div class="col-sm col-md4"></div>
             <div class="col-sm col-md4 d-flex align-items-center justify-content-center border-right-2 border-left-2">
-                <h1 class = "text-align-center border-left-2px">Lunch Menu</h1>
+                <h2 class = "text-align-center border-left-2px">Lunch Menu</h2>
             </div>
             <div class="col-sm col-md4"></div>            
         </div>
@@ -46,7 +46,7 @@
                         <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 menu-item">
                             <div class="row">
                                 <div class="col-4 padding-0">
-                                    <a href="{% url 'meals:meal_information' meal.slug %}"><img src="{{meal.image.url}}" class="img-fluid menu-item-image"></a>
+                                    <a href="{% url 'meals:meal_information' meal.slug %}"><img src="{{meal.image.url}}" alt = "{{meal.name}} class="img-fluid menu-item-image"></a>
                                 </div>
                                 <div class="col-8">
                                     <div class="row height-20">
