@@ -314,31 +314,31 @@ Josefin Sans is the font used across all of the body text, this font is from the
 The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
 
 <details><summary>Home</summary>
-<img src="docs/validation/html-validation/html-validation-home-index.png">
+<img src="readme/validation/html-validation/html-validation-home-index.png">
 </details>
 <details><summary>Full Menu</summary>
-<img src="docs/validation/html-validation/html-validation-meals-full-menu.png">
+<img src="readme/validation/html-validation/html-validation-meals-full-menu.png">
 </details>
 <details><summary>Dinner Menu</summary>
-<img src="docs/validation/html-validation/html-validation-meals-dinner-menu.png">
+<img src="readme/validation/html-validation/html-validation-meals-dinner-menu.png">
 </details>
 <details><summary>Lunch Menu</summary>
-<img src="docs/validation/html-validation/html-validation-meals-lunch-menu.png">
+<img src="readme/validation/html-validation/html-validation-meals-lunch-menu.png">
 </details>
 <details><summary>Drinks Menu</summary>
-<img src="docs/validation/html-validation/html-validation-meals-drinks-menu.png">
+<img src="readme/validation/html-validation/html-validation-meals-drinks-menu.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/html-validation/html-validation-about.png">
+<img src="readme/validation/html-validation/html-validation-about.png">
 </details>
 <details><summary>Booking</summary>
-<img src="docs/validation/html-validation/html-validation-booking.png">
+<img src="readme/validation/html-validation/html-validation-booking.png">
 </details>
 <details><summary>Contact Us</summary>
-<img src="docs/validation/html-validation/html-validation-contact.png">
+<img src="readme/validation/html-validation/html-validation-contact.png">
 </details>
 <details><summary>404</summary>
-<img src="docs/validation/html-validation/html-validation-404.png">
+<img src="readme/validation/html-validation/html-validation-404.png">
 </details>
 
 ### CSS Validation
@@ -360,7 +360,7 @@ Whole site validation returned 13 errors on third party resources and 6 errors o
 The Javascript of the each page of the site was validated using [JSHint validation tool](https://jshint.com/).  All pages returned a pass with 0 errors and 0 warnings.
 
 <details><summary>script.js</summary>
-<img src="docs/validation/js-validation/js-validation-script.png">
+<img src="readme/validation/js-validation/js-validation-script.png">
 </details>
 
 
@@ -435,6 +435,8 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/py-validation/py-validation-meals-urls.png">
 </details>
 
+#### Views py validation
+
 <details><summary>about/views.py</summary>
 <img src="readme/validation/py-validation/py-validation-about-views.png">
 </details>
@@ -450,6 +452,8 @@ The Python of the each page of the site was validated using [Python validation t
 <details><summary>meals/views.py</summary>
 <img src="readme/validation/py-validation/py-validation-meals-views.png">
 </details>
+
+#### Urls py validation
 
 <details><summary>project/urls.py</summary>
 <img src="readme/validation/py-validation/py-validation-urls.png">
