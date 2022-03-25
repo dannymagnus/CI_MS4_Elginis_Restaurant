@@ -319,6 +319,9 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <details><summary>Full Menu</summary>
 <img src="readme/validation/html-validation/html-validation-meals-full-menu.png">
 </details>
+<details><summary>Meal Information</summary>
+<img src="readme/validation/html-validation/html-validation-meals-information.png">
+</details>
 <details><summary>Dinner Menu</summary>
 <img src="readme/validation/html-validation/html-validation-meals-dinner-menu.png">
 </details>
@@ -337,9 +340,7 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <details><summary>Contact Us</summary>
 <img src="readme/validation/html-validation/html-validation-contact.png">
 </details>
-<details><summary>404</summary>
-<img src="readme/validation/html-validation/html-validation-404.png">
-</details>
+
 
 ### CSS Validation
 The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
