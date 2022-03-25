@@ -8,14 +8,14 @@ from .models import About, Reason, Chef, Comment
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-@admin.register(Comment)
-class ChefAdmin(Chef):
+@admin.register(Chef)
+class ChefAdmin(admin.ModelAdmin):
     """
     Admin class for chef
     """
     list_display = (
         'name',
-        'bio',
+        'description',
         'image'
         )
     list_filter = (
