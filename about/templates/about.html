@@ -11,7 +11,6 @@
         <h1 class = "heading-font font-size-96">About Us</h1>
     </div>
 </section>
-
 <section class = "margin-top-10vh">
     <div class="container">
         {% for about in about %}
@@ -37,7 +36,6 @@
         {% endfor %}
     </div>
 </section>
-
 <section class = "margin-top-10vh">
     <div class="container">
         <div class="row">
@@ -46,19 +44,18 @@
                     <div class="col">
                         <h2>Why Choose Us</h2>
                     </div>
-                </div>
-        
+                </div>       
                 <div class="row">
                     <div class="col">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             {% for reason in reasons %}
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.counter }}" aria-expanded="true" aria-controls="collapseOne">
+                                <h2 class="accordion-header" id="heading{{ forloop.counter }}">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.counter }}" aria-expanded="true" aria-controls="collapse{{ forloop.counter }}">
                                         {{ reason.title }}
                                     </button>
                                 </h2>
-                                <div id="collapse{{ forloop.counter }}" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFlushExample">
+                                <div id="collapse{{ forloop.counter }}" class="accordion-collapse collapse" aria-labelledby="heading{{ forloop.counter }}" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                         {{ reason.body }}
                                     </div>
@@ -68,7 +65,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="col-sm">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -98,14 +94,9 @@
                     </button>
                 </div>
             </div>
-            <!-- <div class="col-sm reasons-image"> -->
-                <!--Photo by Malidate Van from Pexels-->
-            <!--  -->
         </div>
-
     </div>
 </section>
-
 <!--Section to display chefs-->
 <section id = "chefs" class = "margin-top-10vh">
     <div class="container">
@@ -121,7 +112,7 @@
             <div class="col-sm">
                 <div class="row">
                     <div class="col">
-                        <img src="{{ chef.image.url }}" alt="{{ chef.name }}" class="img-fluid" />
+                        <img src="{{ chef.image.url }}" alt="{{ chef.name }}" class="img-fluid">
                     </div>
                 </div>
                 <div class="row mt-3"">
@@ -190,10 +181,8 @@
                     <div class="alert alert-success">
                         Your comment is awaiting approval.
                     </div>
-
                 {% else %}
                 {% if user.is_authenticated %}
-
                     <h3>Leave a comment:</h3>
                     <p>Posting as: {{ user.username }}</p>
                     <form method = "POST" style = "margin-top: 1.3em;">
@@ -203,19 +192,13 @@
                     </form>
                 {% else %}
                     <p>To leave a comment please <a href="{% url 'account_login' %}">Login</a> or <a href="{% url 'account_signup' %}">Signup</a></p>
-
                 {% endif %}
                 {% endif %}
             </div>
         </div>
     </div>
-
-
 </section>
-
-
 {% endblock %}
-
 {% block postloadjs %}
 {{ block.super }}
     <script src="{% static 'about/js/carousel.js' %}"></script>

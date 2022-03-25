@@ -323,7 +323,7 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <img src="docs/validation/html-validation/html-validation-meals-lunch-menu.png">
 </details>
 <details><summary>Quiz</summary>
-<img src="docs/validation/html-validation/html-validation-quiz.png">
+<img src="docs/validation/html-validation/html-validation-meals-drinks-menu.png">
 </details>
 <details><summary>404</summary>
 <img src="docs/validation/html-validation/html-validation-404.png">
