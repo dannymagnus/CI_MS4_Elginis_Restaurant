@@ -316,6 +316,9 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <details><summary>Home</summary>
 <img src="docs/validation/html-validation/html-validation-home-index.png">
 </details>
+<details><summary>Full Menu</summary>
+<img src="docs/validation/html-validation/html-validation-meals-full-menu.png">
+</details>
 <details><summary>Dinner Menu</summary>
 <img src="docs/validation/html-validation/html-validation-meals-dinner-menu.png">
 </details>
@@ -330,6 +333,9 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 </details>
 <details><summary>Booking</summary>
 <img src="docs/validation/html-validation/html-validation-booking.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="docs/validation/html-validation/html-validation-contact.png">
 </details>
 <details><summary>404</summary>
 <img src="docs/validation/html-validation/html-validation-404.png">
