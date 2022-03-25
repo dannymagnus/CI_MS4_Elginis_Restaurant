@@ -419,3 +419,9 @@ h1,h2,h3,h4,h5,h6{
     background-color: var(--dark-green);
     border-color: var(--dark-green)
 }
+
+/* Error pages ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+height-90vh{
+    height:90vh;
+}
