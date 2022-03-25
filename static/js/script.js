@@ -15,4 +15,3 @@ if(mm<10){
 today = yyyy+'-'+mm+'-'+dd;
 document.getElementById("id_date").setAttribute("min", today);
 document.getElementById("id_date").setAttribute("value", today);
-

@@ -359,18 +359,10 @@ Whole site validation returned 13 errors on third party resources and 6 errors o
 ### JS Validation
 The Javascript of the each page of the site was validated using [JSHint validation tool](https://jshint.com/).  All pages returned a pass with 0 errors and 0 warnings.
 
-<details><summary>Home</summary>
-<img src="docs/validation/js-validation/js-validation-index.png">
+<details><summary>script.js</summary>
+<img src="docs/validation/js-validation/js-validation-script.png">
 </details>
-<details><summary>About</summary>
-<img src="docs/validation/js-validation/js-validation-about.png">
-</details>
-<details><summary>Quiz</summary>
-<img src="docs/validation/js-validation/js-validation-quiz.png">
-</details>
-<details><summary>404</summary>
-<img src="docs/validation/js-validation/js-validation-_404.png">
-</details>
+
 
 ### Py Validation
 The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings.
