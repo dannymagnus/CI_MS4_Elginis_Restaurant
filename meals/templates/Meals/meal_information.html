@@ -26,7 +26,7 @@
                         <h5>Known Allergens</h5>
                         <p>
                             {% for allergen in meal_information.allergens.all %}{{ allergen.name }}
-                            <img src = "{{allergen.image.url}}"" alt = "{{allergen.name}}" class = "img-fluid"><br/>
+                            <img src = "{{allergen.image.url}}" alt = "{{allergen.name}}" class = "img-fluid"><br/>
                             {% empty %}
                             None
                             {% endfor %}
