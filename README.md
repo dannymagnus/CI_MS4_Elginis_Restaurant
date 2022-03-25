@@ -316,14 +316,20 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <details><summary>Home</summary>
 <img src="docs/validation/html-validation/html-validation-home-index.png">
 </details>
-<details><summary>Home</summary>
+<details><summary>Dinner Menu</summary>
 <img src="docs/validation/html-validation/html-validation-meals-dinner-menu.png">
 </details>
-<details><summary>About</summary>
+<details><summary>Lunch Menu</summary>
 <img src="docs/validation/html-validation/html-validation-meals-lunch-menu.png">
 </details>
-<details><summary>Quiz</summary>
+<details><summary>Drinks Menu</summary>
 <img src="docs/validation/html-validation/html-validation-meals-drinks-menu.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/html-validation/html-validation-about.png">
+</details>
+<details><summary>Booking</summary>
+<img src="docs/validation/html-validation/html-validation-booking.png">
 </details>
 <details><summary>404</summary>
 <img src="docs/validation/html-validation/html-validation-404.png">
