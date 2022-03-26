@@ -403,7 +403,7 @@ This feature covers the following user stories
 ### Page 3 - Food description
 The food description page is shown when a user clicks on the image of an individual item. The page enables users to find out a more detailed description of the item including the allergies and calorie content.
 It consists of the following features:
-<br>![Navbar model](readme/features/full-menu.png)
+<br>![Navbar model](readme/features/food-description.png)
 
 Feature 1 - the additional nutritional information
 The additional nutritional information includes: 
@@ -425,6 +425,44 @@ This feature covers the following user stories
 *22.	As a site owner, I want users to be able to view the food descriptions and prices*
 
 *23.	As a site owner, I want users to be able to view allergies and calories*
+
+### Page 4 - Lunch Menu
+The lunch menu page shows items on the lunch menu only. It has an internal navigation bar to guide the user through the menu sections. It also shows the item’s image, descriptions, price and dietary requirements. The images are professional quality and are shown in a clear grid layout, separated with header images.
+It consists of the following features:
+#### Feature 1 - internal navigation bar
+The internal navigation bar helps the user to browse the menu without scrolling through the whole page.
+<br>![Navbar model](readme/features/lunch-nav.png)
+
+
+This feature covers the following user stories
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+
+*6.	As a first time user, I want to be able to view a description and price of the food*
+
+*22. As a site owner, I want users to be able to view the food descriptions and prices*
+
+*32. As a site owner, I want users to be able to navigate the site easily and quickly*
+
+#### Feature 2 - Lunch menu image gallery
+The full menu image gallery shows a professional image of each individual dish, with the dish name and brief description, as well as the price and dietary requirements.
+When the user selects on the image a new page opens for the item, which includes additional information including the allergy and nutritional values.
+<br>![Navbar model](readme/features/lunch-menu.png)
+
+This feature covers the following user stories
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+*2.	As a first time user, I want to see professional and appealing images of the food*
+*4.	As a first time user, I want to be able to view the full menu*
+*6.	As a first time user, I want to be able to view a description and price of the food*
+*17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+*20.	As a site owner, I show appealing and professional images of our food*
+*21.	As a site owner, I want users to be to view our full menu*
+*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
+
 
 
 ## Technologies Used
