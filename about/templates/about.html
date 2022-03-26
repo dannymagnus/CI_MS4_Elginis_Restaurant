@@ -163,8 +163,8 @@
             {% if user.username == comment.name %}
             <div class="row">
                 <div class="col">
-                    <button class="btn btn-signup btn-md">Edit</button>
-                    <a href="{% url 'about:delete' comment.id %}"><button class="btn btn-signup btn-md">Delete</button></a>
+                    <a href="{% url 'about:edit' comment.id %}" class="btn btn-signup btn-md">Edit</a>
+                    <a href="{% url 'about:delete' comment.id %}" class="btn btn-signup btn-md">Delete</a>
                 </div>
             </div>
             {% endif %}

@@ -51,6 +51,20 @@ def about(request):
     return render(request, 'about.html', context)
 
 
+def edit_item(request, comment_id):
+    comment = get_object_or_404(Comment, id=comment_id)
+    if request.method == 'POST':
+        form = CommentForm(request.POST, instance=comment)
+        if form.is_valid():
+            form.save()
+            return redirect('/about/')
+    form = CommentForm(instance = comment)
+    context = {
+        'form':form
+    }
+    return render(request, 'edit_comment.html', context)
+
+
 def delete_item(request, comment_id):
     """
     A view delete comments
