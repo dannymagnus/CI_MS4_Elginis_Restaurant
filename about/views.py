@@ -61,5 +61,8 @@ def delete_item(request, comment_id):
         Redirect to about page with comment removed
     """
     comment = get_object_or_404(Comment, id=comment_id)
-    comment.delete()
-    return redirect('/about/')
+    if request.method == 'POST':
+        comment.delete()
+        return redirect('/about/')
+    context = {'comment': comment}
+    return render(request, 'delete_comment.html', context)
