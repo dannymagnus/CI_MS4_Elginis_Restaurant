@@ -781,8 +781,9 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Main Nav bar           |   From any page click desired navbar link         |    Correct page is displayed and nav bar remains                 | Works as expected |
+| Footer nav bar            | From any page click desired navbar link           | orrect page is displayed and nav bar remains                    | Works as expected |
+|  Menu page category nav bar           | Click required category link           | Page scrolls to correct internal link                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -792,8 +793,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Full menu page            | From any page, select main menu from nav header            | Full menu page is displayed with context                    | Works as expected |
+| Full menu page            | From the footer, select the menu link           |  Correct menu page is displayed with context                   | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -803,8 +804,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Meal details page            | From any menu page, click the meal item image           | Meal detail page is displayed for requested item with allergen info and calories displayed               | Works as expected |
+
 
 <details><summary>Images</summary>
 <img src="">
@@ -814,8 +815,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Menu pages            | From any page, click a link to a menu option           | Menu page is displayed with description and price                    | Works as expected |
+| Meal details page            | From any menu page, click the meal item image           | Meal detail page is displayed for requested item with full description, allergen info, calories and price displayed               | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -825,8 +826,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Comments section            | Navigate to about page, login(signup prerequisite), write comment and submit           | Comment is submitted and feedback is given (waiting approval)                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -836,8 +836,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Comments section            |  Navigate to about page, scroll down to comments section          | Comments section is displayed with posted by, date and the comment                    | Works as expected |
+
 
 <details><summary>Images</summary>
 <img src="">
