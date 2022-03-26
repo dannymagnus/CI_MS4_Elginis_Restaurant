@@ -268,7 +268,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .Sides{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/desserts-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/sides-menu.jpg')
 }
 
 /* Apply class if not vegan or vegetarian to keep row height */
@@ -358,6 +358,14 @@ h1,h2,h3,h4,h5,h6{
 
 /*------Contact Us --------------------------------------------------------*/
 
+.contact-background{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/contact-banner.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 #id_message {
     height: 10em;
     width: 100%;
@@ -374,14 +382,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .translucent-body{
-    background-color: rgba(251, 244, 225, 0.5);
+    background-color: rgba(251, 244, 225, 0.2);
+    color:var(--white);
     border-radius: 10px;
-}
-
-.carousel-item img{
-    object-fit: cover;
-    object-position: center center;
-    height: 100%;
 }
 
 
@@ -421,6 +424,23 @@ h1,h2,h3,h4,h5,h6{
 .btn.btn-primary:hover {
     background-color: var(--dark-green);
     border-color: var(--dark-green)
+}
+
+/* .carousel-item{
+    background-color: rgb(2, 2, 2);
+    color:var(--white);
+    border-radius: 10px;
+} */
+
+.carousel-item img{
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    /* opacity: 0.5; */
+}
+
+.carousel-caption{
+    bottom: 10rem;
 }
 
 /* Error pages ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

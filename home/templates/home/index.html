@@ -14,18 +14,18 @@
         </div>
         <div class="carousel-inner" style = "height: 100%;">
             <div class="carousel-item active" style = "height: 100%;">
-                <img src="../../../media/about/atmosphere.jpg" class="d-block w-100" alt="...">
+                <img src="../../../static/img/home-page2.jpg" class="d-block w-100" alt="carousel image">
                 <div class="carousel-caption">
-                    <h1 class = "white-text heading-font font-size-72">Elgini's</h1>
-                    <p class = "white-text heading-font">A taste of Italy</p>
+                    <h1 class = "white-text heading-font font-size-96">elgini's</h1>
+                    <p class = "white-text heading-font font-size-48">A taste of Italy</p>
                 </div>
             </div>
             {% for item in carousel %}
             <div class="carousel-item" style = "height: 100%;">
                 <img src="{{ item.image.url }}" class="d-block w-100" alt="{{ item.title }}">
                 <div class="carousel-caption">
-                    <h1 class = "white-text heading-font font-size-72">{{ item.title }}</h1>
-                    <p class = "white-text heading-font">{{ item.body }}</p>
+                    <h1 class = "white-text heading-font font-size-96">{{ item.title }}</h1>
+                    <p class = "white-text heading-font font-size-48">{{ item.body }}</p>
                 </div>
             </div>
             {% endfor %}       
