@@ -847,8 +847,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Edit comment           | Login to site, post a comment, refresh site, select a valid comment you have written (approved), click edit, complete edit, submit           | Comment is edited with visual feeback         | Works as expected |
+| Delete comment            | Login to site, post a comment, refresh site, select a valid comment you have written (approved), click delete, confirm delete          |  Comment is deleted and no longer displayed            | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -858,8 +858,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant phone number and address are displayed         | Works as expected |
+| Contact form           | From contact page, complete all required form fields and submit           |  Contact form is submitted with visual feeback            | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -869,8 +869,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant phone number and address are displayed         | Works as expected |
+| Booking form            | From booking page, complete all required form fields and submit           | Booking form is submitted with visual feeback                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -880,8 +880,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant address and opening hours are displayed                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -891,8 +890,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| About page            | From any other page, click nav bar link to about page           | About page is displayed with herritage, reasons to dine and chef bios                     | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -902,8 +900,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Carousel       | Navigate to site home page           | Carousel displays any special offers on rotation                     | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -913,8 +910,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Signup/login            | From any page select login link in navbar/ about page comments section login/signup anchor           | User is directed to signup/login page and can set username/password            | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -924,8 +920,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Account logout            | From navbar select logout link and confirm           | User is logged out of accoutn and nav bar reflects this                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -935,8 +930,9 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Lunch Menu           | From any page, select lunch menu from nav bar           | Lunch menu is rendered with available meal options                    | Works as expected |
+|  Dinner Menu           | From any page, select dinner menu from nav bar           | Dinner menu is rendered with available meal options                    | Works as expected |
+|  Drinks Menu           | From any page, select drinks menu from nav bar           | Drinks menu is rendered with available drinks options                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -946,8 +942,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Social media links            | From footer select desired social link           | Link opens in new tab                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1111,8 +1106,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Carousel       | Navigate to site home page           | Carousel displays any special offers on rotation                     | Works as expected |
+
 
 <details><summary>Images</summary>
 <img src="">
@@ -1122,8 +1117,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Signup/login            | From any page select login link in navbar/ about page comments section login/signup anchor           | User is directed to signup/login page and can set username/password            | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1133,8 +1127,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Account logout            | From navbar select logout link and confirm           | User is logged out of accoutn and nav bar reflects this                    | Works as expected |
+
 
 <details><summary>Images</summary>
 <img src="">
@@ -1144,19 +1138,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Lunch Menu           | From any page, select lunch menu from nav bar           | Lunch menu is rendered with available meal options                    | Works as expected |
+|  Dinner Menu           | From any page, select dinner menu from nav bar           | Dinner menu is rendered with available meal options                    | Works as expected |
+|  Drinks Menu           | From any page, select drinks menu from nav bar           | Drinks menu is rendered with available drinks options                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
 </details>
 
-37. As a site owner, I want users to be able to review and approve user comments
+37. As a site owner, I want to be able to review and approve user comments
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Admin panel            | From the admin panel, select option to approve comment           | Approved comments are rendered in the about content area                    | Works as expected |
+
 
 <details><summary>Images</summary>
 <img src="">
@@ -1166,8 +1161,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Social media links            | From footer select desired social link           | Link opens in new tab                    | Works as expected |
+
 
 <details><summary>Images</summary>
 <img src="">
