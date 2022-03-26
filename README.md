@@ -755,19 +755,27 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 ### Testing user stories
 
-1. As a user I want to be able to contact the site owner easily
+1. As a first time user, I want to be able to view the type of food the restaurant provides
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Menu pages   | Select any menu option from main nav bar           |     Menu page is displayed with images and information by category                | Works as expected |
+|      Menu pages       |    Select lunch, dinner, drinks sorted button links        |    Menu page is displayed with images and information by category                 | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 2.	As a first time user, I want to see professional and appealing images of the food
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Meal details page           |  From any menu page, click meal image          |  Meal information page is displayed with larger image                   | Works as expected |
+|  Menu pages           | From any page, select a menu from the top nav bar           |  Menu page is displayed with meal images                   | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 3.	As a first time user, I want to be able to navigate the website quickly and easily
 
@@ -776,6 +784,10 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 4.	As a first time user, I want to be able to view the full menu
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -783,18 +795,31 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 5.	As a first time user, I want to be able to view food allergies and calories
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 6.	As a first time user, I want to be able to view a description and price of the food
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 7.	As a first time user, I want to be able to leave a comment or review
 
@@ -803,12 +828,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 8.	As a first time user, I want to be able to see other user’s comments and reviews
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 9.	As a first time user, I want to be able to edit and delete a comment I have made
 
@@ -817,12 +850,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 10.	As a first time user, I want to be able contact the restaurant
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 11.	As a first time user, I want to be able to make a reservation
 
@@ -831,12 +872,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 12.	As a first time user, I want to be able to view the restaurants location and opening hours
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 13.	As a first time user, I want to know about the business and it’s ethos
 
@@ -845,12 +894,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 14.	As a first time user, I want to be able to see special offers and promotions.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 15. As a first time user, I want to be able to to sign in to, or create an account
 
@@ -859,12 +916,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 16. As a first time user, I want to be able to log out of an account
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks
 
@@ -873,12 +938,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 18. As a first time user, I want to be able to view the business’ social media
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 19.	As a site owner, I want to attract customers to our restaurant
 
@@ -887,12 +960,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 20.	As a site owner, I show appealing and professional images of our food
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 21.	As a site owner, I want users to be to view our full menu
 
@@ -901,12 +982,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 22.	As a site owner, I want users to be able to view the food descriptions and prices
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 23.	As a site owner, I want users to be able to view allergies and calories
 
@@ -915,12 +1004,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 24.	As a site owner, I want users to be able to make a reservation
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 25.	As a site owner, I want users to be able to leave a comment or review
 
@@ -929,12 +1026,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 26.	As a site owner, I want users to be able to view other comments and reviews
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 27.	As a site owner, I want users to be able to edit and delete comments or reviews
 
@@ -943,12 +1048,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 28.	As a site owner, I want users to be able to contact the business
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 29.	As a site owner, I want users to be able to view the location and opening times
 
@@ -957,12 +1070,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 30.	As a site owner, I want users to be able to find out about our business ethos
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation
 
@@ -971,12 +1092,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 32.	As a site owner, I want users to be able to navigate the site easily and quickly
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 33. As a site owner, I want to be able to promote special offers and events.
 
@@ -985,12 +1114,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 34. As a site owner, I want users to be able to sign in to, or create an account
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 35. As a site owner, I want users to be able to log out of their account
 
@@ -999,12 +1136,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 37. As a site owner, I want users to be able to review and approve user comments
 
@@ -1013,12 +1158,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
 
+<details><summary>Images</summary>
+<img src="">
+</details>
+
 38. As a site owner, I want users to be able to view the business’ social media
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 |             |            |                     | Works as expected |
 |             |            |                     | Works as expected |
+
+<details><summary>Images</summary>
+<img src="">
+</details>
 
 ## Deployment
 
