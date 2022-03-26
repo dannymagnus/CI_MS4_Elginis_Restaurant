@@ -297,8 +297,42 @@ This feature covers the following user stories
 
 *34. As a site owner, I want users to be able to sign in to, or create an account*
 
-*35. As a site owner, I want users to be able to log out of their account *
+*35. As a site owner, I want users to be able to log out of their account*
 
+
+### Feature 2 - Carousel
+
+The carousel consists of 3 hero images, which play automatically upon landing on the page. It can be used by the site owner to promote any special offers and events.
+<br>![Navbar model](readme/features/carousel.png)
+
+
+This feature covers the following user stories
+
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+*2.	As a first time user, I want to see professional and appealing images of the food*
+*14.	As a first time user, I want to be able to see special offers and promotions.*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+*20.	As a site owner, I show appealing and professional images of our food*
+*33.  As a site owner, I want to be able to promote special offers and events.*
+
+###Feature 3 - lunch, dinner and drinks images with buttons
+
+The menu images show an image of the restaurant food with a clear button overlay which takes the user directly to the relevant menu page quickly and easily.
+<br>![Navbar model](readme/features/ldd-images.png)
+
+
+This feature covers the following user stories
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+*2.	As a first time user, I want to see professional and appealing images of the food*
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+*4.	As a first time user, I want to be able to view the full menu*
+*17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+*20.	As a site owner, I show appealing and professional images of our food*
+*21.	As a site owner, I want users to be to view our full menu*
+*36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
 
 
