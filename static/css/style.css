@@ -310,6 +310,9 @@ h1,h2,h3,h4,h5,h6{
     border-bottom: 4px solid var(--burnt-orange);
 }
 
+.col-4.padding-0{
+    max-height: 150px;
+}
 
 /*-----About page----------------------------------------------------------------*/
 
