@@ -347,10 +347,40 @@ The footer features the business’ social media links, as well as links to the 
 
 This feature covers the following user stories
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
+
 *18. As a first time user, I want to be able to view the business’ social media*
 
 *32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+
 *38. As a site owner, I want users to be able to view the business’ social media*
+
+## Page 2 - Full Menu
+The full menu page has an internal navigation bar to guide the user through the menu sections. It also shows the restaurant’s full list of food dishes with images, descriptions, prices and dietary requirements. The images are professional quality and are shown in a clear grid layout, separated with header images.
+<br>![Navbar model](readme/features/full-menu.png)
+
+It consists of the following features:
+
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+
+*14.	As a site owner, I want users to be able to navigate the site easily and quickly*
+
+Feature 1 - internal navigation bar
+The internal navigation bar helps the user to browse the menu without scrolling through the whole page. 
+
+This feature covers the following user stories
+
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+
+*6.	As a first time user, I want to be able to view a description and price of the food*
+
+*20.	As a site owner, I show appealing and professional images of our food*
+
+*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+
+*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+
 
 
 
