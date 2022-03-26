@@ -385,15 +385,46 @@ When the user selects on the image a new page opens for the item, which includes
 
 This feature covers the following user stories
 *1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+
 *2.	As a first time user, I want to see professional and appealing images of the food*
+
 *4.	As a first time user, I want to be able to view the full menu*
+
 *6.	As a first time user, I want to be able to view a description and price of the food*
 
 *19.	As a site owner, I want to attract customers to our restaurant*
+
 *20.	As a site owner, I show appealing and professional images of our food*
+
 *21.	As a site owner, I want users to be to view our full menu*
+
 *22.	As a site owner, I want users to be able to view the food descriptions and prices*
 
+### Page 3 - Food description
+The food description page is shown when a user clicks on the image of an individual item. The page enables users to find out a more detailed description of the item including the allergies and calorie content.
+It consists of the following features:
+<br>![Navbar model](readme/features/full-menu.png)
+
+Feature 1 - the additional nutritional information
+The additional nutritional information includes: 
+- Known allergies of the item, shown in text and a clear illustrated symbol.
+- Calorie content
+
+This feature covers the following user stories
+
+*2.	As a first time user, I want to see professional and appealing images of the food*
+
+*5.	As a first time user, I want to be able to view food allergies and calories*
+
+*6.	As a first time user, I want to be able to view a description and price of the food*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+
+*20.	As a site owner, I show appealing and professional images of our food*
+
+*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+
+*23.	As a site owner, I want users to be able to view allergies and calories*
 
 
 ## Technologies Used
