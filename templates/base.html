@@ -79,21 +79,24 @@
     {% endblock %}
 
     <footer>
-        <ul class="navbar nav justify-content-center navbar-dark bg-dark">
+        <ul class="navbar nav justify-content-center navbar-dark bg-dark white-text">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Active</a>
+              <a class="nav-link" aria-current="page" href="{% url 'contact:contact_us' %}">Talk to us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" aria-current="page" href="{% url 'meals:meal_list' %}">Menus</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'bookings:make_booking' %}">Bookings</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="www.instagram.com" rel="noopener noreferrer" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
+              <a class="nav-link" href="https://www.instagram.com" rel="noopener noreferrer" target="_blank"><i class="fa fa-brands fa-instagram"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="www.facebook.com" rel="noopener noreferrer" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
+                <a class="nav-link" href="https://www.facebook.com" rel="noopener noreferrer" target="_blank"><i class="fa fa-brands fa-facebook"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="www.twitter.com" rel="noopener noreferrer" target="_blank"><i class="fa fa-brands fa-twitter"></i></a>
+                <a class="nav-link" href="https://www.twitter.com" rel="noopener noreferrer" target="_blank"><i class="fa fa-brands fa-twitter"></i></a>
             </li>
         </ul>
           

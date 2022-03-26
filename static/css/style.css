@@ -443,6 +443,17 @@ h1,h2,h3,h4,h5,h6{
     bottom: 10rem;
 }
 
+#carouselExampleIndicators{
+    height: 600px; 
+    width:100%;
+}
+
+/* Footer----------------------------------------------------------------- */
+.navbar-dark.bg-dark.white-text a{
+    color: var(--white);
+}
+
+
 /* Error pages ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 height-90vh{
