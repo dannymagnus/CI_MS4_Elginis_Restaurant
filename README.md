@@ -182,45 +182,46 @@ This model contains all fields stored in the database collections with their dat
 ### User stories:
 
 #### First time user
-1.	As a first time user, I want to be able to view the type of food the restaurant provides
-2.	As a first time user, I want to see professional and appealing images of the food
-3.	As a first time user, I want to be able to navigate the website quickly and easily
-4.	As a first time user, I want to be able to view the full menu
-5.	As a first time user, I want to be able to view food allergies and calories
-6.	As a first time user, I want to be able to view a description and price of the food
-7.	As a first time user, I want to be able to leave a comment or review
-8.	As a first time user, I want to be able to see other user’s comments and reviews
-9.	As a first time user, I want to be able to edit and delete a comment I have made
-10.	As a first time user, I want to be able contact the restaurant
-11.	As a first time user, I want to be able to make a reservation
-12.	As a first time user, I want to be able to view the restaurants location and opening hours
-13.	As a first time user, I want to know about the business and it’s ethos
-14.	As a first time user, I want to be able to see special offers and promotions.
-15. As a first time user, I want to be able to to sign in to, or create an account
-16. As a first time user, I want to be able to log out of an account
-17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+*2.	As a first time user, I want to see professional and appealing images of the food*
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+*4.	As a first time user, I want to be able to view the full menu*
+*5.	As a first time user, I want to be able to view food allergies and calories*
+*6.	As a first time user, I want to be able to view a description and price of the food*
+*7.	As a first time user, I want to be able to leave a comment or review*
+*8.	As a first time user, I want to be able to see other user’s comments and reviews*
+*9.	As a first time user, I want to be able to edit and delete a comment I have made*
+*10.	As a first time user, I want to be able contact the restaurant*
+*11.	As a first time user, I want to be able to make a reservation*
+*12.	As a first time user, I want to be able to view the restaurants location and opening hours*
+*13.	As a first time user, I want to know about the business and it’s ethos*
+*14.	As a first time user, I want to be able to see special offers and promotions.*
+*15. As a first time user, I want to be able to to sign in to, or create an account*
+*16. As a first time user, I want to be able to log out of an account*
+*17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
+*18. As a first time user, I want to be able to view the business’ social media*
 
-#### Site Owner
-1.	As a site owner, I want to attract customers to our restaurant
-2.	As a site owner, I show appealing and professional images of our food
-3.	As a site owner, I want users to be to view our full menu
-4.	As a site owner, I want users to be able to view the food descriptions and prices
-5.	As a site owner, I want users to be able to view allergies and calories
-6.	As a site owner, I want users to be able to make a reservation
-7.	As a site owner, I want users to be able to leave a comment or review
-8.	As a site owner, I want users to be able to view other comments and reviews
-9.	As a site owner, I want users to be able to edit and delete comments or reviews
-10.	As a site owner, I want users to be able to contact the business
-11.	As a site owner, I want users to be able to view the location and opening times
-12.	As a site owner, I want users to be able to find out about our business ethos
-13.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation
-14.	As a site owner, I want users to be able to navigate the site easily and quickly
-15. As a site owner, I want to be able to promote special offers and events.
-16 As a site owner, I want users to be able to sign in to, or create an account
-17. As a site owner, I want users to be able to log out of their account
-18. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
-
-
+# Site Owner
+*19.	As a site owner, I want to attract customers to our restaurant*
+*20.	As a site owner, I show appealing and professional images of our food*
+*21.	As a site owner, I want users to be to view our full menu*
+*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*23.	As a site owner, I want users to be able to view allergies and calories*
+*24.	As a site owner, I want users to be able to make a reservation*
+*25.	As a site owner, I want users to be able to leave a comment or review*
+*26.	As a site owner, I want users to be able to view other comments and reviews*
+*27.	As a site owner, I want users to be able to edit and delete comments or reviews*
+*28.	As a site owner, I want users to be able to contact the business*
+*29.	As a site owner, I want users to be able to view the location and opening times*
+*30.	As a site owner, I want users to be able to find out about our business ethos*
+*31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation*
+*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*33. As a site owner, I want to be able to promote special offers and events.*
+*34. As a site owner, I want users to be able to sign in to, or create an account*
+*35. As a site owner, I want users to be able to log out of their account*
+*36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
+*37. As a site owner, I want users to be able to review and approve user comments*
+*38. As a site owner, I want users to be able to view the business’ social media*
 
 ## Surface
 ### Design choices
@@ -251,7 +252,43 @@ Maria Rose is the font uses for the logo, and is replicated in the main headings
 
 Josefin Sans is the font used across all of the body text, this font is from the Google Fonts Library.
 
+## Features
 
+The site contains 12 pages and
+1. Home page
+2. Full menu
+3. Food description
+4. lunch menu
+5. dinner menu
+6. drinks menu
+7. about
+8. contact
+9. reserve
+10. login
+11. sign up
+12. log out
+
+### Page 1 - Home page
+The home page consists of the following features:
+
+Feature 1 - Header and navigation Bar, the header and navigation bar are shown across all pages.
+The header shows the logo of the website, as well as a navigation bar with quick access to the main pages of the website. 
+<br>![Navbar model](readme/features/navbar.png)
+
+This feature covers the following user stories
+
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+*10.	As a first time user, I want to be able contact the restaurant*
+*11.	As a first time user, I want to be able to make a reservation*
+*15. As a first time user, I want to be able to sign in to, or create an account**
+*16. As a first time user, I want to be able to log out of an account*
+
+*21.	As a site owner, I want users to be to view our full menu*
+*24.	As a site owner, I want users to be able to make a reservation*
+*28.	As a site owner, I want users to be able to contact the business*
+*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*34. As a site owner, I want users to be able to sign in to, or create an account*
+*35. As a site owner, I want users to be able to log out of their account *
 
 
 
