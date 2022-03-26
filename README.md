@@ -354,18 +354,14 @@ This feature covers the following user stories
 
 *38. As a site owner, I want users to be able to view the business’ social media*
 
-## Page 2 - Full Menu
+### Page 2 - Full Menu
 The full menu page has an internal navigation bar to guide the user through the menu sections. It also shows the restaurant’s full list of food dishes with images, descriptions, prices and dietary requirements. The images are professional quality and are shown in a clear grid layout, separated with header images.
-<br>![Navbar model](readme/features/full-menu.png)
 
 It consists of the following features:
 
-*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
-
-*14.	As a site owner, I want users to be able to navigate the site easily and quickly*
-
-Feature 1 - internal navigation bar
-The internal navigation bar helps the user to browse the menu without scrolling through the whole page. 
+#### Feature 1 - internal navigation bar
+The internal navigation bar helps the user to browse the menu without scrolling through the whole page.
+<br>![Navbar model](readme/features/food-nav.png)
 
 This feature covers the following user stories
 
@@ -382,7 +378,21 @@ This feature covers the following user stories
 *32.	As a site owner, I want users to be able to navigate the site easily and quickly*
 
 
+#### Feature 2 - Full menu image gallery
+The full menu image gallery shows a professional image of each individual dish, with the dish name and brief description, as well as the price and dietary requirements.
+When the user selects on the image a new page opens for the item, which includes additional information including the allergy and nutritional values.
+<br>![Navbar model](readme/features/full-menu.png)
 
+This feature covers the following user stories
+*1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+*2.	As a first time user, I want to see professional and appealing images of the food*
+*4.	As a first time user, I want to be able to view the full menu*
+*6.	As a first time user, I want to be able to view a description and price of the food*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+*20.	As a site owner, I show appealing and professional images of our food*
+*21.	As a site owner, I want users to be to view our full menu*
+*22.	As a site owner, I want users to be able to view the food descriptions and prices*
 
 
 
