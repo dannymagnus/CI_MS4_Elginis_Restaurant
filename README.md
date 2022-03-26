@@ -753,11 +753,272 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="docs/validation/lighthouse-validation/lighthouse-validation-404.png">
 </details>
 
+### Testing user stories
 
+1. As a user I want to be able to contact the site owner easily
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
 
+2.	As a first time user, I want to see professional and appealing images of the food
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
 
+3.	As a first time user, I want to be able to navigate the website quickly and easily
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+4.	As a first time user, I want to be able to view the full menu
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+5.	As a first time user, I want to be able to view food allergies and calories
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+6.	As a first time user, I want to be able to view a description and price of the food
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+7.	As a first time user, I want to be able to leave a comment or review
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+8.	As a first time user, I want to be able to see other user’s comments and reviews
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+9.	As a first time user, I want to be able to edit and delete a comment I have made
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+10.	As a first time user, I want to be able contact the restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+11.	As a first time user, I want to be able to make a reservation
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+12.	As a first time user, I want to be able to view the restaurants location and opening hours
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+13.	As a first time user, I want to know about the business and it’s ethos
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+14.	As a first time user, I want to be able to see special offers and promotions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+15. As a first time user, I want to be able to to sign in to, or create an account
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+16. As a first time user, I want to be able to log out of an account
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+18. As a first time user, I want to be able to view the business’ social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+19.	As a site owner, I want to attract customers to our restaurant
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+20.	As a site owner, I show appealing and professional images of our food
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+21.	As a site owner, I want users to be to view our full menu
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+22.	As a site owner, I want users to be able to view the food descriptions and prices
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+23.	As a site owner, I want users to be able to view allergies and calories
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+24.	As a site owner, I want users to be able to make a reservation
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+25.	As a site owner, I want users to be able to leave a comment or review
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+26.	As a site owner, I want users to be able to view other comments and reviews
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+27.	As a site owner, I want users to be able to edit and delete comments or reviews
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+28.	As a site owner, I want users to be able to contact the business
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+29.	As a site owner, I want users to be able to view the location and opening times
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+30.	As a site owner, I want users to be able to find out about our business ethos
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+32.	As a site owner, I want users to be able to navigate the site easily and quickly
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+33. As a site owner, I want to be able to promote special offers and events.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+34. As a site owner, I want users to be able to sign in to, or create an account
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+35. As a site owner, I want users to be able to log out of their account
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+37. As a site owner, I want users to be able to review and approve user comments
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
+
+38. As a site owner, I want users to be able to view the business’ social media
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|             |            |                     | Works as expected |
+|             |            |                     | Works as expected |
 
 ## Deployment
 
