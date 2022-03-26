@@ -278,17 +278,27 @@ The header shows the logo of the website, as well as a navigation bar with quick
 This feature covers the following user stories
 
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
+
 *10.	As a first time user, I want to be able contact the restaurant*
+
 *11.	As a first time user, I want to be able to make a reservation*
-*15. As a first time user, I want to be able to sign in to, or create an account**
+
+*15. As a first time user, I want to be able to sign in to, or create an account*
+
 *16. As a first time user, I want to be able to log out of an account*
 
 *21.	As a site owner, I want users to be to view our full menu*
+
 *24.	As a site owner, I want users to be able to make a reservation*
+
 *28.	As a site owner, I want users to be able to contact the business*
+
 *32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+
 *34. As a site owner, I want users to be able to sign in to, or create an account*
+
 *35. As a site owner, I want users to be able to log out of their account *
+
 
 
 
