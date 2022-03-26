@@ -341,6 +341,16 @@ This feature covers the following user stories
 
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
+### Feature 4 - footer 
+The footer features the business’ social media links, as well as links to the main pages the user would want to navigate.
+<br>![Navbar model](readme/features/footer.png)
+
+This feature covers the following user stories
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+*18. As a first time user, I want to be able to view the business’ social media*
+
+*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*38. As a site owner, I want users to be able to view the business’ social media*
 
 
 
