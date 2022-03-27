@@ -79,6 +79,21 @@ The primary goal of the website from a site users perspective is as follows:
 - To post a review or comment about their experience
 - To view other customer’s reviews and comments
 
+## Target Audience
+- Families
+- Couples
+- Small groups of friends
+- People living within a 20 mile radius
+- Italian food lovers
+- People who love organic and homemade food
+
+## User Requirements and Expectations
+- An easy navigation system with instant learning.
+- Able to navigate the site quickly and easily.
+- No broken links.
+- Responsive and visually appealing on all devices.
+- Ability to contact the business
+
 ## Structure
 ### Code Structure
 The project is organised into a variety of applications, as is constructed using the Django Framework.
