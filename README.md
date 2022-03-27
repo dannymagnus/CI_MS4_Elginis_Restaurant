@@ -932,7 +932,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |      Menu pages       |    Select lunch, dinner, drinks sorted button links        |    Menu page is displayed with images and information by category                 | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-1.jpg">
+<img src="readme/validation/us-testing/readme/validation/us-testing/us-1-lunch-sorted.jpg">
 </details>
 
 2.	As a first time user, I want to see professional and appealing images of the food
@@ -943,7 +944,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |  Menu pages           | From any page, select a menu from the top nav bar           |  Menu page is displayed with meal images                   | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-2.jpg">
+<img src="readme/validation/us-testing/us-2-menu-pages.jpg">
 </details>
 
 3.	As a first time user, I want to be able to navigate the website quickly and easily
@@ -955,7 +957,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |  Menu page category nav bar           | Click required category link           | Page scrolls to correct internal link                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-3.jpg">
 </details>
 
 4.	As a first time user, I want to be able to view the full menu
@@ -966,7 +968,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Full menu page            | From the footer, select the menu link           |  Correct menu page is displayed with context                   | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-4.jpg">
 </details>
 
 5.	As a first time user, I want to be able to view food allergies and calories
@@ -977,7 +979,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-5.jpg">
 </details>
 
 6.	As a first time user, I want to be able to view a description and price of the food
@@ -988,7 +990,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Meal details page            | From any menu page, click the meal item image           | Meal detail page is displayed for requested item with full description, allergen info, calories and price displayed               | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-6.jpg">
 </details>
 
 7.	As a first time user, I want to be able to leave a comment or review
