@@ -201,7 +201,7 @@ This model contains all fields stored in the database collections with their dat
 17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks
 18. As a first time user, I want to be able to view the business’ social media
 
-# Site Owner
+#### Site Owner
 19.	As a site owner, I want to attract customers to our restaurant
 20.	As a site owner, I show appealing and professional images of our food
 21.	As a site owner, I want users to be to view our full menu
@@ -271,7 +271,7 @@ The site contains 12 pages and
 ### Page 1 - Home page
 The home page consists of the following features:
 
-Feature 1 - Header and navigation Bar, the header and navigation bar are shown across all pages.
+#### Feature 1 - Header and navigation Bar, the header and navigation bar are shown across all pages.
 The header shows the logo of the website, as well as a navigation bar with quick access to the main pages of the website. 
 <br>![Navbar model](readme/features/navbar.png)
 
@@ -299,8 +299,7 @@ This feature covers the following user stories
 
 *35. As a site owner, I want users to be able to log out of their account*
 
-
-### Feature 2 - Carousel
+#### Feature 2 - Carousel
 
 The carousel consists of 3 hero images, which play automatically upon landing on the page. It can be used by the site owner to promote any special offers and events.
 <br>![Navbar model](readme/features/carousel.png)
@@ -309,14 +308,18 @@ The carousel consists of 3 hero images, which play automatically upon landing on
 This feature covers the following user stories
 
 *1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+
 *2.	As a first time user, I want to see professional and appealing images of the food*
+
 *14.	As a first time user, I want to be able to see special offers and promotions.*
 
 *19.	As a site owner, I want to attract customers to our restaurant*
+
 *20.	As a site owner, I show appealing and professional images of our food*
+
 *33.  As a site owner, I want to be able to promote special offers and events.*
 
-### Feature 3 - lunch, dinner and drinks images with buttons
+#### Feature 3 - lunch, dinner and drinks images with buttons
 
 The menu images show an image of the restaurant food with a clear button overlay which takes the user directly to the relevant menu page quickly and easily.
 <br>![Navbar model](readme/features/ldd-images.png)
@@ -341,11 +344,12 @@ This feature covers the following user stories
 
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
-### Feature 4 - footer 
+#### Feature 4 - footer 
 The footer features the business’ social media links, as well as links to the main pages the user would want to navigate.
 <br>![Navbar model](readme/features/footer.png)
 
 This feature covers the following user stories
+
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
 
 *18. As a first time user, I want to be able to view the business’ social media*
@@ -525,7 +529,7 @@ This feature covers the following user stories
 
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
-## Page 7 - About page
+### Page 7 - About page
 The about page provides the user with all of the background information of the business.  The page also features a link to enable the user to visit the page showing the business location and opening
 <br>![Navbar model](readme/features/heritage.png)
 
@@ -579,7 +583,6 @@ When the user is logged in they are able to edit and delete the comments that th
 <br>![Navbar model](readme/features/comments.png)
 
 <br>![Navbar model](readme/features/comment-submitted.png)
-
 
 This feature covers the following user stories
 *7.	As a first time user, I want to be able to leave a comment or review*
@@ -682,8 +685,6 @@ This page covers the following user stories
 
 *35. As a site owner, I want users to be able to log out of their account*
 
-
-
 ## Technologies Used
 
 ### Languages
@@ -739,8 +740,6 @@ This page covers the following user stories
 - [JSHint](https://jshint.com/) - for javascript validation.
 - [PEP8](https://www.python.org/dev/peps/pep-0008/) - for python validation.
 - [Quick Database diagrams](https://www.quickdatabasediagrams.com)- for the database schema diagram.
-
-
 
 ## Validation
 
@@ -1120,10 +1119,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 19.	As a site owner, I want to attract customers to our restaurant
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+User story too vague - rejected.
 
 <details><summary>Images</summary>
 <img src="">
@@ -1133,8 +1129,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Meal details page           |  From any menu page, click meal image          |  Meal information page is displayed with larger image                   | Works as expected |
+|  Menu pages           | From any page, select a menu from the top nav bar           |  Menu page is displayed with meal images                   | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1144,8 +1140,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Full menu page            | From any page, select main menu from nav header            | Full menu page is displayed with context                    | Works as expected |
+| Full menu page            | From the footer, select the menu link           |  Correct menu page is displayed with context                   | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1155,8 +1151,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Menu pages            | From any page, click a link to a menu option           | Menu page is displayed with description and price                    | Works as expected |
+| Meal details page            | From any menu page, click the meal item image           | Meal detail page is displayed for requested item with full description, allergen info, calories and price displayed               | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1166,8 +1162,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Meal details page            | From any menu page, click the meal item image           | Meal detail page is displayed for requested item with allergen info and calories displayed               | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1177,8 +1172,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant phone number and address are displayed         | Works as expected |
+| Booking form            | From booking page, complete all required form fields and submit           | Booking form is submitted with visual feeback                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1188,8 +1183,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Comments section            | Navigate to about page, login(signup prerequisite), write comment and submit           | Comment is submitted and feedback is given (waiting approval)                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1199,8 +1193,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Comments section            |  Navigate to about page, scroll down to comments section          | Comments section is displayed with posted by, date and the comment                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1210,8 +1203,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Edit comment           | Login to site, post a comment, refresh site, select a valid comment you have written (approved), click edit, complete edit, submit           | Comment is edited with visual feeback         | Works as expected |
+| Delete comment            | Login to site, post a comment, refresh site, select a valid comment you have written (approved), click delete, confirm delete          |  Comment is deleted and no longer displayed            | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1221,8 +1214,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant phone number and address are displayed         | Works as expected |
+| Contact form           | From contact page, complete all required form fields and submit           |  Contact form is submitted with visual feeback            | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1232,8 +1225,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant address and opening hours are displayed                    | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
@@ -1243,8 +1235,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| About page            | From any other page, click nav bar link to about page           | About page is displayed with herritage, reasons to dine and chef bios                     | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
