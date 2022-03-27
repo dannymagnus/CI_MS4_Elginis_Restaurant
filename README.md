@@ -372,7 +372,6 @@ This feature covers the following user stories
 The carousel consists of 3 hero images, which play automatically upon landing on the page. It can be used by the site owner to promote any special offers and events.
 <br>![Navbar model](readme/features/carousel.png)
 
-
 This feature covers the following user stories
 
 *1.	As a first time user, I want to be able to view the type of food the restaurant provides*
