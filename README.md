@@ -56,9 +56,9 @@
     8. [Browser compatibility](#browser-compatibility)
     9. [Testing user stories](#testing-user-stories)
 8. [Bugs](#Bugs)
-10. [Deployment](#deployment)
-11. [Credits](#credits)
-12. [Acknowledgements](#acknowledgements)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 # User Experience
 ## Strategy
@@ -1329,11 +1329,10 @@ User story too vague - rejected.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+| About page            | From any other page, click nav bar link to about page           | About page is displayed with professional imagery of staff                     | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-31.jpg">
 </details>
 
 32.	As a site owner, I want users to be able to navigate the site easily and quickly
@@ -1408,10 +1407,26 @@ User story too vague - rejected.
 |-------------|------------|---------------------|-------------------|
 | Social media links            | From footer select desired social link           | Link opens in new tab                    | Works as expected |
 
-
 <details><summary>Images</summary>
 <img src="readme/validation/us-testing/us-18.jpg">
 </details>
+
+39. As a logged in administrator, I want to be able to add new content to the website.
+
+ **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Admin panel            | From the admin panel, select any option to add media           | New media is rendered in selected area                    | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/us-39.jpg">
+</details>
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Site images not rendering on Heroku | Change source path from relative to static directory |
+| Transluscent overlay remaining after resevervation request has been received  | Applied style to form instead of parent div |
 
 ## Deployment
 
