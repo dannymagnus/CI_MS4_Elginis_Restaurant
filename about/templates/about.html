@@ -18,21 +18,21 @@
             <div class="col-sm">
                 <img src="{{ about.image.url }}" alt="restaurant image" class="img-fluid" style="margin-top:2%;">
             </div>
-            <div class="col-md">
+            <div class="col-md relative">
                 <div class="row">
                     <div class="col">
-                        <h2> {{ about.title }}</h2>
+                        <h2 style = "position:relative;"> {{ about.title }}</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                            {{ about.body|linebreaks }}
+                        {{ about.body|linebreaks }}
+                        <p class = "absolute-bottom-0 font-size-larger">Find us <a href = "{% url 'contact:contact_us' %}">here</a></p>
                     </div>
                 </div>
             </div>
         </div>
         {% endfor %}
-        <p>Find us <a href = "{% url 'contact:contact_us' %}">here</a></p>
     </div>
 </section>
 <section class = "margin-top-10vh">

@@ -12,8 +12,8 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner" style = "height: 100%;">
-            <div class="carousel-item active" style = "height: 100%;">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style = "height: 85vh;">
                 <img src="../../../static/img/home-page2.jpg" class="d-block w-100" alt="carousel image">
                 <div class="carousel-caption">
                     <h1 class = "white-text heading-font font-size-96">elgini's</h1>
@@ -21,7 +21,7 @@
                 </div>
             </div>
             {% for item in carousel %}
-            <div class="carousel-item" style = "height: 100%;">
+            <div class="carousel-item" style = "height: 85vh;">
                 <img src="{{ item.image.url }}" class="d-block w-100" alt="{{ item.title }}">
                 <div class="carousel-caption">
                     <h1 class = "white-text heading-font font-size-96">{{ item.title }}</h1>

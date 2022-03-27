@@ -101,6 +101,11 @@ h1,h2,h3,h4,h5,h6{
     position:relative;
 }
 
+.absolute-bottom-0{
+    position: absolute;
+    bottom: 0;
+}
+
 .text-align-center{
     text-align:center;
 }
@@ -353,6 +358,10 @@ h1,h2,h3,h4,h5,h6{
 
 .black-background{
     background-color: black;
+}
+
+.font-size-larger{
+    font-size:larger;
 }
 
 
