@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
 /* Header image for menu pages */
 #meal-list-banner{
     min-height: 50vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/meal-list-banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('{% static "img/meal-list-banner.jpg" %}');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -249,7 +249,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* Images for menu categories */
 .Starters{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/starters-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('/static/img/starters-menu.jpg')
 }
 
 .Pizza{
