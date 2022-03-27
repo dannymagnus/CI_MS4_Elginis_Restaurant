@@ -623,6 +623,66 @@ This feature covers the following user stories
 *25.	As a site owner, I want users to be able to leave a comment or review*
 *28.	As a site owner, I want users to be able to contact the business*
 
+### Page 9 - Reservation page
+
+#### Feature 1 - Reservation form
+The reservation form consists of an image background with the reservation form overlay. 
+This feature covers the following user stories
+<br>![Navbar model](readme/features/booking-form.png)
+
+*11.	As a first time user, I want to be able to make a reservation*
+
+*12.	As a first time user, I want to be able to view the restaurants location and opening hours*
+
+*24.	As a site owner, I want users to be able to make a reservation*
+
+*29.	As a site owner, I want users to be able to view the location and opening times*
+
+The form has required fields and only allows users to book future dates and in the restaurant’s opening hours.
+
+<br>![Navbar model](readme/features/booking-form.png)
+<br>![Navbar model](readme/features/time-picker.png)
+
+### Page 10 - Login & Sign in page and feature
+This page allows the user to sign in to an existing account they have created. There is a link for the user to sign up if they haven’t yet made an account. Once logged in the user is able to post, amend or delete comments.
+<br>![Navbar model](readme/features/sign-in.png)
+
+This page covers the following user stories
+
+*7.	As a first time user, I want to be able to leave a comment or review*
+
+*9.	As a first time user, I want to be able to edit and delete a comment I have made*
+
+*15. As a first time user, I want to be able to to sign in to, or create an account*
+
+*25.	As a site owner, I want users to be able to leave a comment or review*
+
+*27.	As a site owner, I want users to be able to edit and delete comments or reviews*
+
+*34. As a site owner, I want users to be able to sign in to, or create an account*
+
+### Page 11 - Sing up page and feature
+This page allows the user to create an account. There is a link for the user to log in after making an 
+account.
+<br>![Navbar model](readme/features/sign-up.png)
+
+This page covers the following user stories
+
+*15. As a first time user, I want to be able to to sign in to, or create an account*
+
+*34. As a site owner, I want users to be able to sign in to, or create an account*
+
+### Page 12 - Log out page and feature
+This page allows a user to sign out of an account they have created.
+<br>![Navbar model](readme/features/sign-out.png)
+
+This page covers the following user stories
+
+*16. As a first time user, I want to be able to log out of an account*
+
+*35. As a site owner, I want users to be able to log out of their account*
+
+
 
 ## Technologies Used
 
