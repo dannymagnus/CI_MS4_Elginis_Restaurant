@@ -39,13 +39,13 @@
                 <div class="col-sm col-lg-8 col-xl-8 col-xxl-8 d-flex justify-content-center pt-5 mt-5 pb-5">
                     <h1 class = "heading-font font-size-96 white-text mb-5">Get in touch!</h1>
                 </div>
-                <div class="col-sm col-lg-4 col-xl-4 col-xxl-4 translucent-body mb-5">
+                <div class="col-sm col-lg-4 col-xl-4 col-xxl-4 mb-5">
                     {% if contacted %}
                         <div class="alert alert-success">
                             Thank you for your message, we'll be in touch soon!
                         </div>
                     {% else %}
-                        <form method = "POST" class = "p-1">
+                        <form method = "POST" class = "p-3 translucent-body">
                             {% csrf_token %}
                             {{ contact_form | crispy }}
                             <br>

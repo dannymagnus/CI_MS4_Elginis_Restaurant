@@ -221,7 +221,7 @@ This model contains all fields stored in the database collections with their dat
 
 ## Skeleton
 
-### wireframes
+### Wireframes
 
 <details><summary>Home</summary>
 <img src="readme/wireframes/home.png">
