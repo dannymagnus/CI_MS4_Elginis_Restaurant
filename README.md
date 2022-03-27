@@ -199,16 +199,16 @@ This model contains all fields stored in the database collections with their dat
 4.	As a first time user, I want to be able to view the full menu
 5.	As a first time user, I want to be able to view food allergies and calories
 6.	As a first time user, I want to be able to view a description and price of the food
-7.	As a first time user, I want to be able to leave a comment or review
-8.	As a first time user, I want to be able to see other user’s comments and reviews
-9.	As a first time user, I want to be able to edit and delete a comment I have made
+7.	As a logged in user, I want to be able to leave a comment or review
+8.	As a logged in user, I want to be able to see other user’s comments and reviews
+9.	As a logged in user, I want to be able to edit and delete a comment I have made
 10.	As a first time user, I want to be able contact the restaurant
 11.	As a first time user, I want to be able to make a reservation
 12.	As a first time user, I want to be able to view the restaurants location and opening hours
 13.	As a first time user, I want to know about the business and it’s ethos
 14.	As a first time user, I want to be able to see special offers and promotions.
-15. As a first time user, I want to be able to to sign in to, or create an account
-16. As a first time user, I want to be able to log out of an account
+15. As a logged in user, I want to be able to to sign in to, or create an account
+16. As a logged in user, I want to be able to log out of an account
 17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks
 18. As a first time user, I want to be able to view the business’ social media
 
@@ -233,6 +233,7 @@ This model contains all fields stored in the database collections with their dat
 36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
 37. As a logged in administrator, I want to be able to review and approve or delete user comments.
 38. As a site owner, I want users to be able to view the business’ social media
+39. As a logged in administrator, I want to be able to add new content to the website.
 
 ## Skeleton
 
@@ -350,9 +351,9 @@ This feature covers the following user stories
 
 *11.	As a first time user, I want to be able to make a reservation*
 
-*15. As a first time user, I want to be able to sign in to, or create an account*
+*15. As a logged in user, I want to be able to sign in to, or create an account*
 
-*16. As a first time user, I want to be able to log out of an account*
+*16. As a logged in user, I want to be able to log out of an account*
 
 *21.	As a site owner, I want users to be to view our full menu*
 
@@ -523,15 +524,23 @@ When the user selects on the image a new page opens for the item, which includes
 
 This feature covers the following user stories
 *1.	As a first time user, I want to be able to view the type of food the restaurant provides*
+
 *2.	As a first time user, I want to see professional and appealing images of the food*
+
 *4.	As a first time user, I want to be able to view the full menu*
+
 *6.	As a first time user, I want to be able to view a description and price of the food*
+
 *17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
-*20.	As a site owner, I show appealing and professional images of our food*
-*21.	As a site owner, I want users to be to view our full menu*
-*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*19. As a site owner, I want to attract customers to our restaurant*
+
+*20. As a site owner, I show appealing and professional images of our food*
+
+*21. As a site owner, I want users to be to view our full menu*
+
+*22. As a site owner, I want users to be able to view the food descriptions and prices*
+
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
 ### Page 5 - Dinner Menu
@@ -573,13 +582,13 @@ This feature covers the following user stories
 
 *17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*20.	As a site owner, I show appealing and professional images of our food*
+*20. As a site owner, I show appealing and professional images of our food*
 
-*21.	As a site owner, I want users to be to view our full menu*
+*21. As a site owner, I want users to be to view our full menu*
 
-*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*22. As a site owner, I want users to be able to view the food descriptions and prices*
 
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
@@ -592,7 +601,7 @@ This feature covers the following user stories
 
 *17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
 
-*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*32. As a site owner, I want users to be able to navigate the site easily and quickly*
 
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
@@ -601,15 +610,15 @@ The about page provides the user with all of the background information of the b
 <br>![Navbar model](readme/features/heritage.png)
 
 The page covers the following user stories
-*12.	As a first time user, I want to be able to view the restaurants location and opening hours*
+*12. As a first time user, I want to be able to view the restaurants location and opening hours*
 
-*13.	As a first time user, I want to know about the business and it’s ethos*
+*13. As a first time user, I want to know about the business and it’s ethos*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*29.	As a site owner, I want users to be able to view the location and opening times*
+*29. As a site owner, I want users to be able to view the location and opening times*
 
-*30.	As a site owner, I want users to be able to find out about our business ethos*
+*30. As a site owner, I want users to be able to find out about our business ethos*
 
 The page consists of the following features:
 #### Feature 1 - Text accordion
@@ -619,13 +628,13 @@ The accordion shows the user reasons for them to book a reservation, with the te
 This feature covers the following user stories
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
 
-*13.	As a first time user, I want to know about the business and it’s ethos*
+*13. As a first time user, I want to know about the business and it’s ethos*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*30.	As a site owner, I want users to be able to find out about our business ethos*
+*30. As a site owner, I want users to be able to find out about our business ethos*
 
-*31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation*
+*31. As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation*
 
 #### Feature 2 - Image carousel
 The image carousel circulates automatically. The images that circulate match each heading in the accordion.
@@ -634,15 +643,15 @@ The image carousel circulates automatically. The images that circulate match eac
 This feature covers the following user stories
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
 
-*13.	As a first time user, I want to know about the business and it’s ethos*
+*13. As a first time user, I want to know about the business and it’s ethos*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*21.	As a site owner, I show appealing and professional images of our food*
+*21. As a site owner, I show appealing and professional images of our food*
 
-*30.	As a site owner, I want users to be able to find out about our business ethos*
+*30. As a site owner, I want users to be able to find out about our business ethos*
 
-*31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation*
+*31. As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation*
 
 #### Feature 3 - Comment section
 This scrollable comment section allows users to read other user’s comments and see their own comments after posting.
@@ -652,18 +661,17 @@ When the user is logged in they are able to edit and delete the comments that th
 <br>![Navbar model](readme/features/comment-submitted.png)
 
 This feature covers the following user stories
-*7.	As a first time user, I want to be able to leave a comment or review*
+*7.	As a logged in user, I want to be able to leave a comment or review*
 
-*8.	As a first time user, I want to be able to see other user’s comments and reviews*
+*8.	As a logged in user, I want to be able to see other user’s comments and reviews*
 
-*9.	As a first time user, I want to be able to edit and delete a comment I have made*
+*9.	As a logged in user, I want to be able to edit and delete a comment I have made*
 
+*25. As a site owner, I want users to be able to leave a comment or review*
 
-*25.	As a site owner, I want users to be able to leave a comment or review*
+*26. As a site owner, I want users to be able to view other comments and reviews*
 
-*26.	As a site owner, I want users to be able to view other comments and reviews*
-
-*27.	As a site owner, I want users to be able to edit and delete comments or reviews*
+*27. As a site owner, I want users to be able to edit and delete comments or reviews*
 
 *37. As a logged in administrator, I want to be able to review and approve or delete user comments.*
 
@@ -671,7 +679,7 @@ This feature covers the following user stories
 The login or signup links allow users to sign in to an existing account, or to create a new account to post comments
 <br>![Navbar model](readme/features/signup-in.png)
 
-*15. As a first time user, I want to be able to create an account*
+*15. As a logged in user, I want to be able to create an account*
 
 *34. As a site owner, I want users to be able to sign in to, or create an account*
 
@@ -679,19 +687,22 @@ The login or signup links allow users to sign in to an existing account, or to c
 The contact page shows the user the business address and opening Hours. It also consists of an image background with the contact form overlay. The form allows the user to choose from a preset communication option from a drop down menu.
 <br>![Navbar model](readme/features/join-us.png)
 
-*12.	As a first time user, I want to be able to view the restaurants location and opening hours*
+*12. As a first time user, I want to be able to view the restaurants location and opening hours*
 
-*29.	As a site owner, I want users to be able to view the location and opening times*
+*29. As a site owner, I want users to be able to view the location and opening times*
 
 #### Feature 1 - Contact form
 <br>![Navbar model](readme/features/contact-form.png)
 
 This feature covers the following user stories
-*7.	As a first time user, I want to be able to leave a comment or review*
-*10.	As a first time user, I want to be able contact the restaurant*
 
-*25.	As a site owner, I want users to be able to leave a comment or review*
-*28.	As a site owner, I want users to be able to contact the business*
+*7.	As a logged in user, I want to be able to leave a comment or review*
+
+*10. As a first time user, I want to be able contact the restaurant*
+
+*25. As a site owner, I want users to be able to leave a comment or review*
+
+*28. As a site owner, I want users to be able to contact the business*
 
 ### Page 9 - Reservation page
 
@@ -700,13 +711,13 @@ The reservation form consists of an image background with the reservation form o
 This feature covers the following user stories
 <br>![Navbar model](readme/features/booking-form.png)
 
-*11.	As a first time user, I want to be able to make a reservation*
+*11. As a first time user, I want to be able to make a reservation*
 
-*12.	As a first time user, I want to be able to view the restaurants location and opening hours*
+*12. As a first time user, I want to be able to view the restaurants location and opening hours*
 
-*24.	As a site owner, I want users to be able to make a reservation*
+*24. As a site owner, I want users to be able to make a reservation*
 
-*29.	As a site owner, I want users to be able to view the location and opening times*
+*29. As a site owner, I want users to be able to view the location and opening times*
 
 The form has required fields and only allows users to book future dates and in the restaurant’s opening hours.
 
@@ -719,15 +730,15 @@ This page allows the user to sign in to an existing account they have created. T
 
 This page covers the following user stories
 
-*7.	As a first time user, I want to be able to leave a comment or review*
+*7.	As a logged in user, I want to be able to leave a comment or review*
 
-*9.	As a first time user, I want to be able to edit and delete a comment I have made*
+*9.	As a logged in user, I want to be able to edit and delete a comment I have made*
 
-*15. As a first time user, I want to be able to to sign in to, or create an account*
+*15. As a logged in user, I want to be able to to sign in to, or create an account*
 
-*25.	As a site owner, I want users to be able to leave a comment or review*
+*25. As a site owner, I want users to be able to leave a comment or review*
 
-*27.	As a site owner, I want users to be able to edit and delete comments or reviews*
+*27. As a site owner, I want users to be able to edit and delete comments or reviews*
 
 *34. As a site owner, I want users to be able to sign in to, or create an account*
 
@@ -738,7 +749,7 @@ account.
 
 This page covers the following user stories
 
-*15. As a first time user, I want to be able to to sign in to, or create an account*
+*15. As a logged in user, I want to be able to to sign in to, or create an account*
 
 *34. As a site owner, I want users to be able to sign in to, or create an account*
 
@@ -748,7 +759,7 @@ This page allows a user to sign out of an account they have created.
 
 This page covers the following user stories
 
-*16. As a first time user, I want to be able to log out of an account*
+*16. As a logged in user, I want to be able to log out of an account*
 
 *35. As a site owner, I want users to be able to log out of their account*
 
