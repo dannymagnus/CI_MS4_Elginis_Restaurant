@@ -1378,6 +1378,22 @@ By forking this GitHub repository you are making a copy of the original to view 
 
 *All credit also included in the page files.*
 
+### Media
+
+Media from the following artists was used throughout the site.
+
+- [Adobe Stock Images](www.stock.adobe.com)
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://www.pexels.com/)
+- [Shutterstock](https://www.shutterstock.com/discover/stock-assets-uk-0220?kw=free%20images&c3apidt=p44044564070&gclid=CjwKCAjwloCSBhAeEiwA3hVo_aWCMHb_myvjFHu9hDOK2H8NkLvJ2OUMurc0or0G-aCEET7y-l4RdhoCnyQQAvD_BwE&gclsrc=aw.ds)
+
+### Acknowledgements: 
+
+- To my wife Rebecca Richards for her testing, support, feedback, permissions for content and images on this project. 
+- To my mentor Mo Shami for his invaluable guidance and direction.
+- To the Code Institute slack community of students.
+- To the Code Institute Tutors
+
 <!-- ### Code
 
 - **WebDev Simplified** - for [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) and [Grid](https://www.youtube.com/watch?v=9zBsdzdE4sM) learning about quiz concepts.
