@@ -14,37 +14,33 @@
     1. [Strategy](#strategy)
         + [Primary Goal](#primary-goal)
     2. [Structure](#structure)
-        + [Website pages](#website-pages)
-        + [Code Structure](#code-structure)
-        + [Database](#database)
-        - [Physical database model](#physical-database-model)
-        - [Models](#models)
-            * [User Model](#user-model)
-            * [Meal Model](#meal-model)
-            * [Category Model](#category-model)
-            * [Allergen Model](#allergen-model)
-            * [Drink Model](#drink-model)
-            * [DrinkCategory Model](#drinkcategory-model)
-            * [Comment Model](#comment-model)
-            * [Booking Model](#booking-model)
-            * [Contact Model](#contact-model)
-            * [Reason Model](#reason-model)
-            * [About Model](#about-model)
-            * [Chef Model](#chef-model)
-            * [Reasons Model](#reasons-model)
-            * [Home Model](#home-model)
-    <!-- 1. [Target Audience](#target-audience)
-    2. [User Requirements and Expectations](#user-requirements-and-expectations) -->
+        1. [Website pages](#website-pages)
+        2. [Code Structure](#code-structure)
+        3. [Database](#database)
+        4. [Physical database model](#physical-database-model)
+        5. [Models](#models)
+            1. [User Model](#user-model)
+            2. [Meal Model](#meal-model)
+            3. [Category Model](#category-model)
+            4. [Allergen Model](#allergen-model)
+            5. [Drink Model](#drink-model)
+            6. [DrinkCategory Model](#drinkcategory-model)
+            7. [Comment Model](#comment-model)
+            8. [Booking Model](#booking-model)
+            9. [Contact Model](#contact-model)
+            10. [Reason Model](#reason-model)
+            11. [About Model](#about-model)
+            12. [Chef Model](#chef-model)
+            13. [Reasons Model](#reasons-model)
+            14. [Home Model](#home-model)
     3. [Scope](#scope)
-        +[User Stories](#user-stories)
-    4. [Skeleton](#design)
+        1. [User Stories](#user-stories)
+    4. [Skeleton](#skeleton)
         1. [Wireframes](#wireframes)
     5. [Surface](#surface)
         1. [Design Choices](#design-choices)
         2. [Colour](#colours)
         3. [Fonts](#fonts)
-
-
 5. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
@@ -107,7 +103,7 @@ To complement the apps there are
 Note: Environment variable values are not exposed in the source code, they are stored locally in env.py that is not checked in(and listed in .gitignore, and on Heroku in app settings
 
 
-Physical database model
+#### Physical database model
 
 This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database 
 <br>![Database model](readme/misc/database_schema.png)
@@ -222,6 +218,62 @@ This model contains all fields stored in the database collections with their dat
 36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
 37. As a site owner, I want users to be able to review and approve user comments
 38. As a site owner, I want users to be able to view the business’ social media
+
+## Skeleton
+
+### wireframes
+
+<details><summary>Home</summary>
+<img src="readme/wireframes/home.png">
+</details>
+
+<details><summary>About</summary>
+<img src="readme/wireframes/about-us.png">
+</details>
+
+<details><summary>Contact</summary>
+<img src="readme/wireframes/contact-us.png">
+</details>
+
+<details><summary>Menus</summary>
+<img src="readme/wireframes/menus.png">
+</details>
+
+<details><summary>Dinner Menu</summary>
+<img src="readme/wireframes/dinner-menu.png">
+</details>
+
+<details><summary>Drinks</summary>
+<img src="readme/wireframes/drinks-menu.png">
+</details>
+
+<details><summary>Lunch Menu</summary>
+<img src="readme/wireframes/lunch-menu.png">
+</details>
+
+<details><summary>Meal Details</summary>
+<img src="readme/wireframes/meal-description.png">
+</details>
+
+<details><summary>Sign In</summary>
+<img src="readme/wireframes/sign-in.png">
+</details>
+
+<details><summary>Sign Up</summary>
+<img src="readme/wireframes/sign-up.png">
+</details>
+
+<details><summary>Logout</summary>
+<img src="readme/wireframes/logout.png">
+</details>
+
+<details><summary>Reservation</summary>
+<img src="readme/wireframes/reserve.png">
+</details>
+
+<details><summary>Errors</summary>
+<img src="readme/wireframes/error.png">
+</details>
 
 ## Surface
 ### Design choices
@@ -933,7 +985,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 <details><summary>Images</summary>
 <img src="readme/validation/us-testing/us-1.jpg">
-<img src="readme/validation/us-testing/readme/validation/us-testing/us-1-lunch-sorted.jpg">
+<img src="readme/validation/us-testing/us-1-lunch-sorted.jpg">
 </details>
 
 2.	As a first time user, I want to see professional and appealing images of the food
@@ -1018,8 +1070,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|  Edit comment           | Login to site, post a comment, refresh site, select a valid comment you have written (approved), click edit, complete edit, submit           | Comment is edited with visual feeback         | Works as expected |
-| Delete comment            | Login to site, post a comment, refresh site, select a valid comment you have written (approved), click delete, confirm delete          |  Comment is deleted and no longer displayed            | Works as expected |
+|  Edit comment           | Login to site (precondition) select a valid comment you have written (approved), click edit, complete edit, submit           | Comment is edited with visual feeback         | Works as expected |
+| Delete comment            | Login to site (precondition) select a valid comment you have written (approved), click delete, confirm delete          |  Comment is deleted and no longer displayed            | Works as expected |
 
 <details><summary>Images</summary>
 <img src="">
