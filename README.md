@@ -231,7 +231,7 @@ This model contains all fields stored in the database collections with their dat
 34. As a site owner, I want users to be able to sign in to, or create an account
 35. As a site owner, I want users to be able to log out of their account
 36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
-37. As a site owner, I want users to be able to review and approve user comments
+37. As a logged in administrator, I want to be able to review and approve or delete user comments.
 38. As a site owner, I want users to be able to view the business’ social media
 
 ## Skeleton
@@ -665,7 +665,7 @@ This feature covers the following user stories
 
 *27.	As a site owner, I want users to be able to edit and delete comments or reviews*
 
-*37. As a site owner, I want users to be able to review and approve user comments*
+*37. As a logged in administrator, I want to be able to review and approve or delete user comments.*
 
 #### Feature 4 - Login/Signup
 The login or signup links allow users to sign in to an existing account, or to create a new account to post comments
@@ -1067,7 +1067,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Comments section            | Navigate to about page, login(signup prerequisite), write comment and submit           | Comment is submitted and feedback is given (waiting approval)                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-7.jpg">
 </details>
 
 8.	As a first time user, I want to be able to see other user’s comments and reviews
@@ -1076,9 +1076,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |-------------|------------|---------------------|-------------------|
 | Comments section            |  Navigate to about page, scroll down to comments section          | Comments section is displayed with posted by, date and the comment                    | Works as expected |
 
-
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-8.jpg">
 </details>
 
 9.	As a first time user, I want to be able to edit and delete a comment I have made
@@ -1089,7 +1088,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Delete comment            | Login to site (precondition) select a valid comment you have written (approved), click delete, confirm delete          |  Comment is deleted and no longer displayed            | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-9.jpg">
 </details>
 
 10.	As a first time user, I want to be able contact the restaurant
@@ -1100,7 +1099,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Contact form           | From contact page, complete all required form fields and submit           |  Contact form is submitted with visual feeback            | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-10.jpg">
 </details>
 
 11.	As a first time user, I want to be able to make a reservation
@@ -1111,7 +1110,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Booking form            | From booking page, complete all required form fields and submit           | Booking form is submitted with visual feeback                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-11.jpg">
 </details>
 
 12.	As a first time user, I want to be able to view the restaurants location and opening hours
@@ -1121,7 +1120,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant address and opening hours are displayed                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-12.jpg">
 </details>
 
 13.	As a first time user, I want to know about the business and it’s ethos
@@ -1131,7 +1130,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | About page            | From any other page, click nav bar link to about page           | About page is displayed with herritage, reasons to dine and chef bios                     | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-13.jpg">
 </details>
 
 14.	As a first time user, I want to be able to see special offers and promotions.
@@ -1141,7 +1140,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Carousel       | Navigate to site home page           | Carousel displays any special offers on rotation                     | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-14.jpg">
 </details>
 
 15. As a first time user, I want to be able to to sign in to, or create an account
@@ -1151,7 +1150,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Signup/login            | From any page select login link in navbar/ about page comments section login/signup anchor           | User is directed to signup/login page and can set username/password            | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-15.jpg">
 </details>
 
 16. As a first time user, I want to be able to log out of an account
@@ -1161,7 +1160,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Account logout            | From navbar select logout link and confirm           | User is logged out of accoutn and nav bar reflects this                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-16.jpg">
 </details>
 
 17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks
@@ -1176,7 +1175,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 |  Drinks Menu           | From the home page, select drinks menu from button on body image           | Drinks menu is rendered with available drinks options                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-17.jpg">
+<img src="readme/validation/us-testing/us-17-home-page-options.jpg">
 </details>
 
 18. As a first time user, I want to be able to view the business’ social media
@@ -1186,7 +1186,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 | Social media links            | From footer select desired social link           | Link opens in new tab                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-18.jpg">
 </details>
 
 19.	As a site owner, I want to attract customers to our restaurant
@@ -1197,7 +1197,7 @@ User story too vague - rejected.
 <img src="">
 </details>
 
-20.	As a site owner, I show appealing and professional images of our food
+20.	As a site owner, I want to show appealing and professional images of our food
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1205,7 +1205,8 @@ User story too vague - rejected.
 |  Menu pages           | From any page, select a menu from the top nav bar           |  Menu page is displayed with meal images                   | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-2.jpg">
+<img src="readme/validation/us-testing/us-2-menu-pages.jpg">
 </details>
 
 21.	As a site owner, I want users to be to view our full menu
@@ -1216,7 +1217,7 @@ User story too vague - rejected.
 | Full menu page            | From the footer, select the menu link           |  Correct menu page is displayed with context                   | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-4.jpg">
 </details>
 
 22.	As a site owner, I want users to be able to view the food descriptions and prices
@@ -1227,7 +1228,7 @@ User story too vague - rejected.
 | Meal details page            | From any menu page, click the meal item image           | Meal detail page is displayed for requested item with full description, allergen info, calories and price displayed               | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-6.jpg">
 </details>
 
 23.	As a site owner, I want users to be able to view allergies and calories
@@ -1237,7 +1238,7 @@ User story too vague - rejected.
 | Meal details page            | From any menu page, click the meal item image           | Meal detail page is displayed for requested item with allergen info and calories displayed               | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-5.jpg">
 </details>
 
 24.	As a site owner, I want users to be able to make a reservation
@@ -1248,7 +1249,7 @@ User story too vague - rejected.
 | Booking form            | From booking page, complete all required form fields and submit           | Booking form is submitted with visual feeback                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-11.jpg">
 </details>
 
 25.	As a site owner, I want users to be able to leave a comment or review
@@ -1258,7 +1259,7 @@ User story too vague - rejected.
 | Comments section            | Navigate to about page, login(signup prerequisite), write comment and submit           | Comment is submitted and feedback is given (waiting approval)                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-7.jpg">
 </details>
 
 26.	As a site owner, I want users to be able to view other comments and reviews
@@ -1268,7 +1269,7 @@ User story too vague - rejected.
 | Comments section            |  Navigate to about page, scroll down to comments section          | Comments section is displayed with posted by, date and the comment                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-8.jpg">
 </details>
 
 27.	As a site owner, I want users to be able to edit and delete comments or reviews
@@ -1279,7 +1280,7 @@ User story too vague - rejected.
 | Delete comment            | Login to site, post a comment, refresh site, select a valid comment you have written (approved), click delete, confirm delete          |  Comment is deleted and no longer displayed            | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-9.jpg">
 </details>
 
 28.	As a site owner, I want users to be able to contact the business
@@ -1290,7 +1291,7 @@ User story too vague - rejected.
 | Contact form           | From contact page, complete all required form fields and submit           |  Contact form is submitted with visual feeback            | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-10.jpg">
 </details>
 
 29.	As a site owner, I want users to be able to view the location and opening times
@@ -1300,7 +1301,7 @@ User story too vague - rejected.
 | Contact page address and phone number            | From any page, click nav link to contact page           | Restaurant address and opening hours are displayed                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-12.jpg">
 </details>
 
 30.	As a site owner, I want users to be able to find out about our business ethos
@@ -1310,7 +1311,7 @@ User story too vague - rejected.
 | About page            | From any other page, click nav bar link to about page           | About page is displayed with herritage, reasons to dine and chef bios                     | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-13.jpg">
 </details>
 
 31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation
@@ -1328,11 +1329,12 @@ User story too vague - rejected.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|             |            |                     | Works as expected |
-|             |            |                     | Works as expected |
+|  Main Nav bar           |   From any page click desired navbar link         |    Correct page is displayed and nav bar remains                 | Works as expected |
+| Footer nav bar            | From any page click desired navbar link           | orrect page is displayed and nav bar remains                    | Works as expected |
+|  Menu page category nav bar           | Click required category link           | Page scrolls to correct internal link                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-3.jpg">
 </details>
 
 33. As a site owner, I want to be able to promote special offers and events.
@@ -1341,9 +1343,8 @@ User story too vague - rejected.
 |-------------|------------|---------------------|-------------------|
 | Carousel       | Navigate to site home page           | Carousel displays any special offers on rotation                     | Works as expected |
 
-
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-14.jpg">
 </details>
 
 34. As a site owner, I want users to be able to sign in to, or create an account
@@ -1353,7 +1354,7 @@ User story too vague - rejected.
 | Signup/login            | From any page select login link in navbar/ about page comments section login/signup anchor           | User is directed to signup/login page and can set username/password            | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-15.jpg">
 </details>
 
 35. As a site owner, I want users to be able to log out of their account
@@ -1362,9 +1363,8 @@ User story too vague - rejected.
 |-------------|------------|---------------------|-------------------|
 | Account logout            | From navbar select logout link and confirm           | User is logged out of accoutn and nav bar reflects this                    | Works as expected |
 
-
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-16.jpg">
 </details>
 
 36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
@@ -1376,18 +1376,19 @@ User story too vague - rejected.
 |  Drinks Menu           | From any page, select drinks menu from nav bar           | Drinks menu is rendered with available drinks options                    | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-17.jpg">
+<img src="readme/validation/us-testing/us-17-home-page-options.jpg">
 </details>
 
-37. As a site owner, I want to be able to review and approve user comments
+37. As a logged in administrator, I want to be able to review and approve or delete user comments.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Admin panel            | From the admin panel, select option to approve comment           | Approved comments are rendered in the about content area                    | Works as expected |
-
+| Admin panel            | From the admin panel, select option to delete comment           | Selected comments are deleted once confirmed                   | Works as expected |
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-37.jpg">
 </details>
 
 38. As a site owner, I want users to be able to view the business’ social media
@@ -1398,7 +1399,7 @@ User story too vague - rejected.
 
 
 <details><summary>Images</summary>
-<img src="">
+<img src="readme/validation/us-testing/us-18.jpg">
 </details>
 
 ## Deployment
