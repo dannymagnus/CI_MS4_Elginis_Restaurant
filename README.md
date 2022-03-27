@@ -347,21 +347,21 @@ This feature covers the following user stories
 
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
 
-*10.	As a first time user, I want to be able contact the restaurant*
+*10. As a first time user, I want to be able contact the restaurant*
 
-*11.	As a first time user, I want to be able to make a reservation*
+*11. As a first time user, I want to be able to make a reservation*
 
 *15. As a logged in user, I want to be able to sign in to, or create an account*
 
 *16. As a logged in user, I want to be able to log out of an account*
 
-*21.	As a site owner, I want users to be to view our full menu*
+*21. As a site owner, I want users to be to view our full menu*
 
-*24.	As a site owner, I want users to be able to make a reservation*
+*24. As a site owner, I want users to be able to make a reservation*
 
-*28.	As a site owner, I want users to be able to contact the business*
+*28. As a site owner, I want users to be able to contact the business*
 
-*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*32. As a site owner, I want users to be able to navigate the site easily and quickly*
 
 *34. As a site owner, I want users to be able to sign in to, or create an account*
 
@@ -379,11 +379,11 @@ This feature covers the following user stories
 
 *2.	As a first time user, I want to see professional and appealing images of the food*
 
-*14.	As a first time user, I want to be able to see special offers and promotions.*
+*14. As a first time user, I want to be able to see special offers and promotions.*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*20.	As a site owner, I show appealing and professional images of our food*
+*20. As a site owner, I show appealing and professional images of our food*
 
 *33.  As a site owner, I want to be able to promote special offers and events.*
 
@@ -404,11 +404,11 @@ This feature covers the following user stories
 
 *17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*20.	As a site owner, I show appealing and professional images of our food*
+*20. As a site owner, I show appealing and professional images of our food*
 
-*21.	As a site owner, I want users to be to view our full menu*
+*21. As a site owner, I want users to be to view our full menu*
 
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
@@ -422,7 +422,7 @@ This feature covers the following user stories
 
 *18. As a first time user, I want to be able to view the business’ social media*
 
-*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*32.As a site owner, I want users to be able to navigate the site easily and quickly*
 
 *38. As a site owner, I want users to be able to view the business’ social media*
 
@@ -443,11 +443,11 @@ This feature covers the following user stories
 
 *6.	As a first time user, I want to be able to view a description and price of the food*
 
-*20.	As a site owner, I show appealing and professional images of our food*
+*20. As a site owner, I show appealing and professional images of our food*
 
-*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*22. As a site owner, I want users to be able to view the food descriptions and prices*
 
-*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*32. As a site owner, I want users to be able to navigate the site easily and quickly*
 
 
 #### Feature 2 - Full menu image gallery
@@ -464,13 +464,13 @@ This feature covers the following user stories
 
 *6.	As a first time user, I want to be able to view a description and price of the food*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*20.	As a site owner, I show appealing and professional images of our food*
+*20. As a site owner, I show appealing and professional images of our food*
 
-*21.	As a site owner, I want users to be to view our full menu*
+*21. As a site owner, I want users to be to view our full menu*
 
-*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*22. As a site owner, I want users to be able to view the food descriptions and prices*
 
 ### Page 3 - Food description
 The food description page is shown when a user clicks on the image of an individual item. The page enables users to find out a more detailed description of the item including the allergies and calorie content.
@@ -490,13 +490,13 @@ This feature covers the following user stories
 
 *6.	As a first time user, I want to be able to view a description and price of the food*
 
-*19.	As a site owner, I want to attract customers to our restaurant*
+*19. As a site owner, I want to attract customers to our restaurant*
 
-*20.	As a site owner, I show appealing and professional images of our food*
+*20. As a site owner, I show appealing and professional images of our food*
 
-*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*22. As a site owner, I want users to be able to view the food descriptions and prices*
 
-*23.	As a site owner, I want users to be able to view allergies and calories*
+*23. As a site owner, I want users to be able to view allergies and calories*
 
 ### Page 4 - Lunch Menu
 The lunch menu page shows items on the lunch menu only. It has an internal navigation bar to guide the user through the menu sections. It also shows the item’s image, descriptions, price and dietary requirements. The images are professional quality and are shown in a clear grid layout, separated with header images.
@@ -559,11 +559,11 @@ This feature covers the following user stories
 
 *6.	As a first time user, I want to be able to view a description and price of the food*
 
-*20.	As a site owner, I show appealing and professional images of our food*
+*20. As a site owner, I show appealing and professional images of our food*
 
-*22.	As a site owner, I want users to be able to view the food descriptions and prices*
+*22. As a site owner, I want users to be able to view the food descriptions and prices*
 
-*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+*32. As a site owner, I want users to be able to navigate the site easily and quickly*
 ￼
 #### Feature 2 - Dinner image gallery
 The full menu image gallery shows a professional image of each individual dish, with the dish name and brief description, as well as the price and dietary requirements.
@@ -1071,7 +1071,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="readme/validation/us-testing/us-6.jpg">
 </details>
 
-7.	As a first time user, I want to be able to leave a comment or review
+7.	As a logged in user, I want to be able to leave a comment or review
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1081,7 +1081,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="readme/validation/us-testing/us-7.jpg">
 </details>
 
-8.	As a first time user, I want to be able to see other user’s comments and reviews
+8.	As a logged in user, I want to be able to see other user’s comments and reviews
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1091,7 +1091,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="readme/validation/us-testing/us-8.jpg">
 </details>
 
-9.	As a first time user, I want to be able to edit and delete a comment I have made
+9.	As a logged in user, I want to be able to edit and delete a comment I have made
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1102,7 +1102,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="readme/validation/us-testing/us-9.jpg">
 </details>
 
-10.	As a first time user, I want to be able contact the restaurant
+10.	As a logged in user, I want to be able contact the restaurant
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1154,7 +1154,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="readme/validation/us-testing/us-14.jpg">
 </details>
 
-15. As a first time user, I want to be able to to sign in to, or create an account
+15. As a logged in user, I want to be able to to sign in to, or create an account
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1164,7 +1164,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="readme/validation/us-testing/us-15.jpg">
 </details>
 
-16. As a first time user, I want to be able to log out of an account
+16. As a logged in user, I want to be able to log out of an account
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
