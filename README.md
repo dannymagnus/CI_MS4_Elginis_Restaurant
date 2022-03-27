@@ -512,6 +512,116 @@ This feature covers the following user stories
 
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
+### Page 6 - Drinks Menu
+The drinks menu page shows items on the drinks menu only. It has an internal navigation bar to guide the user through the menu sections. It also shows the item’s image, descriptions, price and dietary requirements. The images are professional quality and are shown in a clear grid layout, separated with header images.
+<br>![Navbar model](readme/features/drinks-menu.png)
+
+This feature covers the following user stories
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+
+*17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
+
+*32.	As a site owner, I want users to be able to navigate the site easily and quickly*
+
+*36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
+
+## Page 7 - About page
+The about page provides the user with all of the background information of the business.  The page also features a link to enable the user to visit the page showing the business location and opening
+<br>![Navbar model](readme/features/heritage.png)
+
+The page covers the following user stories
+*12.	As a first time user, I want to be able to view the restaurants location and opening hours*
+
+*13.	As a first time user, I want to know about the business and it’s ethos*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+
+*29.	As a site owner, I want users to be able to view the location and opening times*
+
+*30.	As a site owner, I want users to be able to find out about our business ethos*
+
+The page consists of the following features:
+#### Feature 1 - Text accordion
+The accordion shows the user reasons for them to book a reservation, with the text highlighting the business ethos. The user can select any heading to allow the text to show in a drop down.
+<br>![Navbar model](readme/features/accordion.png)
+
+This feature covers the following user stories
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+
+*13.	As a first time user, I want to know about the business and it’s ethos*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+
+*30.	As a site owner, I want users to be able to find out about our business ethos*
+
+*31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation*
+
+#### Feature 2 - Image carousel
+The image carousel circulates automatically. The images that circulate match each heading in the accordion.
+<br>![Navbar model](readme/features/about-carousel.png)
+
+This feature covers the following user stories
+*3.	As a first time user, I want to be able to navigate the website quickly and easily*
+
+*13.	As a first time user, I want to know about the business and it’s ethos*
+
+*19.	As a site owner, I want to attract customers to our restaurant*
+
+*21.	As a site owner, I show appealing and professional images of our food*
+
+*30.	As a site owner, I want users to be able to find out about our business ethos*
+
+*31.	As a site owner, I want users to be able to have an idea of the restaurant’s welcoming atmosphere so they will make a reservation*
+
+#### Feature 3 - Comment section
+This scrollable comment section allows users to read other user’s comments and see their own comments after posting.
+When the user is logged in they are able to edit and delete the comments that they have made.
+<br>![Navbar model](readme/features/comments.png)
+
+<br>![Navbar model](readme/features/comment-submitted.png)
+
+
+This feature covers the following user stories
+*7.	As a first time user, I want to be able to leave a comment or review*
+
+*8.	As a first time user, I want to be able to see other user’s comments and reviews*
+
+*9.	As a first time user, I want to be able to edit and delete a comment I have made*
+
+
+*25.	As a site owner, I want users to be able to leave a comment or review*
+
+*26.	As a site owner, I want users to be able to view other comments and reviews*
+
+*27.	As a site owner, I want users to be able to edit and delete comments or reviews*
+
+*37. As a site owner, I want users to be able to review and approve user comments*
+
+#### Feature 4 - Login/Signup
+The login or signup links allow users to sign in to an existing account, or to create a new account to post comments
+<br>![Navbar model](readme/features/signup-in.png)
+
+*15. As a first time user, I want to be able to create an account*
+
+*34. As a site owner, I want users to be able to sign in to, or create an account*
+
+### Page 8 - Contact page
+The contact page shows the user the business address and opening Hours. It also consists of an image background with the contact form overlay. The form allows the user to choose from a preset communication option from a drop down menu.
+<br>![Navbar model](readme/features/join-us.png)
+
+*12.	As a first time user, I want to be able to view the restaurants location and opening hours*
+
+*29.	As a site owner, I want users to be able to view the location and opening times*
+
+#### Feature 1 - Contact form
+<br>![Navbar model](readme/features/contact-form.png)
+
+This feature covers the following user stories
+*7.	As a first time user, I want to be able to leave a comment or review*
+*10.	As a first time user, I want to be able contact the restaurant*
+
+*25.	As a site owner, I want users to be able to leave a comment or review*
+*28.	As a site owner, I want users to be able to contact the business*
 
 
 ## Technologies Used
