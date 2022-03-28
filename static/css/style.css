@@ -443,14 +443,6 @@ a {
     opacity: 0.5;
 }
 
-.stick-ontop {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0;
-    align-self: flex-start;
-    height: auto;
-  }
-
 .btn.btn-primary {
     background-color: var(--green);
     border-color: var(--green)

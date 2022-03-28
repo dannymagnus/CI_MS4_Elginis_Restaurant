@@ -963,14 +963,17 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <details><summary>Home</summary>
 <img src="docs/validation/wave-validation/wave-validation-index.png">
 </details>
+<details><summary>Menus</summary>
+<img src="docs/validation/wave-validation/wave-validation-menu.png">
+<img src="docs/validation/wave-validation/wave-validation-lunch.png">
+<img src="docs/validation/wave-validation/wave-validation-dinner.png">
+<img src="docs/validation/wave-validation/wave-validation-drinks.png">
+</details>
 <details><summary>About</summary>
 <img src="docs/validation/wave-validation/wave-validation-about.png">
 </details>
-<details><summary>Quiz</summary>
-<img src="docs/validation/wave-validation/wave-validation-quiz.png">
-</details>
-<details><summary>404</summary>
-<img src="docs/validation/wave-validation/wave-validation-404.png">
+<details><summary>Contact</summary>
+<img src="docs/validation/wave-validation/wave-validation-Contact.png">
 </details>
 
 ### Performance 
