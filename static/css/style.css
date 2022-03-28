@@ -333,9 +333,9 @@ a {
     max-height: 150px;
 }
 
-.min-height-width-500{
-    min-height: 500px;
-    min-width: 500px;
+.min-height-width-320{
+    min-height: 320px;
+    min-width: 320px;
 }
 
 /*-----About page----------------------------------------------------------------*/
