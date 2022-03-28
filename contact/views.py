@@ -11,7 +11,8 @@ from .forms import ContactForm
 
 def contact_us(request):
     """
-    A view to contact us page with contact form, get contact details and save to model
+    A view to contact us page with contact form,
+    get contact details and save to model
     Args:
         request (object): HTTP request object.
     Returns:
@@ -25,6 +26,6 @@ def contact_us(request):
             contact_form.save()
             contacted = True
     context = {'contact_form': contact_form,
-               'contacted': contacted,}
-    
-    return render(request,'contact/contact.html', context)
+               'contacted': contacted, }
+
+    return render(request, 'contact/contact.html', context)
