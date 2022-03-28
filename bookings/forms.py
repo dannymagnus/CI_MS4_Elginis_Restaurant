@@ -58,6 +58,6 @@ class BookingForm(forms.ModelForm):
                 'min': "12:00",
                 'max': "21:00",
                 'style': 'max-width: 300px;',
-                'step': '600'
+                'step': '900'
             })
             }

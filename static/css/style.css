@@ -399,6 +399,10 @@ a {
     border-radius: 10px;
 }
 
+#div_id_time .asteriskField::after {
+    content: "(We accept bookings every 15 mins)";
+}
+
 
 /*-------Home page------------------------------------*/
 .home-position-absolute{
