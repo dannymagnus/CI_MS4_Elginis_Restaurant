@@ -397,6 +397,7 @@ The menu images show an image of the restaurant food with a clear button overlay
 
 
 This feature covers the following user stories
+
 *1.	As a first time user, I want to be able to view the type of food the restaurant provides*
 
 *2.	As a first time user, I want to see professional and appealing images of the food*
@@ -764,7 +765,7 @@ This page covers the following user stories
 *34. As a site owner, I want users to be able to sign in to, or create an account*
 
 ### Page 12 - Log out page and feature
-This page allows a user to sign out of an account they have created.
+This page allows a logged in user to sign out of an account they have created.
 <br>![Navbar model](readme/features/sign-out.png)
 
 This page covers the following user stories
@@ -776,7 +777,7 @@ This page covers the following user stories
 ### Page 13 - Error page
 
 This feature redirects the user back to any of the valid links rather than the user using browser controls.
-<br>![Navbar model](readme/features/sign-out.png)
+<br>![Navbar model](readme/features/error.png)
 
 This page covers the following user stories
 
@@ -790,6 +791,7 @@ This feature redirects the user back to any of the valid links rather than the u
 <br>![Navbar model](readme/features/admin-panel.png)
 
 This page covers the following user stories
+
 *39. As a logged in administrator, I want to be able to create, edit or remove content on the website.*
 
 ## Technologies Used
