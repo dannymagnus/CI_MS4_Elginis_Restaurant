@@ -1515,6 +1515,7 @@ By forking this GitHub repository you are making a copy of the original to view 
 Media from the following artists was used throughout the site.
 
 - [Adobe Stock Images](www.stock.adobe.com)
+- [Creative Market](https://creativemarket.com/)
 - [Unsplash](https://unsplash.com/)
 - [Pexels](https://www.pexels.com/)
 - [Shutterstock](https://www.shutterstock.com/discover/stock-assets-uk-0220?kw=free%20images&c3apidt=p44044564070&gclid=CjwKCAjwloCSBhAeEiwA3hVo_aWCMHb_myvjFHu9hDOK2H8NkLvJ2OUMurc0or0G-aCEET7y-l4RdhoCnyQQAvD_BwE&gclsrc=aw.ds)
