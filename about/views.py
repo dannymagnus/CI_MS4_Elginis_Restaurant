@@ -52,6 +52,9 @@ def about(request):
 
 
 def edit_item(request, comment_id):
+    """
+    A view to editing comments
+    """
     comment = get_object_or_404(Comment, id=comment_id)
     comment.approved = False
     if request.method == 'POST':
