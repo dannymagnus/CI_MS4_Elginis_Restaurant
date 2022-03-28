@@ -233,7 +233,11 @@ This model contains all fields stored in the database collections with their dat
 36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks
 37. As a logged in administrator, I want to be able to review and approve or delete user comments.
 38. As a site owner, I want users to be able to view the business’ social media
-39. As a logged in administrator, I want to be able to add new content to the website.
+39. As a logged in administrator, I want to be able to create, edit or remove content on the website.
+
+#### Error Flow
+40. As first time, I user should be able to navigate back through the site structure in case of page not found without using the browser back button.
+41. As a site owner, I want a 404 page that enables users to be able to return to valid areas of the site without using browser controls.
 
 ## Skeleton
 
@@ -506,6 +510,7 @@ The internal navigation bar helps the user to browse the menu without scrolling 
 
 
 This feature covers the following user stories
+
 *1.	As a first time user, I want to be able to view the type of food the restaurant provides*
 
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
@@ -522,6 +527,7 @@ When the user selects on the image a new page opens for the item, which includes
 <br>![Navbar model](readme/features/lunch-menu.png)
 
 This feature covers the following user stories
+
 *1.	As a first time user, I want to be able to view the type of food the restaurant provides*
 
 *2.	As a first time user, I want to see professional and appealing images of the food*
@@ -543,7 +549,7 @@ This feature covers the following user stories
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
 ### Page 5 - Dinner Menu
-The dinner menu page shows items on the lunch menu only. It has an internal navigation bar to guide the user through the menu sections. It also shows the item’s image, descriptions, price and dietary requirements. The images are professional quality and are shown in a clear grid layout, separated with header images.
+The dinner menu page shows items on the dinner menu only. It has an internal navigation bar to guide the user through the menu sections. It also shows the item’s image, descriptions, price and dietary requirements. The images are professional quality and are shown in a clear grid layout, separated with header images.
 It consists of the following features:
 
 #### Feature 1 - internal navigation bar
@@ -566,7 +572,7 @@ This feature covers the following user stories
 ￼
 #### Feature 2 - Dinner image gallery
 The full menu image gallery shows a professional image of each individual dish, with the dish name and brief description, as well as the price and dietary requirements.
-When the user selects on the image a new page opens for the item, which includes additional information including the allergy and nutritional values.
+When the user selects the image a new page opens for the item, which includes additional information including the allergy and nutritional values.
 <br>![Navbar model](readme/features/dinner-menu.png)
 
 This feature covers the following user stories
@@ -596,6 +602,7 @@ The drinks menu page shows items on the drinks menu only. It has an internal nav
 <br>![Navbar model](readme/features/drinks-menu.png)
 
 This feature covers the following user stories
+
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
 
 *17. As a first time user, I want to be able to see separate menus for lunch, dinner and drinks*
@@ -605,10 +612,11 @@ This feature covers the following user stories
 *36. As a site owner, I want users to be able to see separate menus for lunch, dinner and drinks*
 
 ### Page 7 - About page
-The about page provides the user with all of the background information of the business.  The page also features a link to enable the user to visit the page showing the business location and opening
+The about page provides the user with all of the background information of the business.  The page also features a link to enable the user to visit the page showing the business location and opening hours.
 <br>![Navbar model](readme/features/heritage.png)
 
 The page covers the following user stories
+
 *12. As a first time user, I want to be able to view the restaurants location and opening hours*
 
 *13. As a first time user, I want to know about the business and it’s ethos*
@@ -625,6 +633,7 @@ The accordion shows the user reasons for them to book a reservation, with the te
 <br>![Navbar model](readme/features/accordion.png)
 
 This feature covers the following user stories
+
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
 
 *13. As a first time user, I want to know about the business and it’s ethos*
@@ -640,6 +649,7 @@ The image carousel circulates automatically. The images that circulate match eac
 <br>![Navbar model](readme/features/about-carousel.png)
 
 This feature covers the following user stories
+
 *3.	As a first time user, I want to be able to navigate the website quickly and easily*
 
 *13. As a first time user, I want to know about the business and it’s ethos*
@@ -660,6 +670,7 @@ When the user is logged in they are able to edit and delete the comments that th
 <br>![Navbar model](readme/features/comment-submitted.png)
 
 This feature covers the following user stories
+
 *7.	As a logged in user, I want to be able to leave a comment or review*
 
 *8.	As a logged in user, I want to be able to see other user’s comments and reviews*
@@ -761,6 +772,25 @@ This page covers the following user stories
 *16. As a logged in user, I want to be able to log out of an account*
 
 *35. As a site owner, I want users to be able to log out of their account*
+
+### Page 13 - Error page
+
+This feature redirects the user back to any of the valid links rather than the user using browser controls.
+<br>![Navbar model](readme/features/sign-out.png)
+
+This page covers the following user stories
+
+*40. As first time, I user should be able to navigate back through the site structure in case of page not found without using the browser back button.*
+
+*41. As a site owner, I want a 404 page that enables users to be able to return to valid areas of the site without using browser controls.*
+
+### Admin Panel Feature
+
+This feature redirects the user back to any of the valid links rather than the user using browser controls.
+<br>![Navbar model](readme/features/admin-panel.png)
+
+This page covers the following user stories
+*39. As a logged in administrator, I want to be able to create, edit or remove content on the website.*
 
 ## Technologies Used
 
@@ -963,17 +993,14 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <details><summary>Home</summary>
 <img src="docs/validation/wave-validation/wave-validation-index.png">
 </details>
-<details><summary>Menus</summary>
-<img src="docs/validation/wave-validation/wave-validation-menu.png">
-<img src="docs/validation/wave-validation/wave-validation-lunch.png">
-<img src="docs/validation/wave-validation/wave-validation-dinner.png">
-<img src="docs/validation/wave-validation/wave-validation-drinks.png">
-</details>
 <details><summary>About</summary>
 <img src="docs/validation/wave-validation/wave-validation-about.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/validation/wave-validation/wave-validation-Contact.png">
+<details><summary>Quiz</summary>
+<img src="docs/validation/wave-validation/wave-validation-quiz.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/validation/wave-validation/wave-validation-404.png">
 </details>
 
 ### Performance 
