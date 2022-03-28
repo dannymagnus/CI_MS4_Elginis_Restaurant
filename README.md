@@ -390,6 +390,8 @@ This feature covers the following user stories
 
 *33.  As a site owner, I want to be able to promote special offers and events.*
 
+*39. As a logged in administrator, I want to be able to create, edit or remove content on the website.*
+
 #### Feature 3 - lunch, dinner and drinks images with buttons
 
 The menu images show an image of the restaurant food with a clear button overlay which takes the user directly to the relevant menu page quickly and easily.
