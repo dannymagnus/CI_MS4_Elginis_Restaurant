@@ -34,7 +34,9 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['elginis-restaurant.herokuapp.com']
+ALLOWED_HOSTS = ['elginis-restaurant.herokuapp.com', 'localhost']
+
+ACCOUNT_EMAIL_VERIFICATION = 'none' 
 
 
 # Application definition
