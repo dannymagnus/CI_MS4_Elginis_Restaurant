@@ -889,8 +889,12 @@ The custom CSS file for the site passed with 0 errors.
 ### JS Validation
 The Javascript of the each page of the site was validated using [JSHint validation tool](https://jshint.com/).  All pages returned a pass with 0 errors and 0 warnings.
 
-<details><summary>script.js</summary>
-<img src="readme/validation/js-validation/js-validation-script.png">
+<details><summary>about.js</summary>
+<img src="readme/validation/js-validation/js-validation-about.png">
+</details>
+
+<details><summary>bookings.js</summary>
+<img src="readme/validation/js-validation/js-validation-bookings.png">
 </details>
 
 
