@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
 /* Header image for menu pages */
 #meal-list-banner{
     min-height: 50vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('{{STATIC_URL}}img/meal-list-banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/meal-list-banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -253,7 +253,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .Pizza{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/pizza-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dannymagnus/image/upload/v1648411003/static/img/pizza-menu.652b32a2901a.jpg')
 }
 
 .Pasta{
