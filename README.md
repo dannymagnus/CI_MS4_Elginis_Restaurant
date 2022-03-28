@@ -1025,20 +1025,20 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="readme/validation/lighthouse-validation/lighthouse-validation-index.png">
 </details>
 <details><summary>Menus</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-lunch-menu.png">
-<img src="docs/validation/lighthouse-validation/lighthouse-main-menu.png">
-<img src="docs/validation/lighthouse-validation/lighthouse-dinner-menu.png">
-<img src="docs/validation/lighthouse-validation/lighthouse-drinks-menu.png">
-<img src="docs/validation/lighthouse-validation/lighthouse-details-menu.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-lunch-menu.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-main-menu.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-dinner-menu.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-drinks-menu.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-details-menu.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-validation-about.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-validation-about.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-validation-contact.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-validation-contact.png">
 </details>
 <details><summary>Accounts</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-validation-accounts.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-validation-accounts.png">
 </details>
 
 ### Testing user stories
