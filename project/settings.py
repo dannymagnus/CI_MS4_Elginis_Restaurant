@@ -33,9 +33,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
-X_FRAME_OPTIONS = 'ALLOW-FROM http://ami.responsivedesign.is'
 
-ALLOWED_HOSTS = ['elginis-restaurant.herokuapp.com', 'localhost', '127.0.0.1', '*']
+ALLOWED_HOSTS = ['elginis-restaurant.herokuapp.com', '*']
 
 
 # Application definition
