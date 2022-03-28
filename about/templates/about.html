@@ -176,11 +176,13 @@
     <div class="container">
         <div class="row">
             <div class="col-6">
+                <!-- Validate if already commented -->
                 {% if commented %}
                     <div class="alert alert-success">
                         Your comment is awaiting approval.
                     </div>
                 {% else %}
+                <!-- User has to be logged in -->
                 {% if user.is_authenticated %}
                     <h3>Leave a comment:</h3>
                     <p>Posting as: {{ user.username }}</p>
