@@ -1455,6 +1455,7 @@ User story too vague - rejected.
 | ----------- | ----------- |
 | Site images not rendering on Heroku | Change source path from relative to static directory |
 | Transluscent overlay remaining after resevervation request has been received  | Applied style to form instead of parent div |
+| Comment edit does not show awaiting approval | Fix would be to require additional view, bout out of scope for projectt timebox |
 
 ## Deployment
 
