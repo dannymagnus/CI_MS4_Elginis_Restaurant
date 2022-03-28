@@ -20,6 +20,10 @@ class Allergen(models.Model):
         upload_to='allergens/',
         blank=True
         )
+    
+    class Meta:
+        verbose_name = 'Allergen'
+        verbose_name_plural = 'Allergens'
 
     def __str__(self):
         return self.name
@@ -74,6 +78,10 @@ class Meal(models.Model):
         blank=True,
         null=True
         )
+    
+    class Meta:
+        verbose_name = 'Meal'
+        verbose_name_plural = 'Meals'
 
     # Overide save function to create a slug on save -
     # courtesy of Mahmoud Ahmed
@@ -104,6 +112,10 @@ class Category(models.Model):
     name = models.CharField(
         max_length=50
         )
+    
+    class Meta:
+        verbose_name = 'Category'
+        verbose_name_plural = 'Categories'
 
     def __str__(self):
         """
@@ -135,6 +147,10 @@ class Drink(models.Model):
         max_length=100,
         blank=True
         )
+    
+    class Meta:
+        verbose_name = 'Drink'
+        verbose_name_plural = 'Drinks'
 
     def __str__(self):
         """
@@ -154,6 +170,10 @@ class DrinkCategory(models.Model):
     name = models.CharField(
         max_length=50
         )
+    
+    class Meta:
+        verbose_name = 'Drink Category'
+        verbose_name_plural = 'Drink Categories'
 
     def __str__(self):
         """

@@ -249,7 +249,7 @@ h1,h2,h3,h4,h5,h6{
 
 /* Images for menu categories */
 .Starters{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('/static/img/starters-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dannymagnus/image/upload/v1648410997/static/img/starters-menu.6faab5b6a215.jpg')
 }
 
 .Pizza{
@@ -331,7 +331,6 @@ h1,h2,h3,h4,h5,h6{
 
 /*-----About page----------------------------------------------------------------*/
 
-/*Photo by <a href="https://unsplash.com/@jaywennington?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jay Wennington</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
 
 #about-banner{
     min-height: 50vh;

@@ -22,7 +22,9 @@ class Contact(models.Model):
     email = models.EmailField(
         max_length=70
         )
-    phone = models.IntegerField()
+    phone = models.CharField(
+        max_length=13
+        )
     postcode = models.CharField(
         max_length=10
         )
@@ -32,6 +34,9 @@ class Contact(models.Model):
     message = models.TextField(
         max_length=300
         )
+    class Meta:
+        verbose_name = 'Message'
+        verbose_name_plural = 'Messages'
 
     def __str__(self):
         """
