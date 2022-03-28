@@ -257,23 +257,23 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .Pasta{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/pasta-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dannymagnus/image/upload/v1648411002/static/img/pasta-menu.77dd966ff353.jpg')
 }
 
 .Specialities{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/specialities-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dannymagnus/image/upload/v1648411002/static/img/specialities-menu.2e3697685872.jpg')
 }
 
 .Salads{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/salads-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dannymagnus/image/upload/v1648410994/static/img/salads-menu.953020aba177.jpg')
 }
 
 .Desserts{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/desserts-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dannymagnus/image/upload/v1648410995/static/img/desserts-menu.916e7e49a340.jpg')
 }
 
 .Sides{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('../img/sides-menu.jpg')
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dannymagnus/image/upload/v1648411001/static/img/sides-menu.fb46d3c2ad99.jpg')
 }
 
 /* Apply class if not vegan or vegetarian to keep row height */
@@ -335,7 +335,7 @@ h1,h2,h3,h4,h5,h6{
 
 #about-banner{
     min-height: 50vh;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url('../img/about-banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)),url('https://res.cloudinary.com/dannymagnus/image/upload/v1648410999/static/img/about-banner.112020defb9f.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -368,7 +368,7 @@ h1,h2,h3,h4,h5,h6{
 /*------Contact Us --------------------------------------------------------*/
 
 .contact-background{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/contact-banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('https://res.cloudinary.com/dannymagnus/image/upload/v1648410998/static/img/contact-banner.99f16461d36f.jpg');
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -383,7 +383,7 @@ h1,h2,h3,h4,h5,h6{
 /*------Booking Page-------------------------------------------------------*/
 
 .booking-background {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('../img/about-banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)),url('https://res.cloudinary.com/dannymagnus/image/upload/v1648411000/static/img/join-us-banner.99f16461d36f.jpg');
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
