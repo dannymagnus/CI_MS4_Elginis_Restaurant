@@ -1477,15 +1477,55 @@ User story too vague - rejected.
 This application has been deployed from Github using Heroku. Here's how:
 
 1. Create an account at heroku.com
-2. Create a new app, add app name and your region
-3. Click on create app
-4. Go to "Settings"
-5. Under Config Vars, add your sensitive data (creds.json for example)
-6. For this project, I set buildpacks to and in that order.
-7. Go to "Deploy" and at "Deployment method", click on "Connect to Github"
-8. Enter your repository name and click on it when it shows below
-9. Choose the branch you want to buid your app from
-10. If desired, click on "Enable Automatic Deploys", which keeps the app up to date with your Github repository
+2. Create an app, give it a name for example ci-ms4-loverugby, and select a region
+3. Under resources search for postgres, and add a Postgres database to the app
+
+Heroku Postgres
+
+1. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
+
+2. Install the plugins dj-database-url and psycopg2-binary.
+
+3. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
+
+4. Create a Procfile with the text: web: gunicorn rugby_shop.wsgi:application for example
+
+5. In the settings.py ensure the connection is to the Heroku postgres database
+
+6. Ensure debug is set to false in the settings.py file
+
+7. Add localhost/127.0.0.1, and ci-ms4-loverugby.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+
+8. Run "python3 manage.py showmigrations" to check the status of the migrations
+
+9. Run "python3 manage.py migrate" to migrate the database
+
+10. Run "python3 manage.py createsuperuser" to create a super/admin user
+
+11. Run "python3 manage.py loaddata categories.json" on the categories file in products/fixtures to create the categories
+
+12. Run "python3 manage.py loaddata products.json" on the products file in products/fixtures to create the products
+
+13. Install gunicorn and add it to the requirements.txt file using the command pip3 freeze > requirements.txt
+
+14. From the CLI login to Heroku using the command heroku git:remote -a ci-ms4-elginisrestaurant
+
+15. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a ci-ms4-elginisrestaurant
+
+16. Push the code to Heroku using the command git push heroku master
+
+17. Ensure the following environment variables are set in Heroku
+18. Heroku Env variables
+
+19. Connect the app to GitHub, and enable automatic deploys from main
+Heroku Postgres
+
+20. Click deploy to deploy your application to Heroku for the first time
+
+21. Click on the link provided to access the application
+
+22. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+
 
 ### Forking the GitHub Repository 
 
