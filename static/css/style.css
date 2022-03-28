@@ -333,6 +333,11 @@ a {
     max-height: 150px;
 }
 
+.max-height-width-500{
+    max-height: 500px;
+    max-width: 500px;
+}
+
 /*-----About page----------------------------------------------------------------*/
 
 
