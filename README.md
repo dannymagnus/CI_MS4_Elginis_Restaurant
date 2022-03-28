@@ -390,6 +390,8 @@ This feature covers the following user stories
 
 *33.  As a site owner, I want to be able to promote special offers and events.*
 
+*39. As a logged in administrator, I want to be able to create, edit or remove content on the website.*
+
 #### Feature 3 - lunch, dinner and drinks images with buttons
 
 The menu images show an image of the restaurant food with a clear button overlay which takes the user directly to the relevant menu page quickly and easily.
@@ -777,7 +779,7 @@ This page covers the following user stories
 ### Page 13 - Error page
 
 This feature redirects the user back to any of the valid links rather than the user using browser controls.
-<br>![Navbar model](readme/features/error.png)
+<br>![Navbar model](readme/features/error.jpg)
 
 This page covers the following user stories
 
@@ -1462,6 +1464,7 @@ User story too vague - rejected.
 | ----------- | ----------- |
 | Site images not rendering on Heroku | Change source path from relative to static directory |
 | Transluscent overlay remaining after resevervation request has been received  | Applied style to form instead of parent div |
+| Comment edit does not show awaiting approval | Fix would be to require additional view, bout out of scope for projectt timebox |
 
 ## Deployment
 
