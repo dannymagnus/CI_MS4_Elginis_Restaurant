@@ -1019,7 +1019,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 </details>
 
 ### Performance 
-[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page scored over 90 in all categories - performance, accessibility, best practice and SEO with results below:
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website -performance, accessibility, best practice and SEO with results below:
 
 <details><summary>Home</summary>
 <img src="readme/validation/lighthouse-validation/lighthouse-validation-index.png">
