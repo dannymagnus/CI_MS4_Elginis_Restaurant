@@ -439,7 +439,7 @@ a {
 }
 
 .white-overlay-50{
-    background-color: #a1a1a1;
+    background-color: #312e2e;
     opacity: 0.5;
 }
 
@@ -461,17 +461,10 @@ a {
     border-color: var(--dark-green)
 }
 
-/* .carousel-item{
-    background-color: rgb(2, 2, 2);
-    color:var(--white);
-    border-radius: 10px;
-} */
-
 .carousel-item img{
     object-fit: cover;
     object-position: center center;
     height: 100%;
-    /* opacity: 0.5; */
 }
 
 .carousel-caption{
