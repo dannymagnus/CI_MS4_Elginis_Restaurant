@@ -1560,7 +1560,8 @@ Media from the following artists was used throughout the site.
 - [Pexels](https://www.pexels.com/)
 - [Shutterstock](https://www.shutterstock.com/discover/stock-assets-uk-0220?kw=free%20images&c3apidt=p44044564070&gclid=CjwKCAjwloCSBhAeEiwA3hVo_aWCMHb_myvjFHu9hDOK2H8NkLvJ2OUMurc0or0G-aCEET7y-l4RdhoCnyQQAvD_BwE&gclsrc=aw.ds)
 - [Postgress-Deployment](https://github.com/pmeeny/CI-MS4-LoveRugby#deployment)
-- [Site-Concept](https://www.udemy.com/course/build-a-restuarnt-site-with-python-and-django/learn/lecture/13170634?start=15#questions)
+- [Site-Concept-base-models](https://www.udemy.com/course/build-a-restuarnt-site-with-python-and-django/learn/lecture/13170634?start=15#questions)
+- Code for comments adapted from Code Institute Django blog
 
 ### Acknowledgements: 
 
