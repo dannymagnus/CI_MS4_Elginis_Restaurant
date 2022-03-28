@@ -1003,19 +1003,19 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 </details>
 <details><summary>Menus</summary>
 <img src="readme/validation/wave-validation/wave-validation-menu.png">
-<img src="docs/validation/wave-validation/wave-validation-lunch.png">
-<img src="docs/validation/wave-validation/wave-validation-dinner.png">
-<img src="docs/validation/wave-validation/wave-validation-drinks.png">
-<img src="docs/validation/wave-validation/wave-validation-details.png">
+<img src="readme/validation/wave-validation/wave-validation-lunch.png">
+<img src="readme/validation/wave-validation/wave-validation-dinner.png">
+<img src="readme/validation/wave-validation/wave-validation-drinks.png">
+<img src="readme/validation/wave-validation/wave-validation-details.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/wave-validation/wave-validation-about.png">
+<img src="readme/validation/wave-validation/wave-validation-about.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/wave-validation/wave-validation-contact.png">
+<img src="readme/validation/wave-validation/wave-validation-contact.png">
 </details>
 <details><summary>Accounts</summary>
-<img src="docs/validation/wave-validation/wave-validation-accounts.png">
+<img src="readme/validation/wave-validation/wave-validation-accounts.png">
 </details>
 
 ### Performance 
