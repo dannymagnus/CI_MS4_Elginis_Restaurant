@@ -218,7 +218,7 @@ This model contains all fields stored in the database collections with their dat
 21.	As a site owner, I want users to be to view our full menu
 22.	As a site owner, I want users to be able to view the food descriptions and prices
 23.	As a site owner, I want users to be able to view allergies and calories
-24.	As a site owner, I want users to be able to make a reservation
+24.	As a site owner, I want users to be able to make a reservation with data validation so they can only book future dates and in valid opening time.
 25.	As a site owner, I want users to be able to leave a comment or review
 26.	As a site owner, I want users to be able to view other comments and reviews
 27.	As a site owner, I want users to be able to edit and delete comments or reviews
@@ -361,7 +361,7 @@ This feature covers the following user stories
 
 *21. As a site owner, I want users to be to view our full menu*
 
-*24. As a site owner, I want users to be able to make a reservation*
+*24. As a site owner, I want users to be able to make a reservation with data validation so they can only book future dates and in valid opening times.*
 
 *28. As a site owner, I want users to be able to contact the business*
 
@@ -728,7 +728,7 @@ This feature covers the following user stories
 
 *12. As a first time user, I want to be able to view the restaurants location and opening hours*
 
-*24. As a site owner, I want users to be able to make a reservation*
+*24. As a site owner, I want users to be able to make a reservation with data validation so they can only book future dates and in valid opening times.*
 
 *29. As a site owner, I want users to be able to view the location and opening times*
 
@@ -1293,7 +1293,7 @@ User story too vague - rejected.
 <img src="readme/validation/us-testing/us-5.jpg">
 </details>
 
-24.	As a site owner, I want users to be able to make a reservation
+24.	As a site owner, I want users to be able to make a reservation with data validation so they can only book future dates and in valid opening times.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
