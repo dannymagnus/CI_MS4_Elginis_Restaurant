@@ -1477,7 +1477,7 @@ User story too vague - rejected.
 This application has been deployed from Github using Heroku. Here's how:
 
 1. Create an account at heroku.com
-2. Create an app, give it a name for example ci-ms4-loverugby, and select a region
+2. Create an app, give it a name for example ci-ms4-elginis_restaurant, and select a region
 3. Under resources search for postgres, and add a Postgres database to the app
 
 Heroku Postgres
@@ -1488,13 +1488,13 @@ Heroku Postgres
 
 3. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
 
-4. Create a Procfile with the text: web: gunicorn rugby_shop.wsgi:application for example
+4. Create a Procfile with the text: web: gunicorn elginis_restuarant.wsgi:application for example
 
 5. In the settings.py ensure the connection is to the Heroku postgres database
 
 6. Ensure debug is set to false in the settings.py file
 
-7. Add localhost/127.0.0.1, and ci-ms4-loverugby.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+7. Add localhost/127.0.0.1, and elginisrestaurant.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
 
 8. Run "python3 manage.py showmigrations" to check the status of the migrations
 
