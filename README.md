@@ -779,7 +779,7 @@ This page covers the following user stories
 ### Page 13 - Error page
 
 This feature redirects the user back to any of the valid links rather than the user using browser controls.
-<br>![Navbar model](readme/features/error.png)
+<br>![Navbar model](readme/features/error.jpg)
 
 This page covers the following user stories
 
