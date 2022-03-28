@@ -799,21 +799,11 @@ This page covers the following user stories
 - [Balsamiq](https://balsamiq.com/) -  used to create the website wireframes.
 - [Font Awesome](https://fontawesome.com/) - Font awesome was used to provide the relevant fonts/icons for the website social media icon links.
 - [JQuery](https://jquery.com) - JQuery was used in some javascript files for DOM manipulation
-<!-- - TinyPNG (https://tinypng.com/)
-    - TinyPNG was used to compress images to improve performance and reduce space -->
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - for validation of the css in the project.
 - [HTML Markup Validation Service](https://validator.w3.org/) - for validation the HTML in the project.
 - [Firefox dev tools](https://firefox-source-docs.mozilla.org/devtools-user/index.html) - troubleshooting and debugging of the project code.
 - [Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse) - for performance, accessibility, progressive web apps, SEO analysis of the project code.
 - [Responsive Design](http://ami.responsivedesign.is/) - for website mockup.
-<!-- - GitHub Wiki TOC generator (https://ecotrust-canada.github.io/markdown-toc/)
-    - Used for generating a table of contents for this README -->
-<!-- - Gofullpage chrome plugin  (https://chrome.google.com/webstore/detail/gofullpage-full-page-scre)
-    - This plugin was used to take full page screenshots for testing images -->
-<!-- - Python online interpreter (https://www.programiz.com/python-programming/online-compiler/)
-    - For testing python code snippets -->
-<!-- - Unittest (https://docs.djangoproject.com/en/3.2/topics/testing/overview/)
-    - For Python unit testing -->
 - [JSHint](https://jshint.com/) - for javascript validation.
 - [PEP8](https://www.python.org/dev/peps/pep-0008/) - for python validation.
 - [Quick Database diagrams](https://www.quickdatabasediagrams.com)- for the database schema diagram.
@@ -987,16 +977,21 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page scored over 90 in all categories - performance, accessibility, best practice and SEO with results below:
 
 <details><summary>Home</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-validation-index.png">
+<img src="readme/validation/lighthouse-validation/lighthouse-validation-index.png">
+</details>
+<details><summary>Menus</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-lunch-menu.png">
+<img src="docs/validation/lighthouse-validation/lighthouse-main-menu.png">
+<img src="docs/validation/lighthouse-validation/lighthouse-dinner-menu.png">
 </details>
 <details><summary>About</summary>
 <img src="docs/validation/lighthouse-validation/lighthouse-validation-about.png">
 </details>
-<details><summary>Quiz</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-validation-quiz.png">
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-contact.png">
 </details>
-<details><summary>404</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-validation-404.png">
+<details><summary>Accounts</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-accounts.png">
 </details>
 
 ### Testing user stories
