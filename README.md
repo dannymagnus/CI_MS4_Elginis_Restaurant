@@ -993,16 +993,23 @@ The Python of the each page of the site was validated using [Python validation t
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards. All pages returned 0 errors.
 
 <details><summary>Home</summary>
-<img src="docs/validation/wave-validation/wave-validation-index.png">
+<img src="readme/validation/wave-validation/wave-validation-index.png">
+</details>
+<details><summary>Menus</summary>
+<img src="readme/validation/wave-validation/wave-validation-menu.png">
+<img src="docs/validation/wave-validation/wave-validation-lunch.png">
+<img src="docs/validation/wave-validation/wave-validation-dinner.png">
+<img src="docs/validation/wave-validation/wave-validation-drinks.png">
+<img src="docs/validation/wave-validation/wave-validation-details.png">
 </details>
 <details><summary>About</summary>
 <img src="docs/validation/wave-validation/wave-validation-about.png">
 </details>
-<details><summary>Quiz</summary>
-<img src="docs/validation/wave-validation/wave-validation-quiz.png">
+<details><summary>Contact</summary>
+<img src="docs/validation/wave-validation/wave-validation-contact.png">
 </details>
-<details><summary>404</summary>
-<img src="docs/validation/wave-validation/wave-validation-404.png">
+<details><summary>Accounts</summary>
+<img src="docs/validation/wave-validation/wave-validation-accounts.png">
 </details>
 
 ### Performance 
@@ -1015,6 +1022,8 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="docs/validation/lighthouse-validation/lighthouse-lunch-menu.png">
 <img src="docs/validation/lighthouse-validation/lighthouse-main-menu.png">
 <img src="docs/validation/lighthouse-validation/lighthouse-dinner-menu.png">
+<img src="docs/validation/lighthouse-validation/lighthouse-drinks-menu.png">
+<img src="docs/validation/lighthouse-validation/lighthouse-details-menu.png">
 </details>
 <details><summary>About</summary>
 <img src="docs/validation/lighthouse-validation/lighthouse-validation-about.png">
